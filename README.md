@@ -11,14 +11,30 @@ https://www.youtube.com/watch?v=JSnKyGEULdI
 - Standardized Docker dev containers likely coming soon...
 
 ## Current State:
-- Two simple SVR algorithms and a moving average strategy; the SVRs use the `sklearn` module as the ML backbone
-- The repo primarily leverages the python `backtrader`, `yfinance`, `numpy`, and `matplotlib` modules for raw data, formatting, and visualization
+- Two simple SVR algorithms and a moving average strategy; the SVRs use the `sklearn` module as the ML backbone\
+- After setting up the dev environment outlined below, each algorithm can be run simply using the commands below:
+   ```sh
+     python GaussianSVRStrategy.py
+   ```
+   ```sh
+     python BetterSVRStrategy.py
+   ```
+   ```sh
+     python MovingAvgStrategy.py
+   ```
+
+- These scripts primarily leverage the `backtrader`, `yfinance`, `numpy`, and `matplotlib` modules for raw data, formatting, and visualization
 
 ## Future:
 - Develop an algorithm that approaches the ~70% win rate described in the research below
 - Get freaky
 
 ## Related Research:
+- Decent history lesson: https://journals.sagepub.com/doi/full/10.1177/02560909211059992
+- Very recent mandatory reading (complete with github repo): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10513304/
+- Technical indicators we should include: https://www.investopedia.com/top-7-technical-analysis-tools-4773275
+- Published code for LTSM model: https://neptune.ai/blog/predicting-stock-prices-using-machine-learning
+- ***Ballsy IEEE article where dudes did what we are doing, and put their money where their mouth was (and made 175% in their first year)*** https://ieeexplore.ieee.org/document/10068584
 
 ## Setting Up a Python Virtual Environment
 
