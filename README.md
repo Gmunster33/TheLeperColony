@@ -4,6 +4,15 @@ https://www.youtube.com/watch?v=JSnKyGEULdI
 
 # Repo for Market Price Prediction Algorithm Development
 
+
+## Related Research:
+- Decent history lesson: https://journals.sagepub.com/doi/full/10.1177/02560909211059992
+- Very recent mandatory reading (complete with github repo): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10513304/
+- Technical indicators we should include: https://www.investopedia.com/top-7-technical-analysis-tools-4773275
+- Published code for LTSM model: https://neptune.ai/blog/predicting-stock-prices-using-machine-learning
+- ***Ballsy IEEE article where dudes did what we are doing, and put their money where their mouth was (and made 175% in their first year)*** https://ieeexplore.ieee.org/document/10068584
+
+
 ## Dev environment setup:
 - Python version used: 3.10.5. 
 - Recommed using the latest version of python 3 going forward...
@@ -28,13 +37,6 @@ https://www.youtube.com/watch?v=JSnKyGEULdI
 ## Future:
 - Develop an algorithm that approaches the ~70% win rate described in the research below
 - Get freaky
-
-## Related Research:
-- Decent history lesson: https://journals.sagepub.com/doi/full/10.1177/02560909211059992
-- Very recent mandatory reading (complete with github repo): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10513304/
-- Technical indicators we should include: https://www.investopedia.com/top-7-technical-analysis-tools-4773275
-- Published code for LTSM model: https://neptune.ai/blog/predicting-stock-prices-using-machine-learning
-- ***Ballsy IEEE article where dudes did what we are doing, and put their money where their mouth was (and made 175% in their first year)*** https://ieeexplore.ieee.org/document/10068584
 
 ## Setting Up a Python Virtual Environment
 
