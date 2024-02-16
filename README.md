@@ -30,30 +30,25 @@ To run the project locally, it's recommended to set up a Python virtual environm
 
 ### Steps
 
-1. **Clone the Repository**
-
-   First, clone the repository to your local machine:
-
-   \`\`\` 
+ 1. **Clone the Repository**
+   ```sh
    git clone https://github.com/Gmunster33/TheLeperColony.git
    cd TheLeperColony
-   \`\`\`
+   ```
 
 2. **Create a Virtual Environment**
 
    Create a new virtual environment in the project directory:
 
    - On Unix/macOS:
-
-     \`\`\` 
+   ```sh
      python3 -m venv venv
-     \`\`\`
+   ```
 
    - On Windows:
-
-     \`\`\` 
+    ```powershell
      python -m venv venv
-     \`\`\`
+    ```
 
    This will create a new directory called \`venv\` in your project folder, containing the virtual environment.
 
@@ -63,15 +58,14 @@ To run the project locally, it's recommended to set up a Python virtual environm
 
    - On Unix/macOS:
 
-     \`\`\` 
+   ```sh
      source venv/bin/activate
-     \`\`\`
-
+   ```
    - On Windows:
 
-     \`\`\` 
-     .\\venv\\Scripts\\activate
-     \`\`\`
+     ```powershell
+     .\venv\Scripts\activate
+     ```
 
    You'll know the virtual environment is activated when you see \`(venv)\` before your command prompt.
 
@@ -79,22 +73,29 @@ To run the project locally, it's recommended to set up a Python virtual environm
 
    With the virtual environment activated, install the project dependencies:
 
-   \`\`\` 
+   ```sh
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 5. **Run the Project**
 
    Now that the environment is set up and dependencies are installed, you can run the project:
 
-   \`\`\` 
-   python your_script.py  # Replace with your script name
-   \`\`\`
+   ```sh
+   python your_script.py  # Replace with your script of choice from this repo
+   ```
 
 6. **Deactivate the Virtual Environment**
 
    When you're done working on the project, you can deactivate the virtual environment:
 
-   \`\`\` 
-   deactivate
-   \`\`\`
+    - On Unix/macOS:
+
+   ```sh
+     source venv/bin/deactivate
+   ```
+   - On Windows:
+
+     ```powershell
+     .\venv\Scripts\deactivate
+     ```
