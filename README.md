@@ -34,7 +34,7 @@ To run the project locally, it's recommended to set up a Python virtual environm
 
    First, clone the repository to your local machine:
 
-   \`\`\`bash
+   \`\`\` 
    git clone https://github.com/Gmunster33/TheLeperColony.git
    cd TheLeperColony
    \`\`\`
@@ -45,13 +45,13 @@ To run the project locally, it's recommended to set up a Python virtual environm
 
    - On Unix/macOS:
 
-     \`\`\`bash
+     \`\`\` 
      python3 -m venv venv
      \`\`\`
 
    - On Windows:
 
-     \`\`\`bash
+     \`\`\` 
      python -m venv venv
      \`\`\`
 
@@ -63,13 +63,13 @@ To run the project locally, it's recommended to set up a Python virtual environm
 
    - On Unix/macOS:
 
-     \`\`\`bash
+     \`\`\` 
      source venv/bin/activate
      \`\`\`
 
    - On Windows:
 
-     \`\`\`bash
+     \`\`\` 
      .\\venv\\Scripts\\activate
      \`\`\`
 
@@ -79,7 +79,7 @@ To run the project locally, it's recommended to set up a Python virtual environm
 
    With the virtual environment activated, install the project dependencies:
 
-   \`\`\`bash
+   \`\`\` 
    pip install -r requirements.txt
    \`\`\`
 
@@ -87,7 +87,7 @@ To run the project locally, it's recommended to set up a Python virtual environm
 
    Now that the environment is set up and dependencies are installed, you can run the project:
 
-   \`\`\`bash
+   \`\`\` 
    python your_script.py  # Replace with your script name
    \`\`\`
 
@@ -95,6 +95,6 @@ To run the project locally, it's recommended to set up a Python virtual environm
 
    When you're done working on the project, you can deactivate the virtual environment:
 
-   \`\`\`bash
+   \`\`\` 
    deactivate
    \`\`\`
