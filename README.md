@@ -35,10 +35,10 @@ https://www.youtube.com/watch?v=JSnKyGEULdI
 - These scripts primarily leverage the `backtrader`, `yfinance`, `numpy`, and `matplotlib` modules for raw data, formatting, and visualization
 
 ## Future:
-- Develop an algorithm that approaches the ~70% win rate described in the research below
+- Develop an algorithm that approaches the ~70% win rate described in research
 - Get freaky
 
-## Setting Up a Python Virtual Environment
+### *Setting Up a Python Virtual Environment*
 
 To run the project locally, it's recommended to set up a Python virtual environment. This ensures that the project's dependencies are isolated from your system's Python environment.
 
