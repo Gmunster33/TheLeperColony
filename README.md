@@ -6,8 +6,10 @@ https://www.youtube.com/watch?v=JSnKyGEULdI
 
 
 ## Related Research:
+- ***The articles below should get the cogs turning... Once the cogs are turning, YouTube and ChatGPT are solid places for learning how the nuts and bolts of different algorithms actually work.***
 - Decent history lesson: https://journals.sagepub.com/doi/full/10.1177/02560909211059992
-- Very recent mandatory reading (complete with github repo): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10513304/
+- Two Stanford Sophomores who got my attention on SVRs: https://cs229.stanford.edu/proj2017/final-reports/5212256.pdf
+- Very recent, relevant AI/ML comparison analysis (complete with github repo): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10513304/
 - Technical indicators we should include: https://www.investopedia.com/top-7-technical-analysis-tools-4773275
 - Published code for LTSM model: https://neptune.ai/blog/predicting-stock-prices-using-machine-learning
 - ***Ballsy IEEE article where dudes did what we are doing, and put their money where their mouth was (and made 175% in their first year)*** https://ieeexplore.ieee.org/document/10068584
@@ -35,8 +37,8 @@ https://www.youtube.com/watch?v=JSnKyGEULdI
 - These scripts primarily leverage the `backtrader`, `yfinance`, `numpy`, and `matplotlib` modules for raw data, formatting, and visualization
 
 ## Future:
-- Develop an algorithm that approaches the ~70% win rate described in research
-- Get freaky
+- Develop an algorithm (likely SVR or similar) that approaches the ~70% daily price movement up/down prediction win rate described in research
+- Get freaky adding 'soft', previously hard to quantify parameters
 
 ### *Setting Up a Python Virtual Environment*
 

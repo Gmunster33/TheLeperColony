@@ -3,6 +3,7 @@ import backtrader as bt
 from sklearn.svm import SVR
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
+import pandas as pd  # Added to use pd.to_datetime
 
 
 # Fetch historical data
@@ -15,7 +16,7 @@ df['50_MA'] = df['Close'].rolling(window=50).mean()
 # Drop the rows with NaN values (due to the rolling mean)
 df = df.dropna()
 
-X = df[['Adj Close', '50_MA']][:-1].values  # drop the last row
+X = df[['Open','High','Low','Close','Adj Close','Volume','50_MA']][:-1].values  # drop the last row
 y = df['Close'].shift(-1).dropna().values
 
 X_train = X[:-250]  # Just an example split, adjust as needed
@@ -30,46 +31,31 @@ X_train = scaler.fit_transform(X_train)
 model = SVR(kernel='rbf', C=1e3, gamma=0.1)
 model.fit(X_train, y_train)
 
+df.index = pd.to_datetime(df.index)
 
-class PandasData(bt.feed.DataBase):
-    params = (
-        ('datetime', None),
-        ('open', -1),
-        ('high', -1),
-        ('low', -1),
-        ('close', -1),
-        ('volume', -1),
-        ('openinterest', None),
-    )
-
-# df_csv_data = df.to_csv('df.csv', index = True) 
-data = PandasData(dataname=df[-250:])
-# data_csv_data = data.to_csv('data.csv', index = True) 
-
-
+data = bt.feeds.PandasData(dataname=df[-250:])
 
 class SVRStrategy(bt.Strategy):
     def __init__(self):
         # self.sma = bt.indicators.SimpleMovingAverage(self.data.close, period=15)
-        self.data_predicted = model.predict(scaler.transform(df[['Adj Close', '50_MA']].values[-250:]))
-        self.threshold = 0.002  # 0.5% threshold for trades. Adjust as needed.
+        self.data_predicted = model.predict(scaler.transform(df[['Open','High','Low','Close','Adj Close','Volume','50_MA']].values[-250:]))
+        self.threshold = 0  # 0.5% threshold for trades. Adjust as needed.
+        self.iterations = 0
         print("Init called")
-        print(len(self.data_predicted))  # Should be 250
-        print(len(data))                 # Should also be 250
-
 
 
     def next(self):
-        print("Next called")
-        print(f"Date: {self.data.datetime.date(0)}")
-        print(f"Close Price: {self.data.close[0]}")
-        print(f"Predicted Price: {self.data_predicted[self.datetime.len() - 1]}")
-        print("---")
+        current_date = self.datas[0].datetime.datetime(0)
+        # Find the index of the current date in the dates list
+        current_index = self.iterations
+        predicted_price = self.data_predicted[current_index]
+        self.iterations += 1
+
         # If predicted price is significantly higher, buy. If significantly lower, sell.
-        if self.data_predicted[self.datetime.len() - 1] > self.data.close[0] * (1 + self.threshold):
+        if predicted_price > self.data.close[0] * (1 + self.threshold):
             self.buy()
             print("Buy")
-        elif self.data_predicted[self.datetime.len() - 1] < self.data.close[0] * (1 - self.threshold):
+        elif predicted_price < self.data.close[0] * (1 - self.threshold):
             self.sell()
             print("Sell")
 
@@ -84,7 +70,7 @@ cerebro.broker.set_cash(10000.0)
 cerebro.adddata(data)
 
 # Set the commission
-cerebro.broker.setcommission(commission=0.002)
+cerebro.broker.setcommission(commission=0)
 # Print out the starting conditions
 print('Starting Portfolio Value: %.2f' % cerebro.broker.getvalue())
 
@@ -95,27 +81,15 @@ cerebro.run()
 print('Ending Portfolio Value: %.2f' % cerebro.broker.getvalue())
 
 # Use Cerebro's plotting capabilities
-# cerebro.plot()
-
-# Comment out other plt.show() calls to avoid confusion
-# plt.show()
-
-# Print out the starting conditions
-print('Starting Portfolio Value: %.2f' % cerebro.broker.getvalue())
-
-# Run over everything
-cerebro.run()
-
-# Print out the final result
-print('Ending Portfolio Value: %.2f' % cerebro.broker.getvalue())
+cerebro.plot()
 
 # Finally, visualize the result
 # Extract the data
-dates = df.index[-250:].tolist()  # <-- This line is updated
-prices = df['Close'].values[-250:]
-predicted_prices = model.predict(scaler.transform(df[['Adj Close', '50_MA']].values[-250:]))
+dates = df.index[-249:].tolist() 
+prices = df['Close'].values[-249:]
+predicted_prices = model.predict(scaler.transform(df[['Open','High','Low','Close','Adj Close','Volume','50_MA']].values[-250:-1]))
 
-# Plot
+# Plot using matplotlib
 plt.figure(figsize=(15, 5))
 plt.plot(dates, prices, label='True Prices')
 plt.plot(dates, predicted_prices, label='Predicted Prices', alpha=0.7)
@@ -128,13 +102,13 @@ plt.show()
 
 
 # Extract the data for plotting
-dates_train = df.index[:-250].tolist()
-prices_train = df['Close'].values[:-250]
-ma_train = df['50_MA'].values[:-250]
+dates_train = df.index[:-249].tolist()
+prices_train = df['Close'].values[:-249]
+ma_train = df['50_MA'].values[:-249]
 
-dates_test = df.index[-250:].tolist()
-prices_test = df['Close'].values[-250:]
-predicted_prices = model.predict(scaler.transform(df[['Adj Close', '50_MA']].values[-250:]))
+dates_test = df.index[-249:].tolist()
+prices_test = df['Close'].values[-249:]
+predicted_prices = model.predict(scaler.transform(df[['Open','High','Low','Close','Adj Close','Volume','50_MA']].values[-250:-1]))
 
 # Plot
 plt.figure(figsize=(15, 7))
@@ -155,7 +129,5 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-differences = prices[-250:] - predicted_prices
+differences = prices[-249:] - predicted_prices[-1:]
 print(differences)
-
-

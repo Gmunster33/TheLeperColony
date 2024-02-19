@@ -1,0 +1,109 @@
+import yfinance as yf
+import backtrader as bt
+from sklearn.svm import SVR
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+import pandas as pd
+
+def download_stock_data(ticker, start_date, end_date):
+    return yf.download(ticker, start=start_date, end=end_date)
+
+def preprocess_data(df):
+    df['50_MA'] = df['Close'].rolling(window=50).mean()
+    df.dropna(inplace=True)
+    df.index = pd.to_datetime(df.index)
+    return df
+
+def prepare_features(df):
+    X = df[['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', '50_MA']][:-1].values
+    y = df['Close'].shift(-1).dropna().values
+    return X, y
+
+def split_data(X, y, test_size=250):
+    X_train, X_test = X[:-test_size], X[-test_size:]
+    y_train, y_test = y[:-test_size], y[-test_size:]
+    return X_train, X_test, y_train, y_test
+
+def scale_features(X_train, X_test):
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+    return X_train_scaled, X_test_scaled, scaler
+
+def train_model(X_train, y_train):
+    model = SVR(kernel='rbf', C=1e3, gamma=0.1)
+    model.fit(X_train, y_train)
+    return model
+
+class SVRStrategy(bt.Strategy):
+    params = (
+        ('model', None),
+        ('scaler', None),
+        ('dataframe', None),
+        ('threshold', 0.005),
+    )
+
+    def __init__(self):
+        # Assuming the 'model', 'scaler', and 'dataframe' parameters are passed correctly and exist
+        df = self.params.dataframe
+        self.data_predicted = self.params.model.predict(self.params.scaler.transform(df[['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', '50_MA']].values[-250:]))
+        self.iterations = 0
+
+    def next(self):
+        predicted_price = self.data_predicted[self.iterations]
+        self.iterations += 1
+        if predicted_price > self.data.close[0] * (1 + self.params.threshold):
+            self.buy()
+        elif predicted_price < self.data.close[0] * (1 - self.params.threshold):
+            self.sell()
+
+def backtest_strategy(df, strategy_class, strategy_params):
+    cerebro = bt.Cerebro()
+    cerebro.addstrategy(strategy_class, **strategy_params)
+    data = bt.feeds.PandasData(dataname=df)
+    cerebro.adddata(data)
+    cerebro.broker.set_cash(10000)
+    cerebro.broker.setcommission(commission=0)
+    print('Starting Portfolio Value: %.2f' % cerebro.broker.getvalue())
+    cerebro.run()
+    print('Ending Portfolio Value: %.2f' % cerebro.broker.getvalue())
+    cerebro.plot()
+
+def plot_predictions(df, model, scaler):
+    dates = df.index[-250:].tolist()
+    prices = df['Close'].values[-250:]
+    X = df[['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', '50_MA']].values[-250:]
+    predicted_prices = model.predict(scaler.transform(X))
+
+    plt.figure(figsize=(15, 5))
+    plt.plot(dates, prices, label='Actual Prices')
+    plt.plot(dates, predicted_prices, label='Predicted Prices', alpha=0.7)
+    plt.title('Stock Price Prediction')
+    plt.xlabel('Date')
+    plt.ylabel('Price')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+# Note: Function calls are commented out to comply with instructions. 
+# To execute, uncomment the function calls and adjust parameters as needed. 
+# Example usage:
+df = download_stock_data('MSFT', '2020-01-01', '2023-01-01')
+df = preprocess_data(df)
+X, y = prepare_features(df)
+X_train, X_test, y_train, y_test = split_data(X, y)
+X_train_scaled, X_test_scaled, scaler = scale_features(X_train, X_test)
+model = train_model(X_train_scaled, y_train)
+
+# Define strategy parameters AFTER model, scaler, and df have been initialized
+strategy_params = {
+    'model': model,
+    'scaler': scaler,
+    'dataframe': df
+}
+
+# Now call backtest_strategy with the correct strategy_params
+backtest_strategy(df[-250:], SVRStrategy, strategy_params)
+
+# Plot predictions
+plot_predictions(df, model, scaler)
