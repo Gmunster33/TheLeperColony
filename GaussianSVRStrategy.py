@@ -28,7 +28,7 @@ y_test = y[-250:]
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 
-model = SVR(kernel='rbf', C=1e3, gamma=0.1)
+model = SVR(kernel='rbf', C=278.2559402207126, gamma=0.05600000000000001)
 model.fit(X_train, y_train)
 
 df.index = pd.to_datetime(df.index)

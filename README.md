@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=JSnKyGEULdI
 ## Related Research:
 - ***The articles below should get the cogs turning... Once the cogs are turning, YouTube and ChatGPT are solid places for learning how the nuts and bolts of different algorithms actually work.***
 - Decent history lesson: https://journals.sagepub.com/doi/full/10.1177/02560909211059992
-- Two Stanford Sophomores who got my attention on SVRs: https://cs229.stanford.edu/proj2017/final-reports/5212256.pdf
+- Two Stanford Sophomores who got 70% correct daily prediction rate with SVRs (this paper is the reason why the repo here started with a heavy SVR focus): https://cs229.stanford.edu/proj2017/final-reports/5212256.pdf
 - Very recent, relevant AI/ML comparison analysis (complete with github repo): https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10513304/
 - Technical indicators we should include: https://www.investopedia.com/top-7-technical-analysis-tools-4773275
 - Published code for LTSM model: https://neptune.ai/blog/predicting-stock-prices-using-machine-learning
