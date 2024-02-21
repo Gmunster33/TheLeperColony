@@ -2,6 +2,7 @@ import yfinance as yf
 import backtrader as bt
 from sklearn.svm import SVR
 from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.metrics import mean_squared_error, mean_absolute_error
@@ -9,7 +10,7 @@ import numpy as np
 import ta
 
 
-tickers = [
+extended_tickers = [
     "INTC",  # Intel Corporation
     "QCOM",  # Qualcomm Incorporated
     "AVGO",  # Broadcom Inc.
@@ -38,8 +39,37 @@ tickers = [
     "2353.TW", # Acer Inc.
     "DELL",  # Dell Technologies Inc.
     "HPQ",   # HP Inc.
-    "0992.HK" # Lenovo Group Limited
+    "0992.HK", # Lenovo Group Limited
+    "ADBE",  # Adobe Inc.
+    "CRM",   # Salesforce
+    "ORCL",  # Oracle Corporation
+    "IBM",   # International Business Machines Corporation
+    "CSCO",  # Cisco Systems, Inc.
+    "SAP",   # SAP SE
+    "INTU",  # Intuit Inc.
+    "VMW",   # VMware, Inc.
+    "SQ",    # Block, Inc. (formerly Square, Inc.)
+    "SHOP",  # Shopify Inc.
+    "TWTR",  # Twitter, Inc. (Note: As of my last update in April 2023, Twitter was taken private by Elon Musk, so this might not be current.)
+    "SNAP",  # Snap Inc.
+    "TSLA",  # Tesla, Inc. (significant in tech through its advancements in electric vehicles and energy storage solutions)
+    "PYPL",  # PayPal Holdings, Inc.
+    "ADSK",  # Autodesk, Inc.
+    "ANSS",  # ANSYS, Inc.
+    "CTSH",  # Cognizant Technology Solutions Corporation
+    "INFY",  # Infosys Limited
+    "TSM",   # Repeated for emphasis, Taiwan Semiconductor Manufacturing Company
+    "ERIC",  # Telefonaktiebolaget LM Ericsson (publ)
+    "NOK",   # Nokia Corporation
+    "V",     # Visa Inc. (significant in tech through digital payment technologies)
+    "MA",    # Mastercard Incorporated (similarly significant as Visa)
+    "AAPL",  # Apple Inc. (for completeness, adding to this extended list)
+    "AMZN",  # Amazon.com, Inc.
+    "ZM",    # Zoom Video Communications, Inc.
+    "UBER",  # Uber Technologies, Inc.
+    "LYFT"   # Lyft, Inc.
 ]
+
 
 def download_stock_data(ticker, start_date, end_date):
     return yf.download(ticker, start=start_date, end=end_date)
@@ -149,33 +179,6 @@ def backtest_strategy(df, strategy_class, strategy_params, perform_plot=False):
     return ending_portfolio_value - starting_portfolio_value
 
 
-# Profit oriented grid search..... NOT ACCURACY!!!
-def grid_search_C_gamma(df, X_train_scaled, y_train, scaler, parameter_grid):
-    best_profit = -float('inf')
-    best_params = {'C': None, 'gamma': None}
-    for C in parameter_grid['C']:
-        for gamma in parameter_grid['gamma']:
-            # Train the model with current C and gamma values
-            model = train_model(X_train_scaled, y_train, C, gamma)
-            
-            # Prepare strategy parameters with the current model
-            strategy_params = {
-                'model': model,
-                'scaler': scaler,
-                'dataframe': df
-            }
-            
-            # Backtest the strategy with the current model
-            profit = backtest_strategy(df[-250:], SVRStrategy, strategy_params, perform_plot=False)
-            
-            # Update best parameters if current model is better
-            if profit > best_profit:
-                best_profit = profit
-                best_params['C'] = C
-                best_params['gamma'] = gamma
-
-    return best_params, best_profit
-
 def grid_search_C_gamma_min_error(X_train_scaled, y_train, X_test_scaled, y_test, scaler, parameter_grid):
     best_error = np.inf
     best_params = {'C': None, 'gamma': None}
@@ -199,6 +202,7 @@ def grid_search_C_gamma_min_error(X_train_scaled, y_train, X_test_scaled, y_test
 
     return best_params, best_error
 
+
 def calculate_directional_accuracy(y_test, predictions):
     """
     Calculates the directional accuracy of predictions against actual next day prices.
@@ -213,91 +217,35 @@ def calculate_directional_accuracy(y_test, predictions):
     accuracy = np.mean(actual_direction == predicted_direction)
     return accuracy
 
-def grid_search_for_directional_accuracy(X_train_scaled, y_train, X_test_scaled, y_test, scaler, parameter_grid):
-    best_directional_accuracy = 0
-    best_params = {'C': None, 'gamma': None}
+# Use params: C=5994.8425031894085, gamma=0.001
+# Parameters specified
+C_param = 5994.8425031894085
+gamma_param = 0.001
+
+for ticker in extended_tickers:
+    # Download stock data
+    df = download_stock_data(ticker, '2012-01-01', '2023-01-01')
     
-    for C in parameter_grid['C']:
-        for gamma in parameter_grid['gamma']:
-            # Train the model
-            model = train_model(X_train_scaled, y_train, C, gamma)
-            
-            # Make predictions on the test set
-            predictions = model.predict(X_test_scaled)
-            
-            # Calculate directional accuracy
-            directional_accuracy = calculate_directional_accuracy(y_test, predictions)
-            
-            # Update best parameters if current model has higher directional accuracy
-            if directional_accuracy > best_directional_accuracy:
-                best_directional_accuracy = directional_accuracy
-                best_params['C'] = C
-                best_params['gamma'] = gamma
-
-    return best_params, best_directional_accuracy
-
-
-# Example usage:
-# 1. Download stock data
-df = download_stock_data('AAPL', '2019-01-01', '2023-01-01')
-
-# 2. Preprocess data
-df = preprocess_data(df)
-
-# 3. Prepare features
-X, y = prepare_features(df)
-
-# 4. Split data
-X_train, X_test, y_train, y_test = split_data(X, y)
-
-# 5. Scale features
-X_train_scaled, X_test_scaled, scaler = scale_features(X_train, X_test)
-
-# Now that all prerequisites are defined, you can define your parameter grid and perform the grid search.
-# 6. Define your parameter grid for C and gamma
-# Generating logarithmic range for C values around 1000 (10^3)
-C_values = np.logspace(2, 4, 10)  # 10 values between 10^2 and 10^4
-
-# Generating linear range for gamma values around 0.01
-gamma_values = np.linspace(0.001, 0.1, 10)  # 10 values between 0.001 and 0.1
-
-parameter_grid = {
-    'C': C_values,
-    'gamma': gamma_values
-}
-
-# 7. Perform grid search to find the best C and gamma values
-best_params_mse, best_error_mse = grid_search_C_gamma_min_error(X_train_scaled, y_train, X_test_scaled, y_test, scaler, parameter_grid)
-print(f'Best Parameters for MSE: C={best_params_mse["C"]}, gamma={best_params_mse["gamma"]}')
-print(f'Best Error (MSE): {best_error_mse}')
-
-# Retrain the model with the best parameters for MSE
-model = train_model(X_train_scaled, y_train, best_params_mse['C'], best_params_mse['gamma'])
-
-# Use the plot_predictions function to visualize the results
-plot_predictions(df, model, scaler)
-
-# Make predictions on the test set
-predictions = model.predict(X_test_scaled)
-
-# Calculate directional accuracy
-directional_accuracy = calculate_directional_accuracy(y_test, predictions)
-
-print(f'Directional Accuracy of MSE-based model: {directional_accuracy * 100:.2f}%')
-
-
-# Example of using the new grid search function
-parameter_grid = {
-    'C': np.logspace(2, 4, 10),
-    'gamma': np.linspace(0.001, 0.1, 10)
-}
-best_params_direction, best_directional_accuracy = grid_search_for_directional_accuracy(X_train_scaled, y_train, X_test_scaled, y_test, scaler, parameter_grid)
-
-print(f'Best Parameters: C={best_params_direction["C"]}, gamma={best_params_direction["gamma"]}')
-print(f'Best Directional Accuracy: {best_directional_accuracy * 100:.2f}%')
-
-# Retrain the model with the best parameters for directional accuracy
-model = train_model(X_train_scaled, y_train, best_params_direction['C'], best_params_direction['gamma'])
-
-# Use the plot_predictions function to visualize the results
-plot_predictions(df, model, scaler)
+    # Preprocess data and add technical indicators
+    df = preprocess_data(df)
+    
+    # Prepare features and labels
+    X, y = prepare_features(df)
+    
+    # Split data into training and test sets (adjust according to your needs)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    
+    # Scaling features
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+    
+    # Train model
+    model = train_model(X_train_scaled, y_train, C=C_param, gamma=gamma_param)
+    
+    # Make predictions
+    predictions = model.predict(X_test_scaled)
+    
+    # Calculate directional accuracy
+    directional_accuracy = calculate_directional_accuracy(y_test, predictions)
+    print(f'{ticker} - Directional Accuracy: {directional_accuracy * 100:.2f}%')
