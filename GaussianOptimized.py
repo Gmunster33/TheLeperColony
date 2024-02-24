@@ -155,21 +155,15 @@ def prepare_features_sequences(df, sequence_length=5):
 
         for i in range(len(data) - sequence_length):
             sequence = data[i:i+sequence_length]
-            label = group['Close'].iloc[i+sequence_length]
+            label = group['Close'].iloc[i+sequence_length] # list of closing prices for the day after the last day in the sequence
             sequences.append(sequence)
             labels.append(label)
-
-            if i == 0:
-                print(f"First sequence: {sequence}")
-                print(f"First label: {label}")
-                print(f"!!!!group['Close'][i:i+sequence_length+1]: {group['Close'][i:i+sequence_length+1]}")
-
 
         print(f"Generated {len(sequences)} sequences and {len(labels)} labels for ticker: {ticker}")  # Debugging print
     
     print("Completed processing all tickers.")
-    print(f"Total sequences[0].shape: {sequences[0].shape}")
-    print(f"Total labels[0]: {labels[0]}")
+    print(f"Total sequences.shape: {len(sequences)}")
+    print(f"Total labels: {len(labels)}")
     return np.array(sequences), np.array(labels)
 
 def draw_random_samples(X, y, num_samples):
@@ -305,7 +299,7 @@ def perform_bayesian_optimization(X_train, y_train):
 # Parameters specified
 C_param = 59948.425031894085
 gamma_param = 0.001
-num_samples = 5000  # Number of random samples for training
+num_samples = 1000  # Number of random samples for training
 
 # Download and preprocess data from all tickers
 combined_df = download_and_preprocess_data(extended_tickers, '2012-01-01', '2023-01-01')
