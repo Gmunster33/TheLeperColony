@@ -97,18 +97,19 @@ def add_technical_indicators(df):
     # RSI
     df['rsi'] = ta.momentum.rsi(close=df["Close"], window=14)
 
-    # Absolute Price Oscillator (APO)
-    df['apo'] = ta.trend.APO(df["Close"], fast=12, slow=26, matype=0)  # SMA version
-    df['apo_ema'] = ta.trend.APO(df["Close"], fast=12, slow=26, matype=1)  # EMA version
+    # Manually calculate the APO based on EMAs
+    fast_ema = ta.trend.ema_indicator(close=df["Close"], window=12)
+    slow_ema = ta.trend.ema_indicator(close=df["Close"], window=26)
+    df['apo'] = fast_ema - slow_ema
 
     # Commodity Channel Index (CCI)
-    df['cci'] = ta.trend.CCI(df["High"], df["Low"], df["Close"], window=20)
+    df['cci'] = ta.trend.cci(df["High"], df["Low"], df["Close"], window=20)
 
-    # Chaikin A/D Line
-    df['ad'] = ta.volume.ChaikinMoneyFlowIndicator(df["High"], df["Low"], df["Close"], df["Volume"], window=20).chaikin_money_flow()
+    # Chaikin A/D Line - Use ChaikinMoneyFlow with window=1 for similar effect
+    df['ad'] = ta.volume.ChaikinMoneyFlowIndicator(df["High"], df["Low"], df["Close"], df["Volume"], window=1).chaikin_money_flow()
 
     # Average Directional Index (ADX)
-    df['adx'] = ta.trend.ADX(df["High"], df["Low"], df["Close"], window=14)
+    df['adx'] = ta.trend.adx(df["High"], df["Low"], df["Close"], window=14)
 
     # Stochastic Oscillator (STOCH)
     stoch_indicator = ta.momentum.StochasticOscillator(df["High"], df["Low"], df["Close"], window=14, smooth_window=3)
@@ -260,7 +261,7 @@ def calculate_directional_accuracy(y_test, predictions):
 # Parameters specified
 C_param = 59948.425031894085
 gamma_param = 0.001
-num_samples = 10000  # Number of random samples for training
+num_samples = 5000  # Number of random samples for training
 
 # Download and preprocess data from all tickers
 combined_df = download_and_preprocess_data(extended_tickers, '2012-01-01', '2023-01-01')
