@@ -18,57 +18,57 @@ extended_tickers = [
     "AMD",   # Advanced Micro Devices, Inc.
     "MU",    # Micron Technology, Inc.
     # "000660.KS", # SK Hynix Inc.
-    # "TXN",   # Texas Instruments Incorporated
-    # "AMAT",  # Applied Materials, Inc.
-    # "ASML",  # ASML Holding N.V.
-    # "LRCX",  # Lam Research Corporation
-    # "SONY",  # Sony Group Corporation
+    "TXN",   # Texas Instruments Incorporated
+    "AMAT",  # Applied Materials, Inc.
+    "ASML",  # ASML Holding N.V.
+    "LRCX",  # Lam Research Corporation
+    "SONY",  # Sony Group Corporation
     # "2317.TW", # Foxconn (Hon Hai Precision Industry Co., Ltd.)
-    # "GLW",   # Corning Incorporated
-    # "TSM",   # Taiwan Semiconductor Manufacturing Company (TSMC)
-    # # "005930.KS", # Samsung Electronics Co., Ltd.
-    # "WDC",   # Western Digital Corporation
-    # "STX",   # Seagate Technology Holdings plc
-    # "KEYS",  # Keysight Technologies
-    # "KLAC",  # KLA Corporation
-    # "GOOG",  # Alphabet Inc. (Google)
-    # "MSFT",  # Microsoft Corporation
-    # "META",  # Meta Platforms, Inc. (formerly Facebook)
+    "GLW",   # Corning Incorporated
+    "TSM",   # Taiwan Semiconductor Manufacturing Company (TSMC)
+    # "005930.KS", # Samsung Electronics Co., Ltd.
+    "WDC",   # Western Digital Corporation
+    "STX",   # Seagate Technology Holdings plc
+    "KEYS",  # Keysight Technologies
+    "KLAC",  # KLA Corporation
+    "GOOG",  # Alphabet Inc. (Google)
+    "MSFT",  # Microsoft Corporation
+    "META",  # Meta Platforms, Inc. (formerly Facebook)
     # "1810.HK", # Xiaomi Corporation
     # "2357.TW", # ASUS (ASUSTeK Computer Inc.)
     # "2353.TW", # Acer Inc.
-    # "DELL",  # Dell Technologies Inc.
-    # "HPQ",   # HP Inc.
+    "DELL",  # Dell Technologies Inc.
+    "HPQ",   # HP Inc.
     # "0992.HK", # Lenovo Group Limited
-    # "ADBE",  # Adobe Inc.
-    # "CRM",   # Salesforce
-    # "ORCL",  # Oracle Corporation
-    # "IBM",   # International Business Machines Corporation
-    # "CSCO",  # Cisco Systems, Inc.
-    # "SAP",   # SAP SE
-    # "INTU",  # Intuit Inc.
-    # # "VMW",   # VMware, Inc.
-    # "SQ",    # Block, Inc. (formerly Square, Inc.)
-    # "SHOP",  # Shopify Inc.
-    # # "TWTR",  # Twitter, Inc. (Note: As of my last update in April 2023, Twitter was taken private by Elon Musk, so this might not be current.)
-    # "SNAP",  # Snap Inc.
-    # "TSLA",  # Tesla, Inc. (significant in tech through its advancements in electric vehicles and energy storage solutions)
-    # "PYPL",  # PayPal Holdings, Inc.
-    # "ADSK",  # Autodesk, Inc.
-    # "ANSS",  # ANSYS, Inc.
-    # "CTSH",  # Cognizant Technology Solutions Corporation
-    # "INFY",  # Infosys Limited
-    # "TSM",   # Repeated for emphasis, Taiwan Semiconductor Manufacturing Company
-    # "ERIC",  # Telefonaktiebolaget LM Ericsson (publ)
-    # "NOK",   # Nokia Corporation
-    # "V",     # Visa Inc. (significant in tech through digital payment technologies)
-    # "MA",    # Mastercard Incorporated (similarly significant as Visa)
-    # "AMZN",  # Amazon.com, Inc.
-    # "ZM",    # Zoom Video Communications, Inc.
-    # "UBER",  # Uber Technologies, Inc.
-    # "LYFT"   # Lyft, Inc.
+    "ADBE",  # Adobe Inc.
+    "CRM",   # Salesforce
+    "ORCL",  # Oracle Corporation
+    "IBM",   # International Business Machines Corporation
+    "CSCO",  # Cisco Systems, Inc.
+    "SAP",   # SAP SE
+    "INTU",  # Intuit Inc.
+    # "VMW",   # VMware, Inc.
+    "SQ",    # Block, Inc. (formerly Square, Inc.)
+    "SHOP",  # Shopify Inc.
+    # "TWTR",  # Twitter, Inc. (Note: As of my last update in April 2023, Twitter was taken private by Elon Musk, so this might not be current.)
+    "SNAP",  # Snap Inc.
+    "TSLA",  # Tesla, Inc. (significant in tech through its advancements in electric vehicles and energy storage solutions)
+    "PYPL",  # PayPal Holdings, Inc.
+    "ADSK",  # Autodesk, Inc.
+    "ANSS",  # ANSYS, Inc.
+    "CTSH",  # Cognizant Technology Solutions Corporation
+    "INFY",  # Infosys Limited
+    "TSM",   # Repeated for emphasis, Taiwan Semiconductor Manufacturing Company
+    "ERIC",  # Telefonaktiebolaget LM Ericsson (publ)
+    "NOK",   # Nokia Corporation
+    "V",     # Visa Inc. (significant in tech through digital payment technologies)
+    "MA",    # Mastercard Incorporated (similarly significant as Visa)
+    "AMZN",  # Amazon.com, Inc.
+    "ZM",    # Zoom Video Communications, Inc.
+    "UBER",  # Uber Technologies, Inc.
+    "LYFT"   # Lyft, Inc.
 ]
-test_ticker = 'AAPL'
+test_ticker = ['AAPL']
 
 
 def download_and_preprocess_data(tickers, start_date, end_date):
@@ -95,6 +95,26 @@ def add_technical_indicators(df):
 
     # RSI
     df['rsi'] = ta.momentum.rsi(close=df["Close"], window=14)
+
+    # Absolute Price Oscillator (APO)
+    df['apo'] = ta.trend.APO(df["Close"], fast=12, slow=26, matype=0)  # SMA version
+    df['apo_ema'] = ta.trend.APO(df["Close"], fast=12, slow=26, matype=1)  # EMA version
+
+    # Commodity Channel Index (CCI)
+    df['cci'] = ta.trend.CCI(df["High"], df["Low"], df["Close"], window=20)
+
+    # Chaikin A/D Line
+    df['ad'] = ta.volume.ChaikinMoneyFlowIndicator(df["High"], df["Low"], df["Close"], df["Volume"], window=20).chaikin_money_flow()
+
+    # Average Directional Index (ADX)
+    df['adx'] = ta.trend.ADX(df["High"], df["Low"], df["Close"], window=14)
+
+    # Stochastic Oscillator (STOCH)
+    stoch_indicator = ta.momentum.StochasticOscillator(df["High"], df["Low"], df["Close"], window=14, smooth_window=3)
+    df['stoch'] = stoch_indicator.stoch()
+
+    # On Balance Volume (OBV)
+    df['obv'] = ta.volume.on_balance_volume(df["Close"], df["Volume"])
 
     return df
 
@@ -239,7 +259,7 @@ def calculate_directional_accuracy(y_test, predictions):
 # Parameters specified
 C_param = 59948.425031894085
 gamma_param = 0.001
-num_samples = 1000  # Number of random samples for training
+num_samples = 10000  # Number of random samples for training
 
 # Download and preprocess data from all tickers
 combined_df = download_and_preprocess_data(extended_tickers, '2012-01-01', '2023-01-01')
