@@ -17,62 +17,70 @@ extended_tickers = [
     "NVDA",  # NVIDIA Corporation
     "AMD",   # Advanced Micro Devices, Inc.
     "MU",    # Micron Technology, Inc.
-    "000660.KS", # SK Hynix Inc.
-    "TXN",   # Texas Instruments Incorporated
-    "AMAT",  # Applied Materials, Inc.
-    "ASML",  # ASML Holding N.V.
-    "LRCX",  # Lam Research Corporation
-    "SONY",  # Sony Group Corporation
-    "2317.TW", # Foxconn (Hon Hai Precision Industry Co., Ltd.)
-    "GLW",   # Corning Incorporated
-    "TSM",   # Taiwan Semiconductor Manufacturing Company (TSMC)
-    "005930.KS", # Samsung Electronics Co., Ltd.
-    "WDC",   # Western Digital Corporation
-    "STX",   # Seagate Technology Holdings plc
-    "KEYS",  # Keysight Technologies
-    "KLAC",  # KLA Corporation
-    "GOOG",  # Alphabet Inc. (Google)
-    "MSFT",  # Microsoft Corporation
-    "META",  # Meta Platforms, Inc. (formerly Facebook)
-    "1810.HK", # Xiaomi Corporation
-    "2357.TW", # ASUS (ASUSTeK Computer Inc.)
-    "2353.TW", # Acer Inc.
-    "DELL",  # Dell Technologies Inc.
-    "HPQ",   # HP Inc.
-    "0992.HK", # Lenovo Group Limited
-    "ADBE",  # Adobe Inc.
-    "CRM",   # Salesforce
-    "ORCL",  # Oracle Corporation
-    "IBM",   # International Business Machines Corporation
-    "CSCO",  # Cisco Systems, Inc.
-    "SAP",   # SAP SE
-    "INTU",  # Intuit Inc.
-    # "VMW",   # VMware, Inc.
-    "SQ",    # Block, Inc. (formerly Square, Inc.)
-    "SHOP",  # Shopify Inc.
-    # "TWTR",  # Twitter, Inc. (Note: As of my last update in April 2023, Twitter was taken private by Elon Musk, so this might not be current.)
-    "SNAP",  # Snap Inc.
-    "TSLA",  # Tesla, Inc. (significant in tech through its advancements in electric vehicles and energy storage solutions)
-    "PYPL",  # PayPal Holdings, Inc.
-    "ADSK",  # Autodesk, Inc.
-    "ANSS",  # ANSYS, Inc.
-    "CTSH",  # Cognizant Technology Solutions Corporation
-    "INFY",  # Infosys Limited
-    "TSM",   # Repeated for emphasis, Taiwan Semiconductor Manufacturing Company
-    "ERIC",  # Telefonaktiebolaget LM Ericsson (publ)
-    "NOK",   # Nokia Corporation
-    "V",     # Visa Inc. (significant in tech through digital payment technologies)
-    "MA",    # Mastercard Incorporated (similarly significant as Visa)
-    "AAPL",  # Apple Inc. (for completeness, adding to this extended list)
-    "AMZN",  # Amazon.com, Inc.
-    "ZM",    # Zoom Video Communications, Inc.
-    "UBER",  # Uber Technologies, Inc.
-    "LYFT"   # Lyft, Inc.
+    # "000660.KS", # SK Hynix Inc.
+    # "TXN",   # Texas Instruments Incorporated
+    # "AMAT",  # Applied Materials, Inc.
+    # "ASML",  # ASML Holding N.V.
+    # "LRCX",  # Lam Research Corporation
+    # "SONY",  # Sony Group Corporation
+    # "2317.TW", # Foxconn (Hon Hai Precision Industry Co., Ltd.)
+    # "GLW",   # Corning Incorporated
+    # "TSM",   # Taiwan Semiconductor Manufacturing Company (TSMC)
+    # # "005930.KS", # Samsung Electronics Co., Ltd.
+    # "WDC",   # Western Digital Corporation
+    # "STX",   # Seagate Technology Holdings plc
+    # "KEYS",  # Keysight Technologies
+    # "KLAC",  # KLA Corporation
+    # "GOOG",  # Alphabet Inc. (Google)
+    # "MSFT",  # Microsoft Corporation
+    # "META",  # Meta Platforms, Inc. (formerly Facebook)
+    # "1810.HK", # Xiaomi Corporation
+    # "2357.TW", # ASUS (ASUSTeK Computer Inc.)
+    # "2353.TW", # Acer Inc.
+    # "DELL",  # Dell Technologies Inc.
+    # "HPQ",   # HP Inc.
+    # "0992.HK", # Lenovo Group Limited
+    # "ADBE",  # Adobe Inc.
+    # "CRM",   # Salesforce
+    # "ORCL",  # Oracle Corporation
+    # "IBM",   # International Business Machines Corporation
+    # "CSCO",  # Cisco Systems, Inc.
+    # "SAP",   # SAP SE
+    # "INTU",  # Intuit Inc.
+    # # "VMW",   # VMware, Inc.
+    # "SQ",    # Block, Inc. (formerly Square, Inc.)
+    # "SHOP",  # Shopify Inc.
+    # # "TWTR",  # Twitter, Inc. (Note: As of my last update in April 2023, Twitter was taken private by Elon Musk, so this might not be current.)
+    # "SNAP",  # Snap Inc.
+    # "TSLA",  # Tesla, Inc. (significant in tech through its advancements in electric vehicles and energy storage solutions)
+    # "PYPL",  # PayPal Holdings, Inc.
+    # "ADSK",  # Autodesk, Inc.
+    # "ANSS",  # ANSYS, Inc.
+    # "CTSH",  # Cognizant Technology Solutions Corporation
+    # "INFY",  # Infosys Limited
+    # "TSM",   # Repeated for emphasis, Taiwan Semiconductor Manufacturing Company
+    # "ERIC",  # Telefonaktiebolaget LM Ericsson (publ)
+    # "NOK",   # Nokia Corporation
+    # "V",     # Visa Inc. (significant in tech through digital payment technologies)
+    # "MA",    # Mastercard Incorporated (similarly significant as Visa)
+    # "AMZN",  # Amazon.com, Inc.
+    # "ZM",    # Zoom Video Communications, Inc.
+    # "UBER",  # Uber Technologies, Inc.
+    # "LYFT"   # Lyft, Inc.
 ]
+test_ticker = 'AAPL'
 
 
-def download_stock_data(ticker, start_date, end_date):
-    return yf.download(ticker, start=start_date, end=end_date)
+def download_and_preprocess_data(tickers, start_date, end_date):
+    all_data = []
+    for ticker in tickers:
+        df = yf.download(ticker, start=start_date, end=end_date)
+        print(f'Downloaded {ticker} data from {start_date} to {end_date}')
+        df = preprocess_data(df)
+        df['Ticker'] = ticker  # Add ticker identifier
+        all_data.append(df)
+    combined_df = pd.concat(all_data)
+    return combined_df
 
 def add_technical_indicators(df):
     # Bollinger Bands
@@ -108,22 +116,59 @@ def prepare_features(df):
 
 def prepare_features_sequences(df, sequence_length=5):
     feature_columns = ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi']
-    data = df[feature_columns].values
     sequences = []
     labels = []
     
-    for i in range(len(data) - sequence_length):
-        sequence = data[i:i+sequence_length]  # Get sequence of 5 days
-        label = df['Close'].iloc[i+sequence_length]  # Get next day's close price
-        sequences.append(sequence)
-        labels.append(label)
+    # Group by ticker to ensure sequences are ticker-specific
+    grouped = df.groupby('Ticker')
+    print(f"Total tickers found: {len(grouped)}")  # Debugging print
+
+    for ticker, group in grouped:
+        data = group[feature_columns].values
+        print(f"Processing ticker: {ticker} with data length: {len(data)}")  # Debugging print
+
+        for i in range(len(data) - sequence_length):
+            sequence = data[i:i+sequence_length]
+            label = group['Close'].iloc[i+sequence_length]
+            sequences.append(sequence)
+            labels.append(label)
+
+            if i == 0:
+                print(f"First sequence: {sequence}")
+                print(f"First label: {label}")
+                print(f"!!!!group['Close'][i:i+sequence_length+1]: {group['Close'][i:i+sequence_length+1]}")
+
+
+        print(f"Generated {len(sequences)} sequences and {len(labels)} labels for ticker: {ticker}")  # Debugging print
     
+    print("Completed processing all tickers.")
+    print(f"Total sequences[0].shape: {sequences[0].shape}")
+    print(f"Total labels[0]: {labels[0]}")
     return np.array(sequences), np.array(labels)
 
+def draw_random_samples(X, y, num_samples):
+    indices = np.random.choice(np.arange(len(X)), size=num_samples, replace=False)
+    X_sampled = X[indices]
+    y_sampled = y[indices]
+    return X_sampled, y_sampled
 
-def split_data(X, y, test_size=250):
-    X_train, X_test = X[:-test_size], X[-test_size:]
-    y_train, y_test = y[:-test_size], y[-test_size:]
+# Adjust the split_data function to split before drawing random samples, ensuring the test set simulates future unseen data
+def split_data(X, y, train_ratio=0.8, sequence_length=5, test_size=250):
+    """
+    Adjusted to ensure the test set is the most recent data, simulating future unseen data.
+    The function now first separates a portion of data for testing, then draws random samples from the remaining data for training.
+    """
+    # Calculate the index to start the test set
+    test_start_index = len(X) - test_size
+    
+    # Separate the test set
+    X_test = X[-test_size:]
+    y_test = y[-test_size:]
+    
+    # Use the remaining data for training
+    X_train = X[:test_start_index]
+    y_train = y[:test_start_index]
+    
     return X_train, X_test, y_train, y_test
 
 def scale_features(X_train, X_test):
@@ -132,12 +177,6 @@ def scale_features(X_train, X_test):
     X_test_scaled = scaler.transform(X_test)
     return X_train_scaled, X_test_scaled, scaler
 
-# def train_model(X_train, y_train, C, gamma):
-#     model = SVR(kernel='rbf', C=C, gamma=gamma)
-#     model.fit(X_train, y_train)
-#     return model
-# Adjust the train_model function to reshape input data for SVR
-
 def train_model(X_train, y_train, C, gamma):
     # No need to reshape X_train here as it should already be 2D after scaling
     # Just directly use X_train for fitting the model
@@ -145,36 +184,10 @@ def train_model(X_train, y_train, C, gamma):
     model.fit(X_train, y_train)  # Use the already 2D scaled X_train
     return model
 
-class SVRStrategy(bt.Strategy):
-    params = (
-        ('model', None),
-        ('scaler', None),
-        ('dataframe', None),
-        ('threshold', 0.005),
-    )
-
-    def __init__(self):
-        # Assuming the 'model', 'scaler', and 'dataframe' parameters are passed correctly and exist
-        df = self.params.dataframe
-        self.data_predicted = self.params.model.predict(self.params.scaler.transform(df[['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi']].values[-250:]))
-        self.iterations = 0
-
-    def next(self):
-        predicted_price = self.data_predicted[self.iterations]
-        self.iterations += 1
-        if predicted_price > self.data.close[0] * (1 + self.params.threshold):
-            self.buy()
-        elif predicted_price < self.data.close[0] * (1 - self.params.threshold):
-            self.sell()
-
-def plot_predictions(df, model, scaler):
-    dates = df.index[-250:].tolist()
-    prices = df['Close'].values[-250:]
-    X = df[['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi']].values[-250:]
-    predicted_prices = model.predict(scaler.transform(X))
-
+# Adjust the plot_predictions function if necessary to accommodate the testing data
+def plot_predictions(actual_prices, predicted_prices, dates):
     plt.figure(figsize=(15, 5))
-    plt.plot(dates, prices, label='Actual Prices')
+    plt.plot(dates, actual_prices, label='Actual Prices')
     plt.plot(dates, predicted_prices, label='Predicted Prices', alpha=0.7)
     plt.title('Stock Price Prediction')
     plt.xlabel('Date')
@@ -182,25 +195,6 @@ def plot_predictions(df, model, scaler):
     plt.legend()
     plt.grid(True)
     plt.show()
-
-def backtest_strategy(df, strategy_class, strategy_params, perform_plot=False):
-    cerebro = bt.Cerebro()
-    cerebro.addstrategy(strategy_class, **strategy_params)
-    data = bt.feeds.PandasData(dataname=df)
-    cerebro.adddata(data)
-    cerebro.broker.set_cash(10000)
-    cerebro.broker.setcommission(commission=0)
-    starting_portfolio_value = cerebro.broker.getvalue()
-    cerebro.run()
-    ending_portfolio_value = cerebro.broker.getvalue()
-    if perform_plot:
-        cerebro.plot()
-    print(f'Starting Portfolio Value: {starting_portfolio_value:.2f}')
-    print(f'Ending Portfolio Value: {ending_portfolio_value:.2f}')
-    
-    # Return the profit, which is the difference between ending and starting portfolio values
-    return ending_portfolio_value - starting_portfolio_value
-
 
 def grid_search_C_gamma_min_error(X_train_scaled, y_train, X_test_scaled, y_test, scaler, parameter_grid):
     best_error = np.inf
@@ -240,43 +234,75 @@ def calculate_directional_accuracy(y_test, predictions):
     accuracy = np.mean(actual_direction == predicted_direction)
     return accuracy
 
-# Parameters specified
-C_param = 5994.8425031894085
-gamma_param = 0.005
+# Test usage:
 
-for ticker in extended_tickers:
-    print(f"Processing {ticker}")
-    # Download stock data
-    df = download_stock_data(ticker, '2012-01-01', '2023-01-01')
-    
-    # Preprocess data and add technical indicators
-    df = preprocess_data(df)
-    
-    # Prepare sequenced features and labels
-    X, y = prepare_features_sequences(df, sequence_length=5)
-    
-    # Manually split data into training and test sets to maintain sequence order
-    test_size = int(0.2 * len(X))
-    X_train, X_test = X[:-test_size], X[-test_size:]
-    y_train, y_test = y[:-test_size], y[-test_size:]
-    
-    # Scaling features - Flatten sequences for scaling, then reshape for SVR
-    nsamples, nx, ny = X_train.shape
-    X_train_reshaped = X_train.reshape((nsamples, nx*ny))
-    X_test_reshaped = X_test.reshape((X_test.shape[0], nx*ny))
-    
-    scaler = StandardScaler()
-    X_train_scaled = scaler.fit_transform(X_train_reshaped)
-    X_test_scaled = scaler.transform(X_test_reshaped)
-    
-    # Train model with flattened data
-    model = train_model(X_train_scaled, y_train, C=C_param, gamma=gamma_param)
-    
-    # Make predictions with flattened data
-    predictions = model.predict(X_test_scaled)
-    
-    # Calculate directional accuracy and error metrics
-    directional_accuracy = calculate_directional_accuracy(y_test, predictions)
-    mse_error = mean_squared_error(y_test, predictions)
-    mae_error = mean_absolute_error(y_test, predictions)
-    print(f'{ticker} - Directional Accuracy: {directional_accuracy * 100:.2f}% - MSE: {mse_error:.2f} - MAE: {mae_error:.2f}')
+# Parameters specified
+C_param = 59948.425031894085
+gamma_param = 0.001
+num_samples = 1000  # Number of random samples for training
+
+# Download and preprocess data from all tickers
+combined_df = download_and_preprocess_data(extended_tickers, '2012-01-01', '2023-01-01')
+
+test_df = download_and_preprocess_data(test_ticker, '2012-01-01', '2023-12-31')
+
+# Prepare sequenced features and labels
+X, y = prepare_features_sequences(combined_df, sequence_length=5)
+
+X1, y1 = prepare_features_sequences(test_df, sequence_length=5)
+
+# Use the adjusted split_data function before drawing random samples
+X_train, X_test, y_train, y_test = split_data(X, y, train_ratio=0.8, sequence_length=5, test_size=500)
+
+# Now, apply draw_random_samples only to the training data to ensure diversity
+X_train_sampled, y_train_sampled = draw_random_samples(X_train, y_train, num_samples)
+
+print(f'X_train_sampled: {X_train_sampled}')
+print(f'X_train_sampled.shape: {X_train_sampled.shape}')
+
+# Ensure the data passed to the SVR model is appropriately reshaped
+nsamples, nx, ny = X_train_sampled.shape
+X_train_reshaped = X_train_sampled.reshape((nsamples, nx*ny))
+X_test_reshaped = X_test.reshape((X_test.shape[0], nx*ny))
+
+X1_reshaped = X1.reshape((X1.shape[0], nx*ny))
+
+print(f'X_train_reshaped: {X_train_reshaped}')
+print(f'X_train_reshaped.shape: {X_train_reshaped.shape}')
+print(f'X_test_reshaped: {X_test_reshaped}')
+print(f'X_test_reshaped.shape: {X_test_reshaped.shape}')
+# Scale features after reshaping
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train_reshaped)
+X_test_scaled = scaler.transform(X_test_reshaped)
+
+X1_scaled = scaler.transform(X1_reshaped)
+
+print(f'X_train_scaled: {X_train_scaled}')
+print(f'X_train_scaled.shape: {X_train_scaled.shape}')
+print(f'X_test_scaled: {X_test_scaled}')
+print(f'X_test_scaled.shape: {X_test_scaled.shape}')
+
+# Train the SVR model with reshaped and scaled training data
+model = train_model(X_train_scaled, y_train_sampled, C=C_param, gamma=gamma_param)
+
+# Make predictions with the reshaped and scaled test data
+predictions = model.predict(X_test_scaled)
+
+predictions1 = model.predict(X1_scaled)
+
+# Evaluate the model
+directional_accuracy = calculate_directional_accuracy(y_test, predictions)
+mse_error = mean_squared_error(y_test, predictions)
+mae_error = mean_absolute_error(y_test, predictions)
+print(f'Directional Accuracy: {directional_accuracy * 100:.2f}% - MSE: {mse_error:.2f} - MAE: {mae_error:.2f}')
+
+directional_accuracy1 = calculate_directional_accuracy(y1, predictions1)
+mse_error1 = mean_squared_error(y1, predictions1)
+mae_error1 = mean_absolute_error(y1, predictions1)
+print(f'Directional Accuracy: {directional_accuracy1 * 100:.2f}% - MSE: {mse_error1:.2f} - MAE: {mae_error1:.2f}')
+
+# Optional: Plot predictions
+plot_predictions(y_test, predictions, combined_df.index[-len(y_test):])
+
+plot_predictions(y1, predictions1, test_df.index[-len(y1):])
