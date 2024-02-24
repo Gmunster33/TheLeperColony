@@ -47,10 +47,10 @@ extended_tickers = [
     "CSCO",  # Cisco Systems, Inc.
     "SAP",   # SAP SE
     "INTU",  # Intuit Inc.
-    "VMW",   # VMware, Inc.
+    # "VMW",   # VMware, Inc.
     "SQ",    # Block, Inc. (formerly Square, Inc.)
     "SHOP",  # Shopify Inc.
-    "TWTR",  # Twitter, Inc. (Note: As of my last update in April 2023, Twitter was taken private by Elon Musk, so this might not be current.)
+    # "TWTR",  # Twitter, Inc. (Note: As of my last update in April 2023, Twitter was taken private by Elon Musk, so this might not be current.)
     "SNAP",  # Snap Inc.
     "TSLA",  # Tesla, Inc. (significant in tech through its advancements in electric vehicles and energy storage solutions)
     "PYPL",  # PayPal Holdings, Inc.
@@ -106,6 +106,21 @@ def prepare_features(df):
     y = df['Close'].shift(-1).dropna().values
     return X, y
 
+def prepare_features_sequences(df, sequence_length=5):
+    feature_columns = ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi']
+    data = df[feature_columns].values
+    sequences = []
+    labels = []
+    
+    for i in range(len(data) - sequence_length):
+        sequence = data[i:i+sequence_length]  # Get sequence of 5 days
+        label = df['Close'].iloc[i+sequence_length]  # Get next day's close price
+        sequences.append(sequence)
+        labels.append(label)
+    
+    return np.array(sequences), np.array(labels)
+
+
 def split_data(X, y, test_size=250):
     X_train, X_test = X[:-test_size], X[-test_size:]
     y_train, y_test = y[:-test_size], y[-test_size:]
@@ -117,9 +132,17 @@ def scale_features(X_train, X_test):
     X_test_scaled = scaler.transform(X_test)
     return X_train_scaled, X_test_scaled, scaler
 
+# def train_model(X_train, y_train, C, gamma):
+#     model = SVR(kernel='rbf', C=C, gamma=gamma)
+#     model.fit(X_train, y_train)
+#     return model
+# Adjust the train_model function to reshape input data for SVR
+
 def train_model(X_train, y_train, C, gamma):
+    # No need to reshape X_train here as it should already be 2D after scaling
+    # Just directly use X_train for fitting the model
     model = SVR(kernel='rbf', C=C, gamma=gamma)
-    model.fit(X_train, y_train)
+    model.fit(X_train, y_train)  # Use the already 2D scaled X_train
     return model
 
 class SVRStrategy(bt.Strategy):
@@ -217,35 +240,43 @@ def calculate_directional_accuracy(y_test, predictions):
     accuracy = np.mean(actual_direction == predicted_direction)
     return accuracy
 
-# Use params: C=5994.8425031894085, gamma=0.001
 # Parameters specified
 C_param = 5994.8425031894085
-gamma_param = 0.001
+gamma_param = 0.005
 
 for ticker in extended_tickers:
+    print(f"Processing {ticker}")
     # Download stock data
     df = download_stock_data(ticker, '2012-01-01', '2023-01-01')
     
     # Preprocess data and add technical indicators
     df = preprocess_data(df)
     
-    # Prepare features and labels
-    X, y = prepare_features(df)
+    # Prepare sequenced features and labels
+    X, y = prepare_features_sequences(df, sequence_length=5)
     
-    # Split data into training and test sets (adjust according to your needs)
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    # Manually split data into training and test sets to maintain sequence order
+    test_size = int(0.2 * len(X))
+    X_train, X_test = X[:-test_size], X[-test_size:]
+    y_train, y_test = y[:-test_size], y[-test_size:]
     
-    # Scaling features
+    # Scaling features - Flatten sequences for scaling, then reshape for SVR
+    nsamples, nx, ny = X_train.shape
+    X_train_reshaped = X_train.reshape((nsamples, nx*ny))
+    X_test_reshaped = X_test.reshape((X_test.shape[0], nx*ny))
+    
     scaler = StandardScaler()
-    X_train_scaled = scaler.fit_transform(X_train)
-    X_test_scaled = scaler.transform(X_test)
+    X_train_scaled = scaler.fit_transform(X_train_reshaped)
+    X_test_scaled = scaler.transform(X_test_reshaped)
     
-    # Train model
+    # Train model with flattened data
     model = train_model(X_train_scaled, y_train, C=C_param, gamma=gamma_param)
     
-    # Make predictions
+    # Make predictions with flattened data
     predictions = model.predict(X_test_scaled)
     
-    # Calculate directional accuracy
+    # Calculate directional accuracy and error metrics
     directional_accuracy = calculate_directional_accuracy(y_test, predictions)
-    print(f'{ticker} - Directional Accuracy: {directional_accuracy * 100:.2f}%')
+    mse_error = mean_squared_error(y_test, predictions)
+    mae_error = mean_absolute_error(y_test, predictions)
+    print(f'{ticker} - Directional Accuracy: {directional_accuracy * 100:.2f}% - MSE: {mse_error:.2f} - MAE: {mae_error:.2f}')
