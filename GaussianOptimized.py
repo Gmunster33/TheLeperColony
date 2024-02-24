@@ -3,6 +3,10 @@ import backtrader as bt
 from sklearn.svm import SVR
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
+from skopt import BayesSearchCV
+from skopt.space import Real, Categorical, Integer
+from sklearn.model_selection import RepeatedKFold
+from sklearn.metrics import make_scorer
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.metrics import mean_squared_error, mean_absolute_error
@@ -256,6 +260,46 @@ def calculate_directional_accuracy(y_test, predictions):
     accuracy = np.mean(actual_direction == predicted_direction)
     return accuracy
 
+# Define a custom scorer function for directional accuracy
+def directional_accuracy_scorer(y_true, y_pred):
+    actual_direction = np.sign(y_true[1:] - y_true[:-1])
+    predicted_direction = np.sign(y_pred[1:] - y_true[:-1])
+    accuracy = np.mean(actual_direction == predicted_direction)
+    return accuracy
+
+# Convert the custom scorer into a scorer function that can be used in BayesSearchCV
+directional_accuracy = make_scorer(directional_accuracy_scorer, greater_is_better=True)
+
+def perform_bayesian_optimization(X_train, y_train):
+    # Define the search space for C and gamma
+    search_spaces = {'C': Real(1e-6, 1e+6, prior='log-uniform'),
+                     'gamma': Real(1e-6, 1e+1, prior='log-uniform')}
+    
+    # Initialize the model
+    svr = SVR(kernel='rbf')
+
+    # Setup the repeated K-Fold cross-validator
+    cv = RepeatedKFold(n_splits=5, n_repeats=3, random_state=1)
+
+    # Initialize the Bayesian Search
+    bayes_search = BayesSearchCV(estimator=svr,
+                                 search_spaces=search_spaces,
+                                 scoring=directional_accuracy,
+                                 cv=cv,
+                                 n_iter=32,
+                                 n_jobs=-1,
+                                 return_train_score=True,
+                                 random_state=0)
+
+    # Perform the search
+    bayes_search.fit(X_train, y_train)
+
+    # Print the best score found
+    print(f"Best Directional Accuracy: {bayes_search.best_score_}")
+
+    # Return the best parameters
+    return bayes_search.best_params_
+
 # Test usage:
 
 # Parameters specified
@@ -279,8 +323,6 @@ X_train, X_test, y_train, y_test = split_data(X, y, train_ratio=0.8, sequence_le
 # Now, apply draw_random_samples only to the training data to ensure diversity
 X_train_sampled, y_train_sampled = draw_random_samples(X_train, y_train, num_samples)
 
-print(f'X_train_sampled: {X_train_sampled}')
-print(f'X_train_sampled.shape: {X_train_sampled.shape}')
 
 # Ensure the data passed to the SVR model is appropriately reshaped
 nsamples, nx, ny = X_train_sampled.shape
@@ -289,10 +331,6 @@ X_test_reshaped = X_test.reshape((X_test.shape[0], nx*ny))
 
 X1_reshaped = X1.reshape((X1.shape[0], nx*ny))
 
-print(f'X_train_reshaped: {X_train_reshaped}')
-print(f'X_train_reshaped.shape: {X_train_reshaped.shape}')
-print(f'X_test_reshaped: {X_test_reshaped}')
-print(f'X_test_reshaped.shape: {X_test_reshaped.shape}')
 # Scale features after reshaping
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train_reshaped)
@@ -300,10 +338,9 @@ X_test_scaled = scaler.transform(X_test_reshaped)
 
 X1_scaled = scaler.transform(X1_reshaped)
 
-print(f'X_train_scaled: {X_train_scaled}')
-print(f'X_train_scaled.shape: {X_train_scaled.shape}')
-print(f'X_test_scaled: {X_test_scaled}')
-print(f'X_test_scaled.shape: {X_test_scaled.shape}')
+# Assuming X_train_scaled and y_train_sampled are available from the previous steps
+best_params = perform_bayesian_optimization(X_train_scaled, y_train_sampled)
+print("Best Parameters:", best_params)
 
 # Train the SVR model with reshaped and scaled training data
 model = train_model(X_train_scaled, y_train_sampled, C=C_param, gamma=gamma_param)
