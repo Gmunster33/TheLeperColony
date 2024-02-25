@@ -314,7 +314,7 @@ gamma_param = 2.9788804908841073e-05
 # Parameters specified by grid search
 # C_param = 59948.425031894085
 # gamma_param = 0.001
-num_samples = 5000  # Number of random samples for training
+num_samples = 500  # Number of random samples for training
 
 # Download and preprocess data from all tickers
 combined_df = download_and_preprocess_data(extended_tickers, '2012-01-01', '2023-01-01')
