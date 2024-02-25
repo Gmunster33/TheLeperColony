@@ -1,7 +1,7 @@
 import yfinance as yf
 import backtrader as bt
 from sklearn.svm import SVR
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, RobustScaler, MinMaxScaler
 from sklearn.model_selection import train_test_split
 from skopt import BayesSearchCV
 from skopt.space import Real, Categorical, Integer
@@ -148,59 +148,67 @@ def prepare_features_sequences(df, sequence_length=5):
     feature_columns = [
         'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', 
         '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi', 
-        'apo', 'cci', 'ad', 'adx', 'stoch', 'obv'  # Include new indicators here
+        'apo', 'cci', 'ad', 'adx', 'stoch', 'obv'
     ]    
     sequences = []
     labels = []
+    tickers = []  # To keep track of the ticker for each sequence
     
-    # Group by ticker to ensure sequences are ticker-specific
     grouped = df.groupby('Ticker')
-    print(f"Total tickers found: {len(grouped)}")  # Debugging print
 
     for ticker, group in grouped:
         data = group[feature_columns].values
-        print(f"Processing ticker: {ticker} with data length: {len(data)}")  # Debugging print
 
         for i in range(len(data) - sequence_length):
             sequence = data[i:i+sequence_length]
-            label = group['Close'].iloc[i+sequence_length] # list of closing prices for the day after the last day in the sequence
+            label = group['Close'].iloc[i+sequence_length]
             sequences.append(sequence)
             labels.append(label)
-
-        print(f"Generated {len(sequences)} sequences and {len(labels)} labels after processing ticker: {ticker}")  # Debugging print
+            tickers.append(ticker)  # Add the ticker for the current sequence
     
-    print("Completed processing all tickers.")
-    print(f"Total sequences: {len(sequences)}")
-    print(f"Total labels: {len(labels)}")
-    return np.array(sequences), np.array(labels)
+    return np.array(sequences), np.array(labels), np.array(tickers)
 
-def draw_random_samples(X, y, num_samples):
+
+def draw_random_samples(X, y, num_samples, tickers):
     indices = np.random.choice(np.arange(len(X)), size=num_samples, replace=False)
     X_sampled = X[indices]
     y_sampled = y[indices]
-    return X_sampled, y_sampled
+    tickers_sampled = tickers[indices]
+    return X_sampled, y_sampled, tickers_sampled
 
-# Adjust the split_data function to split before drawing random samples, ensuring the test set simulates future unseen data
-def split_data(X, y, train_ratio=0.8, sequence_length=5, test_size=250):
-    """
-    Adjusted to ensure the test set is the most recent data, simulating future unseen data.
-    The function now first separates a portion of data for testing, then draws random samples from the remaining data for training.
-    """
-    # Calculate the index to start the test set
-    test_start_index = len(X) - test_size
+# Splits BEFORE drawing random samples, ensuring the test set simulates future unseen data
+def split_data(sequences, labels, tickers, train_ratio=0.8, test_size=250):
+    total_size = len(sequences)
+    test_start_index = total_size - test_size
     
-    # Separate the test set
-    X_test = X[-test_size:]
-    y_test = y[-test_size:]
+    X_train = sequences[:test_start_index]
+    y_train = labels[:test_start_index]
+    tickers_train = tickers[:test_start_index]
     
-    # Use the remaining data for training
-    X_train = X[:test_start_index]
-    y_train = y[:test_start_index]
+    unique_tickers = np.unique(tickers)
+
+    X_test_arrays = []
+    y_test_arrays = []
+    tickers_test_arrays = []
+
+    #append the last test_size sequences, labels, and tickers to the test set of each
+    i = 0
+    for ticker in unique_tickers:
+        X_test_arrays.append([])  # Initialize a list for each ticker
+        y_test_arrays.append([])
+        tickers_test_arrays.append([])
+        ticker_indices = np.where(tickers == ticker)[0] # Get indices of the current ticker
+        ticker_test_indices = ticker_indices[-test_size:] # Get the last test_size indices for the current ticker
+        X_test_arrays[i] = sequences[ticker_test_indices]
+        y_test_arrays[i] = labels[ticker_test_indices]
+        tickers_test_arrays[i] = (tickers[ticker_test_indices])
+        i+=1
     
-    return X_train, X_test, y_train, y_test
+    return X_train, X_test_arrays, y_train, y_test_arrays, tickers_train, tickers_test_arrays
+
 
 def scale_features(X_train, X_test):
-    scaler = StandardScaler()
+    scaler =  StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
     return X_train_scaled, X_test_scaled, scaler
@@ -324,28 +332,27 @@ combined_df = download_and_preprocess_data(extended_tickers, '2012-01-01', '2023
 test_df = download_and_preprocess_data(test_ticker, '2012-01-01', '2023-12-31')
 
 # Prepare sequenced features and labels
-X, y = prepare_features_sequences(combined_df, sequence_length=5)
-
-X1, y1 = prepare_features_sequences(test_df, sequence_length=5)
+X, y, tickers = prepare_features_sequences(combined_df, sequence_length=5)
+X1, y1, tickers1 = prepare_features_sequences(test_df, sequence_length=5)
 
 # Use the adjusted split_data function before drawing random samples
-X_train, X_test, y_train, y_test = split_data(X, y, train_ratio=0.8, sequence_length=5, test_size=500)
+X_train, X_test_arrays, y_train, y_test_arrays, tickers_train, tickers_test_arrays = split_data(X, y, tickers, train_ratio=0.8, test_size=500)
 
 # Now, apply draw_random_samples only to the training data to ensure diversity
-X_train_sampled, y_train_sampled = draw_random_samples(X_train, y_train, num_samples)
+X_train_sampled, y_train_sampled, tickers_sampled = draw_random_samples(X_train, y_train, num_samples, tickers_train)
 
 
 # Ensure the data passed to the SVR model is appropriately reshaped
 nsamples, nx, ny = X_train_sampled.shape
 X_train_reshaped = X_train_sampled.reshape((nsamples, nx*ny))
-X_test_reshaped = X_test.reshape((X_test.shape[0], nx*ny))
+# X_test_reshaped = X_test.reshape((X_test.shape[0], nx*ny))
 
 X1_reshaped = X1.reshape((X1.shape[0], nx*ny))
 
 # Scale features after reshaping
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train_reshaped)
-X_test_scaled = scaler.transform(X_test_reshaped)
+# X_test_scaled = scaler.transform(X_test_reshaped)
 
 X1_scaled = scaler.transform(X1_reshaped)
 
@@ -357,24 +364,26 @@ X1_scaled = scaler.transform(X1_reshaped)
 
 # Train the SVR model with reshaped and scaled training data
 model = train_model(X_train_scaled, y_train_sampled, C=C_param, gamma=gamma_param)
+# Iterate through each ticker's data in the test set
 
-# Make predictions with the reshaped and scaled test data
-predictions = model.predict(X_test_scaled)
+# Iterate through each ticker's data in the test sets
+for i, X_test in enumerate(X_test_arrays):
+    # Reshape each ticker's test data and scale it using the same scaler
+    X_test_reshaped = X_test.reshape((X_test.shape[0], nx*ny))
+    X_test_scaled = scaler.transform(X_test_reshaped)  # Assuming scaler is already fitted to the training data
+    
+    # Make predictions for the current ticker's data
+    predictions = model.predict(X_test_scaled)
+    
+    # Get the corresponding y_test data for the current ticker
+    current_y_test = y_test_arrays[i]
+    
+    # Calculate evaluation metrics for the current ticker
+    mse_error = mean_squared_error(current_y_test, predictions)
+    mae_error = mean_absolute_error(current_y_test, predictions)
+    directional_accuracy = calculate_directional_accuracy(current_y_test, predictions)
 
-predictions1 = model.predict(X1_scaled)
-
-# Evaluate the model
-directional_accuracy = calculate_directional_accuracy(y_test, predictions)
-mse_error = mean_squared_error(y_test, predictions)
-mae_error = mean_absolute_error(y_test, predictions)
-print(f'Directional Accuracy: {directional_accuracy * 100:.2f}% - MSE: {mse_error:.2f} - MAE: {mae_error:.2f}')
-
-directional_accuracy1 = calculate_directional_accuracy(y1, predictions1)
-mse_error1 = mean_squared_error(y1, predictions1)
-mae_error1 = mean_absolute_error(y1, predictions1)
-print(f'Directional Accuracy: {directional_accuracy1 * 100:.2f}% - MSE: {mse_error1:.2f} - MAE: {mae_error1:.2f}')
-
-# Optional: Plot predictions
-#plot_predictions(y_test, predictions, combined_df.index[-len(y_test):])
-
-plot_predictions(y1, predictions1, test_df.index[-len(y1):], test_ticker[0])
+    # Print evaluation metrics
+    print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error:.2f}, MAE: {mae_error:.2f}, DA: {directional_accuracy:.2f}%")    
+    # Plot predictions for '2023-01-01' minus the test size to '2023-01-01'
+    plot_predictions(current_y_test, predictions, combined_df.index[-len(current_y_test):], ticker=tickers_test_arrays[i][0])
