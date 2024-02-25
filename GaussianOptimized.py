@@ -135,13 +135,21 @@ def preprocess_data(df):
     return df
 
 def prepare_features(df):
-    feature_columns = ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi']
-    X = df[feature_columns][:-1].values  # Use the updated feature set
-    y = df['Close'].shift(-1).dropna().values
+    feature_columns = [
+        'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', 
+        '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi', 
+        'apo', 'cci', 'ad', 'adx', 'stoch', 'obv'  # Include new indicators here
+    ]
+    X = df[feature_columns].values  # Extract feature values
+    y = df['Close'].shift(-1).dropna().values  # Target values (next day's close)
     return X, y
 
 def prepare_features_sequences(df, sequence_length=5):
-    feature_columns = ['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi']
+    feature_columns = [
+        'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', 
+        '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi', 
+        'apo', 'cci', 'ad', 'adx', 'stoch', 'obv'  # Include new indicators here
+    ]    
     sequences = []
     labels = []
     
@@ -159,10 +167,10 @@ def prepare_features_sequences(df, sequence_length=5):
             sequences.append(sequence)
             labels.append(label)
 
-        print(f"Generated {len(sequences)} sequences and {len(labels)} labels for ticker: {ticker}")  # Debugging print
+        print(f"Generated {len(sequences)} sequences and {len(labels)} labels after processing ticker: {ticker}")  # Debugging print
     
     print("Completed processing all tickers.")
-    print(f"Total sequences.shape: {len(sequences)}")
+    print(f"Total sequences: {len(sequences)}")
     print(f"Total labels: {len(labels)}")
     return np.array(sequences), np.array(labels)
 
@@ -295,11 +303,18 @@ def perform_bayesian_optimization(X_train, y_train):
     return bayes_search.best_params_
 
 # Test usage:
+# Parameters specified by Bayesian optimization round 2 with 1000 samples
+C_param = 1000000.0
+gamma_param = 2.9788804908841073e-05
 
-# Parameters specified
-C_param = 59948.425031894085
-gamma_param = 0.001
-num_samples = 1000  # Number of random samples for training
+# Parameters specified by Bayesian optimization round 1 with 500 samples
+# C_param = 840.5406521370916
+# gamma_param = 2.747707867669414e-05
+######################
+# Parameters specified by grid search
+# C_param = 59948.425031894085
+# gamma_param = 0.001
+num_samples = 5000  # Number of random samples for training
 
 # Download and preprocess data from all tickers
 combined_df = download_and_preprocess_data(extended_tickers, '2012-01-01', '2023-01-01')
@@ -335,6 +350,9 @@ X1_scaled = scaler.transform(X1_reshaped)
 # Assuming X_train_scaled and y_train_sampled are available from the previous steps
 best_params = perform_bayesian_optimization(X_train_scaled, y_train_sampled)
 print("Best Parameters:", best_params)
+
+C_param = best_params['C']
+gamma_param = best_params['gamma']
 
 # Train the SVR model with reshaped and scaled training data
 model = train_model(X_train_scaled, y_train_sampled, C=C_param, gamma=gamma_param)
