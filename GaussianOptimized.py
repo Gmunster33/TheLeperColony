@@ -291,13 +291,15 @@ def perform_bayesian_optimization(X_train, y_train):
                                  n_iter=32,
                                  n_jobs=-1,
                                  return_train_score=True,
-                                 random_state=0)
+                                 random_state=0,
+                                 verbose=3  # Verbose mode
+                                 )
 
     # Perform the search
     bayes_search.fit(X_train, y_train)
 
     # Print the best score found
-    print(f"Best Directional Accuracy: {bayes_search.best_score_}")
+    print(f"Best Directional Accuracy: {bayes_search.best_score_* 100:.2f}%")
 
     # Return the best parameters
     return bayes_search.best_params_
