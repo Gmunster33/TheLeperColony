@@ -213,11 +213,11 @@ def train_model(X_train, y_train, C, gamma):
     return model
 
 # Adjust the plot_predictions function if necessary to accommodate the testing data
-def plot_predictions(actual_prices, predicted_prices, dates):
+def plot_predictions(actual_prices, predicted_prices, dates, ticker=''):
     plt.figure(figsize=(15, 5))
     plt.plot(dates, actual_prices, label='Actual Prices')
     plt.plot(dates, predicted_prices, label='Predicted Prices', alpha=0.7)
-    plt.title('Stock Price Prediction')
+    plt.title(f'Stock Price Prediction for {ticker}')
     plt.xlabel('Date')
     plt.ylabel('Price')
     plt.legend()
@@ -350,11 +350,10 @@ X_test_scaled = scaler.transform(X_test_reshaped)
 X1_scaled = scaler.transform(X1_reshaped)
 
 # Assuming X_train_scaled and y_train_sampled are available from the previous steps
-best_params = perform_bayesian_optimization(X_train_scaled, y_train_sampled)
-print("Best Parameters:", best_params)
-
-C_param = best_params['C']
-gamma_param = best_params['gamma']
+# best_params = perform_bayesian_optimization(X_train_scaled, y_train_sampled)
+# print("Best Parameters:", best_params)
+# C_param = best_params['C']
+# gamma_param = best_params['gamma']
 
 # Train the SVR model with reshaped and scaled training data
 model = train_model(X_train_scaled, y_train_sampled, C=C_param, gamma=gamma_param)
@@ -376,6 +375,6 @@ mae_error1 = mean_absolute_error(y1, predictions1)
 print(f'Directional Accuracy: {directional_accuracy1 * 100:.2f}% - MSE: {mse_error1:.2f} - MAE: {mae_error1:.2f}')
 
 # Optional: Plot predictions
-plot_predictions(y_test, predictions, combined_df.index[-len(y_test):])
+#plot_predictions(y_test, predictions, combined_df.index[-len(y_test):])
 
-plot_predictions(y1, predictions1, test_df.index[-len(y1):])
+plot_predictions(y1, predictions1, test_df.index[-len(y1):], test_ticker[0])
