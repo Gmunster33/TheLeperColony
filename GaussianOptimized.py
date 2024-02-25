@@ -13,7 +13,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 import numpy as np
 import ta
  
-# TYLER IS GAAYYYYYYY
+# TYLER IS seggsy and smort
 
 extended_tickers = [
     "INTC",  # Intel Corporation
