@@ -22,16 +22,13 @@ extended_tickers = [
     "NVDA",  # NVIDIA Corporation
     "AMD",   # Advanced Micro Devices, Inc.
     "MU",    # Micron Technology, Inc.
-    # "000660.KS", # SK Hynix Inc.
     "TXN",   # Texas Instruments Incorporated
     "AMAT",  # Applied Materials, Inc.
     "ASML",  # ASML Holding N.V.
     "LRCX",  # Lam Research Corporation
     "SONY",  # Sony Group Corporation
-    # "2317.TW", # Foxconn (Hon Hai Precision Industry Co., Ltd.)
     "GLW",   # Corning Incorporated
-    "TSM",   # Taiwan Semiconductor Manufacturing Company (TSMC)
-    # "005930.KS", # Samsung Electronics Co., Ltd.
+    "TSM",   # Taiwan Semiconductor Manufacturing Company
     "WDC",   # Western Digital Corporation
     "STX",   # Seagate Technology Holdings plc
     "KEYS",  # Keysight Technologies
@@ -39,12 +36,8 @@ extended_tickers = [
     "GOOG",  # Alphabet Inc. (Google)
     "MSFT",  # Microsoft Corporation
     "META",  # Meta Platforms, Inc. (formerly Facebook)
-    # "1810.HK", # Xiaomi Corporation
-    # "2357.TW", # ASUS (ASUSTeK Computer Inc.)
-    # "2353.TW", # Acer Inc.
     "DELL",  # Dell Technologies Inc.
     "HPQ",   # HP Inc.
-    # "0992.HK", # Lenovo Group Limited
     "ADBE",  # Adobe Inc.
     "CRM",   # Salesforce
     "ORCL",  # Oracle Corporation
@@ -52,29 +45,62 @@ extended_tickers = [
     "CSCO",  # Cisco Systems, Inc.
     "SAP",   # SAP SE
     "INTU",  # Intuit Inc.
-    # "VMW",   # VMware, Inc.
     "SQ",    # Block, Inc. (formerly Square, Inc.)
     "SHOP",  # Shopify Inc.
-    # "TWTR",  # Twitter, Inc. (Note: As of my last update in April 2023, Twitter was taken private by Elon Musk, so this might not be current.)
     "SNAP",  # Snap Inc.
-    "TSLA",  # Tesla, Inc. (significant in tech through its advancements in electric vehicles and energy storage solutions)
+    "TSLA",  # Tesla, Inc.
     "PYPL",  # PayPal Holdings, Inc.
     "ADSK",  # Autodesk, Inc.
     "ANSS",  # ANSYS, Inc.
     "CTSH",  # Cognizant Technology Solutions Corporation
     "INFY",  # Infosys Limited
-    "TSM",   # Repeated for emphasis, Taiwan Semiconductor Manufacturing Company
     "ERIC",  # Telefonaktiebolaget LM Ericsson (publ)
     "NOK",   # Nokia Corporation
-    "V",     # Visa Inc. (significant in tech through digital payment technologies)
-    "MA",    # Mastercard Incorporated (similarly significant as Visa)
+    "V",     # Visa Inc.
+    "MA",    # Mastercard Incorporated
     "AMZN",  # Amazon.com, Inc.
     "ZM",    # Zoom Video Communications, Inc.
     "UBER",  # Uber Technologies, Inc.
-    "LYFT"   # Lyft, Inc.
+    "LYFT",  # Lyft, Inc.
+    # Additional 40 similar American tech stocks
+    "EA",    # Electronic Arts Inc.
+    "TTWO",  # Take-Two Interactive Software, Inc.
+    "NTDOY", # Nintendo Co., Ltd.
+    "ROKU",  # Roku, Inc.
+    "NFLX",  # Netflix, Inc.
+    "DIS",   # The Walt Disney Company
+    "TWLO",  # Twilio Inc.
+    "OKTA",  # Okta, Inc.
+    "DDOG",  # Datadog, Inc.
+    "ZS",    # Zscaler, Inc.
+    "PANW",  # Palo Alto Networks, Inc.
+    "FTNT",  # Fortinet, Inc.
+    "CHKP",  # Check Point Software Technologies Ltd.
+    "SPLK",  # Splunk Inc.
+    "WDAY",  # Workday, Inc.
+    "NOW",   # ServiceNow, Inc.
+    # "CTXS",  # Citrix Systems, Inc.
+    # "DOCU",  # DocuSign, Inc.
+    # "CRWD",  # CrowdStrike Holdings, Inc.
+    # "OKTA",  # Okta, Inc.
+    # "FSLY",  # Fastly, Inc.
+    # "NET",   # Cloudflare, Inc.
+    # "SNOW",  # Snowflake Inc.
+    # "MDB",   # MongoDB, Inc.
+    # "PLTR",  # Palantir Technologies Inc.
+    # "GME",   # GameStop Corp.
+    # "SPOT",  # Spotify Technology S.A.
+    # "SQ",    # Square, Inc. (renamed to Block, Inc., included twice for emphasis)
+    # "TEAM",  # Atlassian Corporation Plc
+    # "COUP",  # Coupa Software Incorporated
+    # "VEEV",  # Veeva Systems Inc.
+    # "AYX",   # Alteryx, Inc.
+    # "SMAR",  # Smartsheet Inc.
+    # "WORK",  # Slack Technologies, Inc. (Note: Acquired by Salesforce)
+    # "ZM",    # Zoom Video Communications, Inc. (included twice for emphasis)
+    # "BOX",   # Box, Inc.
 ]
 test_ticker = ['AAPL']
-
 
 def download_and_preprocess_data(tickers, start_date, end_date):
     all_data = []
@@ -86,46 +112,52 @@ def download_and_preprocess_data(tickers, start_date, end_date):
         all_data.append(df)
     combined_df = pd.concat(all_data)
     return combined_df
-
 def add_technical_indicators(df):
-    # Bollinger Bands
+    """
+    Adjusts technical indicators to be more illuminating for day trading,
+    focusing on whether the price of the stocks will rise or fall.
+    """
+    # Bollinger Bands: Remain unchanged as they're useful for spotting volatility and price extremes.
     indicator_bb = ta.volatility.BollingerBands(close=df["Close"], window=20, window_dev=2)
     df['bb_bbm'] = indicator_bb.bollinger_mavg()
     df['bb_bbh'] = indicator_bb.bollinger_hband()
     df['bb_bbl'] = indicator_bb.bollinger_lband()
 
-    # MACD
-    indicator_macd = ta.trend.MACD(close=df["Close"])
-    df['macd'] = indicator_macd.macd()
+    # MACD: Shortened the signal line for faster response. This can help identify trend changes more quickly.
+    indicator_macd = ta.trend.MACD(close=df["Close"], window_slow=26, window_fast=12, window_sign=9)
+    df['macd'] = indicator_macd.macd_diff()  # Using MACD diff to get the difference between MACD and signal lines
 
-    # RSI
+    # RSI: Window remains as it balances sensitivity with avoiding too much noise.
     df['rsi'] = ta.momentum.rsi(close=df["Close"], window=14)
 
-    # Manually calculate the APO based on EMAs
+    # APO: No change needed, as it's already suited for identifying short-term price momentum.
     fast_ema = ta.trend.ema_indicator(close=df["Close"], window=12)
     slow_ema = ta.trend.ema_indicator(close=df["Close"], window=26)
     df['apo'] = fast_ema - slow_ema
 
-    # Commodity Channel Index (CCI)
-    df['cci'] = ta.trend.cci(df["High"], df["Low"], df["Close"], window=20)
+    # CCI: Reduced window to make it more responsive to daily price movements.
+    df['cci'] = ta.trend.cci(df["High"], df["Low"], df["Close"], window=14)
 
-    # Chaikin A/D Line - Use ChaikinMoneyFlow with window=1 for similar effect
-    df['ad'] = ta.volume.ChaikinMoneyFlowIndicator(df["High"], df["Low"], df["Close"], df["Volume"], window=1).chaikin_money_flow()
+    # Chaikin A/D Line: Useful for day trading as it combines price and volume to show buying/selling pressure.
+    df['ad'] = ta.volume.ChaikinMoneyFlowIndicator(df["High"], df["Low"], df["Close"], df["Volume"], window=3).chaikin_money_flow()
 
-    # Average Directional Index (ADX)
-    df['adx'] = ta.trend.adx(df["High"], df["Low"], df["Close"], window=14)
+    # ADX: Lowered the window to make the indicator more responsive to short-term trends.
+    df['adx'] = ta.trend.adx(df["High"], df["Low"], df["Close"], window=10)
 
-    # Stochastic Oscillator (STOCH)
-    stoch_indicator = ta.momentum.StochasticOscillator(df["High"], df["Low"], df["Close"], window=14, smooth_window=3)
-    df['stoch'] = stoch_indicator.stoch()
+    # Stochastic Oscillator: No change as it's already suitable for spotting overbought/oversold conditions in a short term.
+    df['stoch'] = ta.momentum.StochasticOscillator(df["High"], df["Low"], df["Close"], window=14, smooth_window=3).stoch()
 
-    # On Balance Volume (OBV)
+    # OBV: Remains unchanged, as volume trends can be a good indicator of price movements.
     df['obv'] = ta.volume.on_balance_volume(df["Close"], df["Volume"])
 
+    # Correct initialization of AroonIndicator
+    aroon_indicator = ta.trend.AroonIndicator(high=df["High"], low=df["Low"], window=25)
+    df['aroon_up'] = aroon_indicator.aroon_up()
+    df['aroon_down'] = aroon_indicator.aroon_down()
+    df['vwap'] = (df['Volume'] * (df['High'] + df['Low'] + df['Close']) / 3).cumsum() / df['Volume'].cumsum()
     return df
 
 def preprocess_data(df):
-    df['50_MA'] = df['Close'].rolling(window=50).mean()
     # Add technical indicators
     df = add_technical_indicators(df)
     
@@ -134,21 +166,12 @@ def preprocess_data(df):
     df.index = pd.to_datetime(df.index)
     return df
 
-def prepare_features(df):
-    feature_columns = [
-        'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', 
-        '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi', 
-        'apo', 'cci', 'ad', 'adx', 'stoch', 'obv'  # Include new indicators here
-    ]
-    X = df[feature_columns].values  # Extract feature values
-    y = df['Close'].shift(-1).dropna().values  # Target values (next day's close)
-    return X, y
-
 def prepare_features_sequences(df, sequence_length=5):
     feature_columns = [
         'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', 
-        '50_MA', 'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi', 
-        'apo', 'cci', 'ad', 'adx', 'stoch', 'obv'
+        'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi', 
+        'apo', 'cci', 'ad', 'adx', 'stoch', 'obv', 'aroon_up',
+        'aroon_down', 'vwap' # Include new indicators here
     ]    
     sequences = []
     labels = []
@@ -205,13 +228,6 @@ def split_data(sequences, labels, tickers, train_ratio=0.8, test_size=250):
         i+=1
     
     return X_train, X_test_arrays, y_train, y_test_arrays, tickers_train, tickers_test_arrays
-
-
-def scale_features(X_train, X_test):
-    scaler =  StandardScaler()
-    X_train_scaled = scaler.fit_transform(X_train)
-    X_test_scaled = scaler.transform(X_test)
-    return X_train_scaled, X_test_scaled, scaler
 
 def train_model(X_train, y_train, C, gamma):
     # No need to reshape X_train here as it should already be 2D after scaling
@@ -324,7 +340,7 @@ gamma_param = 2.9788804908841073e-05
 # Parameters specified by grid search
 # C_param = 59948.425031894085
 # gamma_param = 0.001
-num_samples = 500  # Number of random samples for training
+num_samples = 1000  # Number of random samples for training
 
 # Download and preprocess data from all tickers
 combined_df = download_and_preprocess_data(extended_tickers, '2012-01-01', '2023-01-01')
@@ -352,6 +368,16 @@ X1_reshaped = X1.reshape((X1.shape[0], nx*ny))
 # Scale features after reshaping
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train_reshaped)
+
+# print the dimensions of X_train_sampled
+print(f'X_train_sampled dimensions are: {X_train_sampled.shape}')
+
+# print dimensions of X_train_scaled
+print(f'X_train_scaled dimensions are: {X_train_scaled.shape}')
+
+# Output X_train_scaled to a csv file
+np.savetxt('Bigger-X_train_scaled.csv', X_train_scaled, delimiter=',')
+
 # X_test_scaled = scaler.transform(X_test_reshaped)
 
 X1_scaled = scaler.transform(X1_reshaped)
@@ -384,6 +410,6 @@ for i, X_test in enumerate(X_test_arrays):
     directional_accuracy = calculate_directional_accuracy(current_y_test, predictions)
 
     # Print evaluation metrics
-    print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error:.2f}, MAE: {mae_error:.2f}, DA: {directional_accuracy:.2f}%")    
+    print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error:.2f}, MAE: {mae_error:.2f}, DA: {directional_accuracy}%")    
     # Plot predictions for '2023-01-01' minus the test size to '2023-01-01'
-    plot_predictions(current_y_test, predictions, combined_df.index[-len(current_y_test):], ticker=tickers_test_arrays[i][0])
+    # plot_predictions(current_y_test, predictions, combined_df.index[-len(current_y_test):], ticker=tickers_test_arrays[i][0])
