@@ -298,8 +298,8 @@ directional_accuracy = make_scorer(directional_accuracy_scorer, greater_is_bette
 
 def perform_bayesian_optimization(X_train, y_train):
     # Define the search space for C and gamma
-    search_spaces = {'C': Real(1e-6, 1e+6, prior='log-uniform'),
-                     'gamma': Real(1e-6, 1e+1, prior='log-uniform')}
+    search_spaces = {'C': Real(1e+4, 3e+6, prior='log-uniform'),
+                     'gamma': Real(1e-7, 1e-4, prior='log-uniform')}
     
     # Initialize the model
     svr = SVR(kernel='rbf')
@@ -328,9 +328,9 @@ def perform_bayesian_optimization(X_train, y_train):
     # Return the best parameters
     return bayes_search.best_params_
 
-# Test usage:
+# Test usage:#############################################################################
 # Parameters specified by Bayesian optimization round 2 with 1000 samples
-C_param = 1000000.0
+C_param = 200000.0
 gamma_param = 2.9788804908841073e-05
 
 # Parameters specified by Bayesian optimization round 1 with 500 samples
@@ -340,7 +340,7 @@ gamma_param = 2.9788804908841073e-05
 # Parameters specified by grid search
 # C_param = 59948.425031894085
 # gamma_param = 0.001
-num_samples = 1000  # Number of random samples for training
+num_samples = 5000  # Number of random samples for training
 
 # Download and preprocess data from all tickers
 combined_df = download_and_preprocess_data(extended_tickers, '2012-01-01', '2023-01-01')
@@ -383,10 +383,10 @@ np.savetxt('Bigger-X_train_scaled.csv', X_train_scaled, delimiter=',')
 X1_scaled = scaler.transform(X1_reshaped)
 
 # Assuming X_train_scaled and y_train_sampled are available from the previous steps
-# best_params = perform_bayesian_optimization(X_train_scaled, y_train_sampled)
-# print("Best Parameters:", best_params)
-# C_param = best_params['C']
-# gamma_param = best_params['gamma']
+best_params = perform_bayesian_optimization(X_train_scaled, y_train_sampled)
+print("Best Parameters:", best_params)
+C_param = best_params['C']
+gamma_param = best_params['gamma']
 
 # Train the SVR model with reshaped and scaled training data
 model = train_model(X_train_scaled, y_train_sampled, C=C_param, gamma=gamma_param)
