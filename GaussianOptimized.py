@@ -385,7 +385,6 @@ X1_scaled = standardScaler.transform(X1_reshaped)
 # Assuming X_train_scaled_standard and y_train_sampled are available from the previous steps
 print("Performing Bayesian Optimization for Standard Scaler")
 best_params_standard = perform_bayesian_optimization(X_train_scaled_standard, y_train_sampled)
-print("Best Parameters:", best_params_standard)
 C_param_standard = best_params_standard['C']
 gamma_param_standard = best_params_standard['gamma']
 
@@ -393,7 +392,6 @@ gamma_param_standard = best_params_standard['gamma']
 # Assuming X_train_scaled_minmax and y_train_sampled are available from the previous steps
 print("Performing Bayesian Optimization for MinMax Scaler")
 best_params_minmax = perform_bayesian_optimization(X_train_scaled_minmax, y_train_sampled)
-print("Best Parameters:", best_params_minmax)
 C_param_minmax = best_params_minmax['C']
 gamma_param_minmax = best_params_minmax['gamma']
 
@@ -401,10 +399,12 @@ gamma_param_minmax = best_params_minmax['gamma']
 # Assuming X_train_scaled_robust and y_train_sampled are available from the previous steps
 print("Performing Bayesian Optimization for Robust Scaler")
 best_params_robust = perform_bayesian_optimization(X_train_scaled_robust, y_train_sampled)
-print("Best Parameters:", best_params_robust)
 C_param_robust = best_params_robust['C']
 gamma_param_robust = best_params_robust['gamma']
 
+print("Best Parameters:", best_params_standard)
+print("Best Parameters:", best_params_minmax)
+print("Best Parameters:", best_params_robust)
 
 # Train the SVR models with reshaped and scaled training data
 standardModel = train_model(X_train_scaled_standard, y_train_sampled, C=C_param_standard, gamma=gamma_param_standard)
