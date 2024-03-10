@@ -16,89 +16,83 @@ import ta
 # TYLER IS seggsy and smort
 
 extended_tickers = [
-    "INTC",  # Intel Corporation
-    "QCOM",  # Qualcomm Incorporated
-    "AVGO",  # Broadcom Inc.
-    "NVDA",  # NVIDIA Corporation
-    "AMD",   # Advanced Micro Devices, Inc.
-    "MU",    # Micron Technology, Inc.
-    "TXN",   # Texas Instruments Incorporated
-    "AMAT",  # Applied Materials, Inc.
-    "ASML",  # ASML Holding N.V.
-    "LRCX",  # Lam Research Corporation
-    "SONY",  # Sony Group Corporation
-    "GLW",   # Corning Incorporated
-    "TSM",   # Taiwan Semiconductor Manufacturing Company
-    "WDC",   # Western Digital Corporation
-    "STX",   # Seagate Technology Holdings plc
-    "KEYS",  # Keysight Technologies
-    "KLAC",  # KLA Corporation
-    "GOOG",  # Alphabet Inc. (Google)
-    "MSFT",  # Microsoft Corporation
-    "META",  # Meta Platforms, Inc. (formerly Facebook)
-    "DELL",  # Dell Technologies Inc.
-    "HPQ",   # HP Inc.
-    "ADBE",  # Adobe Inc.
-    "CRM",   # Salesforce
-    "ORCL",  # Oracle Corporation
-    "IBM",   # International Business Machines Corporation
-    "CSCO",  # Cisco Systems, Inc.
-    "SAP",   # SAP SE
-    "INTU",  # Intuit Inc.
-    "SQ",    # Block, Inc. (formerly Square, Inc.)
-    "SHOP",  # Shopify Inc.
-    "SNAP",  # Snap Inc.
-    "TSLA",  # Tesla, Inc.
-    "PYPL",  # PayPal Holdings, Inc.
-    "ADSK",  # Autodesk, Inc.
-    "ANSS",  # ANSYS, Inc.
-    "CTSH",  # Cognizant Technology Solutions Corporation
-    "INFY",  # Infosys Limited
-    "ERIC",  # Telefonaktiebolaget LM Ericsson (publ)
-    "NOK",   # Nokia Corporation
-    "V",     # Visa Inc.
-    "MA",    # Mastercard Incorporated
-    "AMZN",  # Amazon.com, Inc.
-    "ZM",    # Zoom Video Communications, Inc.
-    "UBER",  # Uber Technologies, Inc.
-    "LYFT",  # Lyft, Inc.
-    # Additional 40 similar American tech stocks
-    "EA",    # Electronic Arts Inc.
-    "TTWO",  # Take-Two Interactive Software, Inc.
-    "NTDOY", # Nintendo Co., Ltd.
-    "ROKU",  # Roku, Inc.
-    "NFLX",  # Netflix, Inc.
-    "DIS",   # The Walt Disney Company
+    "INSG",  # Inseego Corp
+    "APPS",  # Digital Turbine, Inc.
+    "PLUG",  # Plug Power Inc
+    "EXTR",  # Extreme Networks, Inc.
+    "CRNC",  # Cerence Inc
+    "RMBS",  # Rambus Inc.
+    # "SWIR",  # Sierra Wireless, Inc. delisted
+    "ATEN",  # A10 Networks, Inc.
+    # "NPTN",  # NeoPhotonics Corporation delisted
+    "LSCC",  # Lattice Semiconductor Corporation
+    "AMBA",  # Ambarella, Inc.
+    "ITRI",  # Itron, Inc.
+    "FORM",  # FormFactor, Inc.
+    "COHU",  # Cohu, Inc.
+    "SYNA",  # Synaptics Incorporated
+    "LASR",  # nLIGHT, Inc.
+    "LITE",  # Lumentum Holdings Inc.
+    # "IIVI",  # II-VI Incorporated delisted
+    # "QUOT",  # Quotient Technology Inc. delisted
+    "SLAB",  # Silicon Laboratories Inc.
+    "RPD",   # Rapid7, Inc.
+    # "MIME",  # Mimecast Limited delisted
+    "BOX",   # Box, Inc.
+    "EVBG",  # Everbridge, Inc.
+    "PD",    # PagerDuty, Inc.
+    "SMAR",  # Smartsheet Inc.
     "TWLO",  # Twilio Inc.
+    "NTNX",  # Nutanix, Inc.
+    "PSTG",  # Pure Storage, Inc. 
+    # "PFPT",  # Proofpoint, Inc. delisted
+    "ESTC",  # Elastic N.V.
+    "NET",   # Cloudflare, Inc.
+    "CRWD",  # CrowdStrike Holdings, Inc.
     "OKTA",  # Okta, Inc.
-    "DDOG",  # Datadog, Inc.
     "ZS",    # Zscaler, Inc.
-    "PANW",  # Palo Alto Networks, Inc.
+    # "SUMO",  # Sumo Logic, Inc. delisted
+    # "SAIL",  # SailPoint Technologies Holdings, Inc.
+    "VRNS",  # Varonis Systems, Inc.
+    "TENB",  # Tenable Holdings, Inc.
+    "CASA",  # Casa Systems, Inc.
+    "CALX",  # Calix, Inc.
+    "COMM",  # CommScope Holding Company, Inc.
+    "CIEN",  # Ciena Corporation
+    "ADTN",  # ADTRAN, Inc.
+    "AKAM",  # Akamai Technologies, Inc.
+    "ALLT",  # Allot Communications Ltd.
+    "ANET",  # Arista Networks, Inc.
+    "FFIV",  # F5 Networks, Inc.
+    "JNPR",  # Juniper Networks, Inc.
+    "NTGR",  # Netgear, Inc.
+    "NTCT",  # NETSCOUT Systems, Inc.
+    "RDWR",  # Radware Ltd.
+    # "RVBD",  # Riverbed Technology, Inc. delisted
+    "SWI",   # SolarWinds Corporation
+    # "SONS",  # Sonus Networks, Inc. delisted
+    "SPT",   # Spirent Communications plc
+    "VIAV",  # Viavi Solutions Inc.
+    # "WGRD",  # WatchGuard Technologies, Inc.
+    # "ZYXEL", # Zyxel Communications Corp.
     "FTNT",  # Fortinet, Inc.
+    "PANW",  # Palo Alto Networks, Inc.
     "CHKP",  # Check Point Software Technologies Ltd.
-    "SPLK",  # Splunk Inc.
-    "WDAY",  # Workday, Inc.
-    "NOW",   # ServiceNow, Inc.
-    # "CTXS",  # Citrix Systems, Inc.
-    # "DOCU",  # DocuSign, Inc.
-    # "CRWD",  # CrowdStrike Holdings, Inc.
-    # "OKTA",  # Okta, Inc.
-    # "FSLY",  # Fastly, Inc.
-    # "NET",   # Cloudflare, Inc.
-    # "SNOW",  # Snowflake Inc.
-    # "MDB",   # MongoDB, Inc.
-    # "PLTR",  # Palantir Technologies Inc.
-    # "GME",   # GameStop Corp.
-    # "SPOT",  # Spotify Technology S.A.
-    # "SQ",    # Square, Inc. (renamed to Block, Inc., included twice for emphasis)
-    # "TEAM",  # Atlassian Corporation Plc
-    # "COUP",  # Coupa Software Incorporated
-    # "VEEV",  # Veeva Systems Inc.
-    # "AYX",   # Alteryx, Inc.
-    # "SMAR",  # Smartsheet Inc.
-    # "WORK",  # Slack Technologies, Inc. (Note: Acquired by Salesforce)
-    # "ZM",    # Zoom Video Communications, Inc. (included twice for emphasis)
-    # "BOX",   # Box, Inc.
+    "CYBR",  # CyberArk Software Ltd.
+    # "FEYE",  # FireEye, Inc.
+    "CUDA",  # Barracuda Networks, Inc.
+    "SOPH",  # Sophos Group plc
+    # "KASP",  # Kaspersky Lab delisted
+    # "TMIC",  # Trend Micro Incorporated
+    # "MCFE",  # McAfee Corp.
+    # "CBLK",  # Carbon Black, Inc.
+    "CYL",   # Cylance Inc.
+    # "S",     # SentinelOne, Inc.
+    # "BITD",  # Bitdefender
+    # "ESET",  # ESET, spol. s r.o.
+    # "FSC1V", # F-Secure Corporation
+    # "MBAM",  # Malwarebytes Inc.
+    # "PANDA", # Panda Security, S.L.
 ]
 test_ticker = ['AAPL']
 
@@ -112,6 +106,7 @@ def download_and_preprocess_data(tickers, start_date, end_date):
         all_data.append(df)
     combined_df = pd.concat(all_data)
     return combined_df
+
 def add_technical_indicators(df):
     """
     Adjusts technical indicators to be more illuminating for day trading,
@@ -340,12 +335,12 @@ gamma_param = 2.9788804908841073e-05
 # Parameters specified by grid search
 # C_param = 59948.425031894085
 # gamma_param = 0.001
-num_samples = 5000  # Number of random samples for training
+num_samples = 500  # Number of random samples for training
 
 # Download and preprocess data from all tickers
-combined_df = download_and_preprocess_data(extended_tickers, '2012-01-01', '2023-01-01')
+combined_df = download_and_preprocess_data(extended_tickers, '2015-01-01', '2023-01-01')
 
-test_df = download_and_preprocess_data(test_ticker, '2012-01-01', '2023-12-31')
+test_df = download_and_preprocess_data(test_ticker, '2008-01-01', '2018-12-31')
 
 # Prepare sequenced features and labels
 X, y, tickers = prepare_features_sequences(combined_df, sequence_length=5)
@@ -366,50 +361,89 @@ X_train_reshaped = X_train_sampled.reshape((nsamples, nx*ny))
 X1_reshaped = X1.reshape((X1.shape[0], nx*ny))
 
 # Scale features after reshaping
-scaler = StandardScaler()
-X_train_scaled = scaler.fit_transform(X_train_reshaped)
+standardScaler = StandardScaler()
+minMaxScaler = MinMaxScaler()
+robustScaler = RobustScaler()
+
+X_train_scaled_standard = standardScaler.fit_transform(X_train_reshaped)
+X_train_scaled_minmax = minMaxScaler.fit_transform(X_train_reshaped)
+X_train_scaled_robust = robustScaler.fit_transform(X_train_reshaped)
 
 # print the dimensions of X_train_sampled
 print(f'X_train_sampled dimensions are: {X_train_sampled.shape}')
 
 # print dimensions of X_train_scaled
-print(f'X_train_scaled dimensions are: {X_train_scaled.shape}')
+print(f'X_train_scaled_standard dimensions are: {X_train_scaled_standard.shape}')
 
 # Output X_train_scaled to a csv file
-np.savetxt('Bigger-X_train_scaled.csv', X_train_scaled, delimiter=',')
+# np.savetxt('Bigger-X_train_scaled.csv', X_train_scaled, delimiter=',')
 
 # X_test_scaled = scaler.transform(X_test_reshaped)
 
-X1_scaled = scaler.transform(X1_reshaped)
+X1_scaled = standardScaler.transform(X1_reshaped)
 
-# Assuming X_train_scaled and y_train_sampled are available from the previous steps
-best_params = perform_bayesian_optimization(X_train_scaled, y_train_sampled)
-print("Best Parameters:", best_params)
-C_param = best_params['C']
-gamma_param = best_params['gamma']
+# Assuming X_train_scaled_standard and y_train_sampled are available from the previous steps
+print("Performing Bayesian Optimization for Standard Scaler")
+best_params_standard = perform_bayesian_optimization(X_train_scaled_standard, y_train_sampled)
+print("Best Parameters:", best_params_standard)
+C_param_standard = best_params_standard['C']
+gamma_param_standard = best_params_standard['gamma']
 
-# Train the SVR model with reshaped and scaled training data
-model = train_model(X_train_scaled, y_train_sampled, C=C_param, gamma=gamma_param)
-# Iterate through each ticker's data in the test set
+
+# Assuming X_train_scaled_minmax and y_train_sampled are available from the previous steps
+print("Performing Bayesian Optimization for MinMax Scaler")
+best_params_minmax = perform_bayesian_optimization(X_train_scaled_minmax, y_train_sampled)
+print("Best Parameters:", best_params_minmax)
+C_param_minmax = best_params_minmax['C']
+gamma_param_minmax = best_params_minmax['gamma']
+
+
+# Assuming X_train_scaled_robust and y_train_sampled are available from the previous steps
+print("Performing Bayesian Optimization for Robust Scaler")
+best_params_robust = perform_bayesian_optimization(X_train_scaled_robust, y_train_sampled)
+print("Best Parameters:", best_params_robust)
+C_param_robust = best_params_robust['C']
+gamma_param_robust = best_params_robust['gamma']
+
+
+# Train the SVR models with reshaped and scaled training data
+standardModel = train_model(X_train_scaled_standard, y_train_sampled, C=C_param_standard, gamma=gamma_param_standard)
+minMaxModel = train_model(X_train_scaled_minmax, y_train_sampled, C=C_param_minmax, gamma=gamma_param_minmax)
+robustModel = train_model(X_train_scaled_robust, y_train_sampled, C=C_param_robust, gamma=gamma_param_robust)
 
 # Iterate through each ticker's data in the test sets
 for i, X_test in enumerate(X_test_arrays):
     # Reshape each ticker's test data and scale it using the same scaler
     X_test_reshaped = X_test.reshape((X_test.shape[0], nx*ny))
-    X_test_scaled = scaler.transform(X_test_reshaped)  # Assuming scaler is already fitted to the training data
+    X_test_scaled_standard = standardScaler.transform(X_test_reshaped)  # Assuming scaler is already fitted to the training data
+    X_test_scaled_minmax = minMaxScaler.transform(X_test_reshaped)
+    X_test_scaled_robust = robustScaler.transform(X_test_reshaped)
     
     # Make predictions for the current ticker's data
-    predictions = model.predict(X_test_scaled)
+    predictions_standard = standardModel.predict(X_test_scaled_standard)
+    predictions_minmax = minMaxModel.predict(X_test_scaled_minmax)
+    predictions_robust = robustModel.predict(X_test_scaled_robust)
     
     # Get the corresponding y_test data for the current ticker
     current_y_test = y_test_arrays[i]
     
     # Calculate evaluation metrics for the current ticker
-    mse_error = mean_squared_error(current_y_test, predictions)
-    mae_error = mean_absolute_error(current_y_test, predictions)
-    directional_accuracy = calculate_directional_accuracy(current_y_test, predictions)
+    mse_error_standard = mean_squared_error(current_y_test, predictions_standard)
+    mae_error_standard = mean_absolute_error(current_y_test, predictions_standard)
+    directional_accuracy_standard = calculate_directional_accuracy(current_y_test, predictions_standard)
+
+    mse_error_minmax = mean_squared_error(current_y_test, predictions_minmax)
+    mae_error_minmax = mean_absolute_error(current_y_test, predictions_minmax)
+    directional_accuracy_minmax = calculate_directional_accuracy(current_y_test, predictions_minmax)
+
+    mse_error_robust = mean_squared_error(current_y_test, predictions_robust)
+    mae_error_robust = mean_absolute_error(current_y_test, predictions_robust)
+    directional_accuracy_robust = calculate_directional_accuracy(current_y_test, predictions_robust)
 
     # Print evaluation metrics
-    print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error:.2f}, MAE: {mae_error:.2f}, DA: {directional_accuracy}%")    
+    print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error_standard:.2f}, MAE: {mae_error_standard:.2f}, DA: {directional_accuracy_standard}% -- Standard Scaler")  
+    print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error_minmax:.2f}, MAE: {mae_error_minmax:.2f}, DA: {directional_accuracy_minmax}% -- MinMax Scaler")
+    print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error_robust:.2f}, MAE: {mae_error_robust:.2f}, DA: {directional_accuracy_robust}% -- Robust Scaler")
+
     # Plot predictions for '2023-01-01' minus the test size to '2023-01-01'
     # plot_predictions(current_y_test, predictions, combined_df.index[-len(current_y_test):], ticker=tickers_test_arrays[i][0])
