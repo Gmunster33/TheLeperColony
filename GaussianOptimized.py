@@ -162,11 +162,22 @@ def preprocess_data(df):
     return df
 
 def prepare_features_sequences(df, sequence_length=5):
+    """
+    Prepares sequences of features for time series prediction, including the delta in closing price.
+    
+    :param df: DataFrame containing stock data with technical indicators.
+    :param sequence_length: Length of the feature sequences.
+    :return: Sequences of features, labels (delta in closing price), and corresponding tickers.
+    """
+    # Calculate the delta in closing price from one day to the next
+    df['Close_delta'] = df.groupby('Ticker')['Close'].diff().fillna(0)
+
+    # Extend feature_columns to include 'Close_delta'
     feature_columns = [
         'Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume', 
         'bb_bbm', 'bb_bbh', 'bb_bbl', 'macd', 'rsi', 
         'apo', 'cci', 'ad', 'adx', 'stoch', 'obv', 'aroon_up',
-        'aroon_down', 'vwap' # Include new indicators here
+        'aroon_down', 'vwap', 'Close_delta'  # Include 'Close_delta'
     ]    
     sequences = []
     labels = []
@@ -179,12 +190,19 @@ def prepare_features_sequences(df, sequence_length=5):
 
         for i in range(len(data) - sequence_length):
             sequence = data[i:i+sequence_length]
-            label = group['Close'].iloc[i+sequence_length]
+            # Calculate the label as the delta in closing price from the last day in the sequence to the next day
+            label = group['Close'].iloc[i+sequence_length] - group['Close'].iloc[i+sequence_length-1]
             sequences.append(sequence)
             labels.append(label)
             tickers.append(ticker)  # Add the ticker for the current sequence
     
     return np.array(sequences), np.array(labels), np.array(tickers)
+
+# This refactored function will now correctly prepare feature sequences including the day-to-day price change as a feature,
+# and the labels will represent the change in closing price from the last day in the input sequence to the next day.
+# This modification requires the initial data preprocessing to be done as before, ensuring all necessary columns are present.
+# The rest of the code that handles training and evaluating the model can remain largely the same,
+# with the understanding that the target variable has now changed to predicting price changes rather than absolute prices.
 
 
 def draw_random_samples(X, y, num_samples, tickers):
@@ -271,12 +289,15 @@ def calculate_directional_accuracy(y_test, predictions):
     """
     Calculates the directional accuracy of predictions against actual next day prices.
     
-    y_test: Actual next day prices.
-    predictions: Predicted prices, aligned with y_test indices.
+    y_test: actual next day price changes
+    predictions: predicted price changes
     """
     # Ensure predictions are aligned with y_test for direct comparison
-    actual_direction = np.sign(y_test[1:] - y_test[:-1])
-    predicted_direction = np.sign(predictions[1:] - y_test[:-1])
+    actual_direction = np.sign(y_test[1:] - y_test[:-1]) # (tomorrow's returns - today's returns) = direction of actual change in returns
+    predicted_direction = np.sign(predictions[1:] - y_test[:-1]) # (predicted_tomorrow's returns - today's returns) = direction of predicted change in returns
+
+    # actual_direction = np.sign(y_test[:])
+    # predicted_direction = np.sign(predictions[:])
     
     accuracy = np.mean(actual_direction == predicted_direction)
     return accuracy
@@ -323,11 +344,43 @@ def perform_bayesian_optimization(X_train, y_train):
     # Return the best parameters
     return bayes_search.best_params_
 
-# Test usage:#############################################################################
-# Parameters specified by Bayesian optimization round 2 with 1000 samples
-C_param = 200000.0
-gamma_param = 2.9788804908841073e-05
+def scale_test_sequences(X_train, X_test_sequences):
+    """
+    Scales test sequences sequentially.
+    
+    X_train: Training data, used to initialize the scaler.
+    X_test_sequences: Test sequences, each sequence is scaled based on past information.
+    """
+    scaler = StandardScaler().fit(X_train.reshape(-1, X_train.shape[-1]))
+    
+    X_test_scaled_sequences = []
+    for sequence in X_test_sequences:
+        # Flatten the sequence to 2D if it's 3D: (sequence_length, num_features)
+        sequence_reshaped = sequence.reshape(-1, sequence.shape[-1])
+        
+        # Scale the sequence
+        sequence_scaled = scaler.transform(sequence_reshaped)
+        
+        # Update scaler with the original sequence data (simulates receiving this sequence in real-time)
+        scaler.partial_fit(sequence_reshaped)
+        
+        # Append the scaled sequence (optionally reshape back to original shape)
+        X_test_scaled_sequences.append(sequence_scaled.reshape(sequence.shape))
+        
+    return np.array(X_test_scaled_sequences)
 
+
+# Test usage:#############################################################################
+
+optimize = False # Set to True to perform Bayesian optimization, False to use pre-optimized parameters
+
+best_params_standard = {'C' : 468222.5644361616, 'gamma' : 1.2981542464559332e-06}
+best_params_minmax = {'C' : 292636.19156268163, 'gamma' : 5.371764360760396e-05}
+best_params_robust = {'C' : 26070.948197887286, 'gamma' : 2.6637677914313985e-06}
+
+# Parameters specified by Bayesian optimization round 2 with 1000 samples
+# C_param = 200000.0
+# gamma_param = 2.9788804908841073e-05
 # Parameters specified by Bayesian optimization round 1 with 500 samples
 # C_param = 840.5406521370916
 # gamma_param = 2.747707867669414e-05
@@ -335,7 +388,8 @@ gamma_param = 2.9788804908841073e-05
 # Parameters specified by grid search
 # C_param = 59948.425031894085
 # gamma_param = 0.001
-num_samples = 2000  # Number of random samples for training
+
+num_samples = 1000  # Number of random samples for training
 
 # Download and preprocess data from all tickers
 combined_df = download_and_preprocess_data(extended_tickers, '2015-01-01', '2023-01-01')
@@ -382,29 +436,34 @@ print(f'X_train_scaled_standard dimensions are: {X_train_scaled_standard.shape}'
 
 X1_scaled = standardScaler.transform(X1_reshaped)
 
-# Assuming X_train_scaled_standard and y_train_sampled are available from the previous steps
-print("Performing Bayesian Optimization for Standard Scaler")
-best_params_standard = perform_bayesian_optimization(X_train_scaled_standard, y_train_sampled)
+# Assuming X_train_scaled_minmax and y_train_sampled are available from the previous steps
+
+if optimize: # Perform Bayesian optimization and overwrite the best parameters for each scaler hard-coded above
+    print("Performing Bayesian Optimization for Standard Scaler")
+    best_params_standard = perform_bayesian_optimization(X_train_scaled_standard, y_train_sampled)
+    print("Best Standard Parameters:", best_params_standard)
+
+    print("Performing Bayesian Optimization for MinMax Scaler")
+    best_params_minmax = perform_bayesian_optimization(X_train_scaled_minmax, y_train_sampled)
+    print("Best MinMax Parameters:", best_params_minmax)
+    
+    print("Performing Bayesian Optimization for Robust Scaler")
+    best_params_robust = perform_bayesian_optimization(X_train_scaled_robust, y_train_sampled)
+    print("Best Robust Parameters:", best_params_robust)
+
+
 C_param_standard = best_params_standard['C']
 gamma_param_standard = best_params_standard['gamma']
 
-
-# Assuming X_train_scaled_minmax and y_train_sampled are available from the previous steps
-print("Performing Bayesian Optimization for MinMax Scaler")
-best_params_minmax = perform_bayesian_optimization(X_train_scaled_minmax, y_train_sampled)
 C_param_minmax = best_params_minmax['C']
 gamma_param_minmax = best_params_minmax['gamma']
 
-
-# Assuming X_train_scaled_robust and y_train_sampled are available from the previous steps
-print("Performing Bayesian Optimization for Robust Scaler")
-best_params_robust = perform_bayesian_optimization(X_train_scaled_robust, y_train_sampled)
 C_param_robust = best_params_robust['C']
 gamma_param_robust = best_params_robust['gamma']
 
-print("Best Parameters:", best_params_standard)
-print("Best Parameters:", best_params_minmax)
-print("Best Parameters:", best_params_robust)
+print("Using Standard Parameters:", best_params_standard)
+print("Using MinMax Parameters:", best_params_minmax)
+print("Using Robust Parameters:", best_params_robust)
 
 # Train the SVR models with reshaped and scaled training data
 standardModel = train_model(X_train_scaled_standard, y_train_sampled, C=C_param_standard, gamma=gamma_param_standard)
@@ -415,7 +474,7 @@ robustModel = train_model(X_train_scaled_robust, y_train_sampled, C=C_param_robu
 for i, X_test in enumerate(X_test_arrays):
     # Reshape each ticker's test data and scale it using the same scaler
     X_test_reshaped = X_test.reshape((X_test.shape[0], nx*ny))
-    X_test_scaled_standard = standardScaler.transform(X_test_reshaped)  # Assuming scaler is already fitted to the training data
+    X_test_scaled_standard = scale_test_sequences(X_train_reshaped, X_test_reshaped)  # DATA LEAKAGE
     X_test_scaled_minmax = minMaxScaler.transform(X_test_reshaped)
     X_test_scaled_robust = robustScaler.transform(X_test_reshaped)
     
@@ -445,5 +504,5 @@ for i, X_test in enumerate(X_test_arrays):
     print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error_minmax:.2f}, MAE: {mae_error_minmax:.2f}, DA: {directional_accuracy_minmax}% -- MinMax Scaler")
     print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error_robust:.2f}, MAE: {mae_error_robust:.2f}, DA: {directional_accuracy_robust}% -- Robust Scaler")
 
-    # Plot predictions for '2023-01-01' minus the test size to '2023-01-01'
-    # plot_predictions(current_y_test, predictions, combined_df.index[-len(current_y_test):], ticker=tickers_test_arrays[i][0])
+    # Plot predictions for the current ticker with the standard scaler
+    plot_predictions(current_y_test, predictions_standard, test_df.index[-len(current_y_test):], ticker=tickers_test_arrays[i][0])

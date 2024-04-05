@@ -1,0 +1,1874 @@
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded INSG data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded APPS data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded PLUG data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded EXTR data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded CRNC data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded RMBS data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded ATEN data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded LSCC data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded AMBA data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded ITRI data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded FORM data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded COHU data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded SYNA data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded LASR data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded LITE data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded SLAB data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded RPD data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded BOX data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded EVBG data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded PD data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded SMAR data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded TWLO data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded NTNX data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded PSTG data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded ESTC data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded NET data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded CRWD data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded OKTA data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded ZS data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded VRNS data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded TENB data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded CASA data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded CALX data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded COMM data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded CIEN data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded ADTN data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded AKAM data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded ALLT data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded ANET data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded FFIV data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded JNPR data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded NTGR data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded NTCT data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded RDWR data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded SWI data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded SPT data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded VIAV data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded FTNT data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded PANW data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded CHKP data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded CYBR data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded CUDA data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded SOPH data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed
+Downloaded CYL data from 2015-01-01 to 2023-01-01
+
+[*********************100%%**********************]  1 of 1 completed[CV 3/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.991, test=0.990) total time=   5.4s
+[CV 2/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.991, test=0.990) total time=   4.6s
+[CV 15/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.990, test=0.990) total time=   2.9s
+[CV 4/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 9/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.991, test=0.985) total time=   0.0s
+[CV 5/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.989, test=0.980) total time=   0.5s
+[CV 12/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.995, test=0.980) total time=   0.4s
+[CV 6/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 11/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.989, test=0.990) total time=   0.0s
+[CV 3/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.994, test=0.980) total time=10.0min
+[CV 4/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.986, test=1.000) total time=   4.6s
+[CV 15/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.992, test=0.995) total time=   1.4s
+[CV 6/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.989, test=0.995) total time=   4.9s
+[CV 1/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.994, test=0.985) total time=   0.0s
+[CV 12/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.992, test=0.980) total time=   0.0s
+[CV 4/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.987, test=1.000) total time=   0.4s
+[CV 9/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.994, test=0.985) total time=   0.4s
+[CV 2/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 10/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.990, test=1.000) total time=   0.0s
+[CV 2/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.990, test=0.980) total time=11.7min
+[CV 6/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.986, test=0.995) total time=   3.6s
+[CV 12/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.991, test=0.980) total time=   3.0s
+[CV 7/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.992, test=0.995) total time=   3.5s
+[CV 9/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.991, test=0.975) total time=   3.2s
+[CV 2/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.987, test=0.990) total time=   0.1s
+[CV 14/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 2/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.990, test=0.990) total time=   0.4s
+[CV 10/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.994, test=0.995) total time=   0.5s
+[CV 4/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 9/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.992, test=0.985) total time=   0.0s
+[CV 1/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.989, test=0.980) total time= 6.1min
+[CV 10/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.990) total time= 6.4min
+[CV 8/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.986, test=0.980) total time= 3.2min
+[CV 3/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.992, test=0.990) total time=   0.9s
+[CV 11/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.991, test=0.990) total time=   0.6s
+[CV 3/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.995, test=0.990) total time=   0.6s
+[CV 10/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.992, test=1.000) total time=   0.8s
+[CV 5/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.985, test=0.980) total time=   0.2s
+[CV 12/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.994, test=0.980) total time=   0.2s
+[CV 4/15] END C=3000000.0, gamma=1e-07;, score=(train=0.987, test=1.000) total time=   0.3s
+[CV 11/15] END C=3000000.0, gamma=1e-07;, score=(train=0.987, test=0.985) total time=   0.2s
+[CV 3/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.987, test=0.975) total time=   0.0s
+[CV 11/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.984, test=0.990) total time=   0.0s
+[CV 3/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.994, test=0.990) total time=  13.7s
+[CV 10/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.994, test=0.995) total time=  15.3s
+[CV 5/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.989, test=0.985) total time=   0.9s
+[CV 9/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.992, test=0.985) total time=   1.5s
+[CV 2/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 11/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.989, test=0.990) total time=   0.0s
+[CV 2/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.984, test=0.985) total time=   0.0s
+[CV 12/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.987, test=0.985) total time=   0.0s
+[CV 3/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.987, test=0.990) total time=   2.2s
+[CV 10/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.986, test=0.995) total time=   4.1s
+[CV 6/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 11/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.989, test=0.990) total time=   0.1s
+[CV 5/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.984, test=0.965) total time=29.7min
+[CV 11/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.989, test=0.985) total time=20.3min
+[CV 7/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.991, test=0.995) total time=   2.3s
+[CV 9/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.992, test=0.985) total time=   2.9s
+[CV 3/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.994, test=0.990) total time=   3.5s
+[CV 10/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.992, test=0.995) total time=   4.1s
+[CV 5/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.985, test=0.980) total time=   0.0s
+[CV 10/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.991, test=1.000) total time=   0.0s
+[CV 1/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.991, test=0.985) total time=   0.4s
+[CV 11/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.990, test=0.990) total time=   0.4s
+[CV 3/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.990, test=0.980) total time=   0.0s
+[CV 14/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.987, test=0.995) total time=   0.0s
+[CV 4/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.994, test=0.990) total time= 6.4min
+[CV 11/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.992, test=0.990) total time= 8.6min
+[CV 1/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=0.980) total time= 2.1min
+[CV 12/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.987, test=0.975) total time= 1.6min
+[CV 7/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.990, test=0.995) total time=   0.7s
+[CV 9/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.992, test=0.985) total time=   0.6s
+[CV 2/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.991, test=0.990) total time=   0.6s
+[CV 9/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.994, test=0.985) total time=   0.7s
+[CV 3/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.987, test=0.990) total time=   0.1s
+[CV 10/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.990, test=1.000) total time=   0.2s
+[CV 7/15] END C=3000000.0, gamma=1e-07;, score=(train=0.986, test=0.995) total time=   0.3s
+[CV 1/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.986, test=0.990) total time=   0.1s
+[CV 7/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.994, test=0.995) total time=  14.9s
+[CV 13/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.991, test=0.995) total time=  12.6s
+[CV 4/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.986, test=1.000) total time=   1.6s
+[CV 1/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 6/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.982, test=0.995) total time=   0.1s
+[CV 7/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.989, test=0.995) total time=   2.9s
+[CV 12/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.987, test=0.985) total time=   2.7s
+[CV 4/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.986, test=1.000) total time=   0.1s
+[CV 12/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.991, test=0.980) total time=   0.1s
+[CV 4/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.991, test=0.985) total time=22.2min
+[CV 9/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.984, test=0.965) total time=27.8min
+[CV 1/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.992, test=0.985) total time=   2.6s
+[CV 11/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.987, test=0.990) total time=   2.2s
+[CV 1/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.991, test=0.990) total time=   4.6s
+[CV 14/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.989, test=0.995) total time=   2.8s
+[CV 3/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.989, test=0.985) total time=   0.0s
+[CV 13/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 6/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.987, test=0.995) total time=   0.5s
+[CV 13/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.990, test=0.990) total time=   0.5s
+[CV 8/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.985, test=0.975) total time=   0.0s
+[CV 15/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.985, test=0.995) total time=   0.0s
+[CV 5/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.985, test=0.980) total time= 8.7min
+[CV 12/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.994, test=0.965) total time= 6.8min
+[CV 2/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=0.985) total time= 3.5min
+[CV 5/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.986, test=0.980) total time=   0.8s
+[CV 10/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.992, test=1.000) total time=   0.9s
+[CV 4/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.990, test=1.000) total time=   0.7s
+[CV 11/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.989, test=0.990) total time=   0.6s
+[CV 2/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.989, test=0.990) total time=   0.1s
+[CV 9/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.992, test=0.985) total time=   0.2s
+[CV 3/15] END C=3000000.0, gamma=1e-07;, score=(train=0.987, test=0.990) total time=   0.2s
+[CV 9/15] END C=3000000.0, gamma=1e-07;, score=(train=0.989, test=0.980) total time=   0.5s
+[CV 6/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 14/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.989, test=0.990) total time=   0.0s
+[CV 4/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.989, test=0.995) total time=  14.1s
+[CV 11/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.989, test=0.990) total time=  12.3s
+[CV 2/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.986, test=0.990) total time=   1.0s
+[CV 10/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.990, test=1.000) total time=   1.6s
+[CV 3/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.989, test=0.985) total time=   0.0s
+[CV 12/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.994, test=0.980) total time=   0.1s
+[CV 4/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.982, test=1.000) total time=   0.0s
+[CV 14/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.990, test=0.990) total time=   0.0s
+[CV 2/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.984, test=0.990) total time=   4.1s
+[CV 15/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.986, test=0.990) total time=   2.7s
+[CV 8/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.985, test=0.980) total time=   0.1s
+[CV 14/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 6/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.986, test=0.990) total time=50.8min
+[CV 5/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.987, test=0.980) total time=   2.5s
+[CV 10/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.991, test=0.995) total time=   3.0s
+[CV 4/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.990, test=1.000) total time=   4.5s
+[CV 13/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.990, test=0.995) total time=   3.7s
+[CV 8/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.985, test=0.975) total time=   0.1s
+[CV 15/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.985, test=0.995) total time=   0.0s
+[CV 7/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.992, test=0.995) total time=   0.5s
+[CV 15/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.992, test=1.000) total time=   0.4s
+[CV 5/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.985, test=0.980) total time=   0.0s
+[CV 13/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 7/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.995, test=1.000) total time= 9.9min
+[CV 15/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.994, test=0.990) total time= 9.8min
+[CV 5/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.990, test=0.980) total time= 2.1min
+[CV 11/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=0.990) total time=  50.1s
+[CV 1/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.991, test=0.985) total time=   1.0s
+[CV 14/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.990, test=1.000) total time=   1.0s
+[CV 7/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.991, test=0.995) total time=   0.7s
+[CV 13/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.989, test=0.990) total time=   0.8s
+[CV 7/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 11/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.990, test=0.990) total time=   0.2s
+[CV 2/15] END C=3000000.0, gamma=1e-07;, score=(train=0.982, test=0.975) total time=   0.4s
+[CV 12/15] END C=3000000.0, gamma=1e-07;, score=(train=0.989, test=0.975) total time=   0.3s
+[CV 5/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.979, test=0.985) total time=   0.0s
+[CV 12/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.989, test=0.980) total time=   0.0s
+[CV 1/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.990, test=0.990) total time=  15.7s
+[CV 14/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.991, test=1.000) total time=  13.6s
+[CV 7/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.991, test=0.995) total time=   1.5s
+[CV 12/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.994, test=0.985) total time=   1.5s
+[CV 6/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 10/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.990, test=1.000) total time=   0.0s
+[CV 5/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.982, test=0.985) total time=   0.0s
+[CV 9/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.989, test=0.975) total time=   0.0s
+[CV 4/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.987, test=1.000) total time=   2.5s
+[CV 11/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.989, test=0.990) total time=   2.3s
+[CV 3/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.989, test=0.990) total time=   0.2s
+[CV 8/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.982, test=0.955) total time=24.9min
+[CV 10/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.994, test=0.970) total time=28.2min
+[CV 2/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.989, test=0.990) total time=   4.2s
+[CV 14/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.990, test=1.000) total time=   2.5s
+[CV 8/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.989, test=0.980) total time=   3.9s
+[CV 12/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.994, test=0.975) total time=   3.6s
+[CV 7/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 8/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.986, test=0.980) total time=   0.5s
+[CV 1/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 8/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.995, test=0.980) total time= 4.0min
+[CV 9/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.975) total time= 5.8min
+[CV 14/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.995, test=0.990) total time= 7.9min
+[CV 4/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.987, test=0.990) total time= 1.2min
+[CV 9/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=0.975) total time=  55.0s
+[CV 13/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.990, test=0.995) total time= 1.3min
+[CV 4/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.987, test=1.000) total time=   0.8s
+[CV 15/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.990, test=1.000) total time=   0.9s
+[CV 8/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.987, test=0.980) total time=   0.8s
+[CV 15/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.992, test=0.990) total time=   0.6s
+[CV 8/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.985, test=0.985) total time=   0.2s
+[CV 1/15] END C=3000000.0, gamma=1e-07;, score=(train=0.990, test=0.990) total time=   0.2s
+[CV 10/15] END C=3000000.0, gamma=1e-07;, score=(train=0.989, test=0.985) total time=   0.2s
+[CV 15/15] END C=3000000.0, gamma=1e-07;, score=(train=0.990, test=0.985) total time=   0.1s
+[CV 7/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.984, test=0.990) total time=   0.0s
+[CV 13/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.985, test=1.000) total time=   0.0s
+[CV 5/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.996, test=0.980) total time=  16.7s
+[CV 15/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.992, test=0.995) total time=  12.8s
+[CV 8/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.986, test=0.980) total time=   1.5s
+[CV 11/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.986, test=0.990) total time=   1.2s
+[CV 5/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.985, test=0.980) total time=   0.0s
+[CV 14/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 3/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.989, test=0.975) total time=   0.0s
+[CV 10/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 1/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.989, test=0.980) total time=   2.2s
+[CV 9/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.991, test=0.975) total time=   1.8s
+[CV 1/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.994, test=0.990) total time=   0.1s
+[CV 9/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 1/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.990, test=0.975) total time=41.6min
+[CV 14/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.985, test=0.995) total time=15.2min
+[CV 7/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.981, test=1.000) total time= 1.4min
+[CV 10/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=0.980) total time= 1.7min
+[CV 2/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.989, test=0.990) total time=   1.0s
+[CV 13/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.989, test=1.000) total time=   0.8s
+[CV 6/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.986, test=0.995) total time=   0.7s
+[CV 12/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.995, test=0.980) total time=   0.7s
+[CV 4/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.986, test=1.000) total time=   0.2s
+[CV 13/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.989, test=1.000) total time=   0.1s
+[CV 6/15] END C=3000000.0, gamma=1e-07;, score=(train=0.985, test=0.990) total time=   0.4s
+[CV 13/15] END C=3000000.0, gamma=1e-07;, score=(train=0.987, test=0.995) total time=   0.2s
+[CV 4/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.982, test=1.000) total time=   0.0s
+[CV 10/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.987, test=0.995) total time=   0.0s
+[CV 15/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.979, test=0.995) total time=   0.0s
+[CV 8/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.994, test=0.975) total time=  14.3s
+[CV 12/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.992, test=0.970) total time=  15.0s
+[CV 6/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.987, test=0.995) total time=   1.8s
+[CV 15/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.989, test=0.995) total time=   0.9s
+[CV 4/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 13/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 1/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.990, test=0.990) total time=   0.0s
+[CV 11/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.984, test=0.990) total time=   0.0s
+[CV 15/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.982, test=0.995) total time=   0.0s
+[CV 6/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.987, test=0.990) total time=   3.2s
+[CV 13/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.987, test=0.985) total time=   3.5s
+[CV 7/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.990, test=0.995) total time=   0.1s
+[CV 10/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.990, test=1.000) total time=   0.1s
+[CV 2/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.987, test=0.970) total time=41.6min
+[CV 13/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.989, test=0.980) total time=18.9min
+[CV 8/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.986, test=0.980) total time=   3.7s
+[CV 13/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.987, test=0.995) total time=   2.4s
+[CV 5/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.992, test=0.980) total time=   4.2s
+[CV 11/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.989, test=0.990) total time=   3.9s
+[CV 6/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 11/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 3/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.994, test=0.990) total time=   0.5s
+[CV 14/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.990, test=1.000) total time=   0.4s
+[CV 7/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.989, test=0.995) total time=   0.0s
+[CV 12/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.994, test=0.980) total time=   0.0s
+[CV 6/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.990, test=0.995) total time= 8.9min
+[CV 13/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.995) total time= 8.1min
+[CV 3/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.986, test=0.990) total time= 2.4min
+[CV 14/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.990, test=0.990) total time= 1.2min
+[CV 6/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.990, test=0.995) total time=   0.9s
+[CV 1/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.991, test=0.990) total time=   0.9s
+[CV 1/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.992, test=0.985) total time=   0.2s
+[CV 15/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.987, test=1.000) total time=   0.1s
+[CV 8/15] END C=3000000.0, gamma=1e-07;, score=(train=0.980, test=0.975) total time=   0.3s
+[CV 14/15] END C=3000000.0, gamma=1e-07;, score=(train=0.989, test=0.985) total time=   0.1s
+[CV 8/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.984, test=0.965) total time=   0.0s
+[CV 9/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.987, test=0.975) total time=   0.0s
+[CV 2/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.991, test=0.985) total time=  18.0s
+[CV 1/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.989, test=0.985) total time=   1.6s
+[CV 13/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.989, test=1.000) total time=   1.5s
+[CV 7/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.989, test=0.995) total time=   0.0s
+[CV 9/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.992, test=0.985) total time=   0.0s
+[CV 15/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.985, test=0.995) total time=   0.0s
+[CV 8/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.985, test=0.965) total time=   0.0s
+[CV 13/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 5/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.982, test=0.980) total time=   3.7s
+[CV 14/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.984, test=0.990) total time=   2.6s
+[CV 5/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.985, test=0.980) total time=   0.1s
+[CV 15/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 3/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.987, test=0.975) total time=32.5min
+[CV 12/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.990, test=0.965) total time=34.6min
+[CV 8/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.986, test=0.980) total time=   0.9s
+[CV 14/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.990, test=0.990) total time=   0.8s
+[CV 6/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.979, test=0.990) total time=   0.0s
+[CV 11/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.980, test=1.000) total time=   0.0s
+[CV 4/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 13/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 5/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.991, test=0.980) total time=   1.2s
+[CV 14/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.990, test=0.995) total time=   1.0s
+[CV 7/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.991, test=0.995) total time=   0.8s
+[CV 14/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.990, test=0.995) total time=   0.5s
+[CV 6/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.989, test=0.995) total time=   7.6s
+[CV 12/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.990, test=0.980) total time=   9.5s
+[CV 7/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.992, test=0.995) total time=   0.6s
+[CV 10/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.992, test=1.000) total time=   0.5s
+[CV 2/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.987, test=0.990) total time=   0.4s
+[CV 14/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.990, test=0.995) total time=   0.3s
+[CV 5/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.985, test=0.980) total time=   0.1s
+[CV 1/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.995, test=0.995) total time=   0.0s
+[CV 11/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 4/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.990, test=0.995) total time= 1.5min
+[CV 12/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.994, test=0.970) total time= 1.1min
+[CV 3/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.989, test=0.990) total time=   0.1s
+[CV 9/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 2/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.986, test=0.990) total time=   0.0s
+[CV 13/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.985, test=1.000) total time=   0.0s
+[CV 7/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 15/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.985, test=0.995) total time=   0.1s
+[CV 8/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.985, test=0.975) total time=   0.1s
+[CV 12/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.994, test=0.980) total time=   0.1s
+[CV 4/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.932, test=0.945) total time=   0.0s
+[CV 10/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.930, test=0.940) total time=   0.0s
+[CV 1/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.991, test=0.995) total time=   0.0s
+[CV 12/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.990, test=0.980) total time=   0.1s
+[CV 2/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.865, test=0.889) total time=   0.0s
+[CV 12/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.892, test=0.844) total time=   0.0s
+[CV 6/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.986, test=0.995) total time=   4.8s
+[CV 11/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.989, test=0.985) total time=   4.2s
+[CV 2/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.986, test=0.990) total time=   1.9s
+[CV 15/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.986, test=0.985) total time=   1.5s
+[CV 8/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.984, test=0.975) total time=   0.1s
+[CV 11/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.986, test=0.990) total time=   0.0s
+[CV 3/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.990, test=0.985) total time=   0.0s
+[CV 11/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.986, test=0.990) total time=   0.1s
+[CV 1/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.987, test=0.985) total time=   0.0s
+[CV 14/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.986, test=0.990) total time=   0.0s
+[CV 4/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.980, test=0.990) total time=   0.0s
+[CV 10/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.979, test=0.980) total time=   0.0s
+[CV 15/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.977, test=0.975) total time=   0.0s
+[CV 7/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.987, test=1.000) total time=   0.3s
+[CV 13/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.987, test=0.990) total time=   0.2s
+[CV 5/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.977, test=0.975) total time=   4.1s
+[CV 15/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.989, test=1.000) total time=   1.9s
+[CV 7/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.989, test=0.995) total time=   4.7s
+[CV 9/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.991, test=0.975) total time=   2.9s
+[CV 1/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.985, test=0.990) total time=   0.0s
+[CV 13/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.985, test=0.995) total time=   0.0s
+[CV 5/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.980, test=0.985) total time=   0.0s
+[CV 13/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.987, test=0.995) total time=   0.0s
+[CV 4/15] END C=10000.0, gamma=0.0001;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 13/15] END C=10000.0, gamma=0.0001;, score=(train=0.986, test=1.000) total time=   0.1s
+[CV 6/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.985, test=0.995) total time=   2.4s
+[CV 13/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.987, test=0.990) total time=   2.5s
+[CV 8/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.984, test=0.985) total time=   0.1s
+[CV 10/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.984, test=0.985) total time=   0.1s
+[CV 1/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.837, test=0.854) total time=   0.0s
+[CV 9/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.820, test=0.829) total time=   0.0s
+[CV 1/15] END C=3000000.0, gamma=1e-07;, score=(train=0.987, test=0.980) total time=   0.1s
+[CV 15/15] END C=3000000.0, gamma=1e-07;, score=(train=0.980, test=0.995) total time=   0.0s
+[CV 8/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.985, test=0.965) total time=   0.0s
+[CV 14/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.987, test=0.985) total time=   0.0s
+[CV 4/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 14/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.987, test=0.975) total time=   0.0s
+[CV 7/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.989, test=0.995) total time=   0.3s
+[CV 9/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.992, test=0.985) total time=   0.5s
+[CV 4/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.985, test=1.000) total time=   0.1s
+[CV 14/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 6/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.987, test=0.995) total time=   0.3s
+[CV 12/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.991, test=0.980) total time=   0.2s
+[CV 6/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.987, test=0.995) total time=   0.9s
+[CV 11/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.990, test=0.990) total time=   0.7s
+[CV 2/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.989, test=0.990) total time=   0.6s
+[CV 10/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.991, test=1.000) total time=   0.9s
+[CV 8/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.985, test=0.980) total time=   0.1s
+[CV 11/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.987, test=0.990) total time=   0.1s
+[CV 5/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.981, test=0.990) total time=   0.0s
+[CV 10/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.989, test=1.000) total time=   0.0s
+[CV 7/15] END C=3000000.0, gamma=0.0001;, score=(train=0.986, test=0.995) total time=  12.2s
+[CV 1/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.994, test=0.995) total time=   0.7s
+[CV 13/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.990, test=0.995) total time=   0.5s
+[CV 8/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.986, test=0.980) total time=   2.7s
+[CV 9/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.992, test=0.980) total time=   3.7s
+[CV 15/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.987, test=1.000) total time=   3.4s
+[CV 8/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.990, test=0.970) total time=   4.2s
+[CV 9/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.992, test=0.975) total time=   4.1s
+[CV 2/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.986, test=0.990) total time=   0.1s
+[CV 14/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 7/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.990, test=0.995) total time=   0.7s
+[CV 11/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.989, test=0.990) total time=   0.6s
+[CV 2/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.986, test=0.990) total time=   0.0s
+[CV 11/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 6/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.985) total time=18.0min
+[CV 3/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.992, test=0.990) total time=   0.9s
+[CV 12/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.994, test=0.980) total time=   0.8s
+[CV 5/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.976, test=0.965) total time=   0.0s
+[CV 1/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 10/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.991, test=1.000) total time=   0.0s
+[CV 3/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.992, test=0.990) total time=   0.9s
+[CV 10/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.994, test=1.000) total time=   1.0s
+[CV 4/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.989, test=1.000) total time=   0.7s
+[CV 11/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.990, test=0.990) total time=   0.5s
+[CV 3/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.991, test=0.990) total time=   8.5s
+[CV 13/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.986, test=0.990) total time=   6.8s
+[CV 4/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.989, test=1.000) total time=   0.6s
+[CV 9/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.994, test=0.985) total time=   0.7s
+[CV 3/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.991, test=0.990) total time=   0.5s
+[CV 15/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.989, test=1.000) total time=   0.3s
+[CV 8/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.986, test=0.975) total time=   0.1s
+[CV 13/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.987, test=1.000) total time=   0.1s
+[CV 6/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.985, test=0.995) total time=   0.0s
+[CV 9/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.992, test=0.980) total time=   0.0s
+[CV 5/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.995, test=0.985) total time= 1.9min
+[CV 15/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.996, test=0.990) total time=  59.6s
+[CV 6/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.987, test=0.995) total time=   0.2s
+[CV 1/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.994, test=0.995) total time=   0.0s
+[CV 9/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.991, test=0.975) total time=   0.0s
+[CV 2/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.986, test=0.990) total time=   0.1s
+[CV 13/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.987, test=1.000) total time=   0.1s
+[CV 7/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 10/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.990, test=1.000) total time=   0.1s
+[CV 6/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.925, test=0.920) total time=   0.0s
+[CV 13/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.929, test=0.940) total time=   0.0s
+[CV 4/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.984, test=1.000) total time=   0.0s
+[CV 11/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.985, test=0.990) total time=   0.0s
+[CV 1/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.899, test=0.889) total time=   0.0s
+[CV 14/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.875, test=0.874) total time=   0.0s
+[CV 5/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.986, test=0.980) total time=   4.3s
+[CV 9/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.995, test=0.980) total time=   5.9s
+[CV 5/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.977, test=0.985) total time=   1.4s
+[CV 14/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.990, test=0.985) total time=   1.1s
+[CV 7/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.985, test=1.000) total time=   0.1s
+[CV 8/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.985, test=0.975) total time=   0.2s
+[CV 7/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.982, test=0.990) total time=   0.1s
+[CV 8/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.976, test=0.950) total time=   0.1s
+[CV 6/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.986, test=0.990) total time=   0.4s
+[CV 6/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.980, test=0.995) total time=   4.6s
+[CV 2/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.985, test=0.990) total time=   5.7s
+[CV 12/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.989, test=0.985) total time=   3.4s
+[CV 4/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.982, test=0.990) total time=   0.2s
+[CV 8/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.985, test=0.960) total time=   0.1s
+[CV 8/15] END C=10000.0, gamma=0.0001;, score=(train=0.986, test=0.975) total time=   0.2s
+[CV 8/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.985, test=0.965) total time=   2.9s
+[CV 1/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.990, test=0.990) total time=   0.2s
+[CV 8/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.844, test=0.784) total time=   0.1s
+[CV 8/15] END C=3000000.0, gamma=1e-07;, score=(train=0.984, test=0.970) total time=   0.0s
+[CV 9/15] END C=3000000.0, gamma=1e-07;, score=(train=0.985, test=0.980) total time=   0.0s
+[CV 5/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.981, test=0.985) total time=   0.0s
+[CV 13/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.985, test=1.000) total time=   0.0s
+[CV 5/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.981, test=0.990) total time=   0.0s
+[CV 15/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.982, test=1.000) total time=   0.0s
+[CV 8/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.986, test=0.975) total time=   0.3s
+[CV 10/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.992, test=1.000) total time=   0.3s
+[CV 2/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.984, test=0.985) total time=   0.0s
+[CV 9/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.989, test=0.980) total time=   0.0s
+[CV 3/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.991, test=0.990) total time=   0.3s
+[CV 13/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.989, test=0.995) total time=   0.2s
+[CV 4/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.986, test=1.000) total time=   1.0s
+[CV 13/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.987, test=1.000) total time=   0.8s
+[CV 4/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.986, test=1.000) total time=   0.7s
+[CV 13/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.989, test=1.000) total time=   0.6s
+[CV 4/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.985, test=1.000) total time=   0.1s
+[CV 15/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.985, test=0.995) total time=   0.1s
+[CV 8/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.984, test=0.970) total time=   0.1s
+[CV 1/15] END C=3000000.0, gamma=0.0001;, score=(train=0.989, test=0.990) total time=   5.1s
+[CV 9/15] END C=3000000.0, gamma=0.0001;, score=(train=0.987, test=0.980) total time=   6.0s
+[CV 15/15] END C=3000000.0, gamma=0.0001;, score=(train=0.985, test=0.980) total time=   3.6s
+[CV 4/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.982, test=1.000) total time=   0.6s
+[CV 12/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.994, test=0.980) total time=   0.6s
+[CV 6/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.989, test=0.995) total time=   4.1s
+[CV 11/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.987, test=0.990) total time=   3.7s
+[CV 4/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.991, test=1.000) total time=   6.1s
+[CV 14/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.992, test=0.995) total time=   3.8s
+[CV 6/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 9/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.992, test=0.985) total time=   0.0s
+[CV 2/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.990, test=0.985) total time=   0.7s
+[CV 9/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.991, test=0.980) total time=   0.8s
+[CV 5/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.984, test=0.980) total time=   0.0s
+[CV 14/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 5/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.992, test=0.980) total time=18.8min
+[CV 6/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.981, test=0.995) total time= 2.7min
+[CV 15/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.990, test=0.990) total time= 1.6min
+[CV 8/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.986, test=0.985) total time=   0.9s
+[CV 12/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.994, test=0.980) total time=   0.8s
+[CV 5/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.990, test=0.980) total time=   0.7s
+[CV 14/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.990, test=1.000) total time=   0.7s
+[CV 6/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.987, test=0.995) total time=   0.2s
+[CV 14/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.987, test=0.995) total time=   0.1s
+[CV 5/15] END C=3000000.0, gamma=1e-07;, score=(train=0.984, test=0.975) total time=   0.3s
+[CV 2/15] END C=10000.0, gamma=2.665896540258076e-07;, score=(train=0.985, test=0.980) total time=   0.1s
+[CV 6/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.990, test=0.995) total time=  12.3s
+[CV 9/15] END C=123028.18876763509, gamma=9.439105306313094e-05;, score=(train=0.991, test=0.975) total time=  14.6s
+[CV 3/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.989, test=0.985) total time=   1.3s
+[CV 14/15] END C=924936.6207435112, gamma=1.0925003140698089e-06;, score=(train=0.987, test=0.995) total time=   1.2s
+[CV 8/15] END C=10124.488599613109, gamma=3.709601324543751e-06;, score=(train=0.985, test=0.975) total time=   0.1s
+[CV 7/15] END C=33969.68793107251, gamma=1.0000663478316194e-07;, score=(train=0.985, test=0.995) total time=   0.1s
+[CV 8/15] END C=2969414.368321504, gamma=1.437054647138544e-06;, score=(train=0.986, test=0.965) total time=   5.2s
+[CV 2/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.989, test=0.990) total time=   0.1s
+[CV 13/15] END C=771174.677055876, gamma=1.0065186056898115e-07;, score=(train=0.989, test=1.000) total time=   0.2s
+[CV 7/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.987, test=0.995) total time=42.2min
+[CV 15/15] END C=2977808.1155957943, gamma=9.920906092792426e-05;, score=(train=0.985, test=0.990) total time=34.5min
+[CV 1/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.991, test=0.985) total time=   1.0s
+[CV 9/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.992, test=0.980) total time=   0.9s
+[CV 10/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.994, test=1.000) total time=   1.0s
+[CV 3/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.980, test=0.975) total time=   0.0s
+[CV 15/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.977, test=0.970) total time=   0.0s
+[CV 7/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.989, test=0.995) total time=   0.0s
+[CV 11/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 6/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.987, test=0.995) total time=   1.1s
+[CV 13/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.987, test=0.990) total time=   1.0s
+[CV 5/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.985, test=0.980) total time=   0.7s
+[CV 12/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.992, test=0.980) total time=   0.6s
+[CV 7/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.990, test=0.995) total time=   7.3s
+[CV 11/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.985, test=0.995) total time=   4.5s
+[CV 1/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.991, test=0.985) total time=   1.0s
+[CV 1/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.992, test=0.985) total time=   0.2s
+[CV 9/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.992, test=0.985) total time=   0.3s
+[CV 2/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.987, test=0.990) total time=   0.1s
+[CV 12/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.994, test=0.980) total time=   0.1s
+[CV 2/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.989, test=0.990) total time=   0.0s
+[CV 12/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.992, test=0.980) total time=   0.0s
+[CV 6/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.990, test=0.995) total time= 1.8min
+[CV 14/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.995, test=0.985) total time= 1.1min
+[CV 7/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.990, test=0.995) total time=   0.2s
+[CV 15/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 8/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.984, test=0.970) total time=   0.0s
+[CV 1/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.992, test=0.990) total time=   0.2s
+[CV 1/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 13/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.987, test=1.000) total time=   0.1s
+[CV 3/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.922, test=0.925) total time=   0.0s
+[CV 12/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.936, test=0.894) total time=   0.0s
+[CV 3/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.989, test=0.980) total time=   0.0s
+[CV 9/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.989, test=0.975) total time=   0.0s
+[CV 14/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 7/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.876, test=0.884) total time=   0.0s
+[CV 10/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.889, test=0.920) total time=   0.0s
+[CV 2/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.985, test=0.990) total time=   7.2s
+[CV 14/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.987, test=0.995) total time=   3.8s
+[CV 6/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.9   84, test=0.990) total time=   1.4s
+[CV 11/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=1.000) total time=   0.9s
+[CV 3/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.989, test=0.980) total time=   0.0s
+[CV 14/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.989, test=0.990) total time=   0.0s
+[CV 5/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 10/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.989, test=1.000) total time=   0.1s
+[CV 2/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.985, test=0.975) total time=   0.0s
+[CV 9/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.987, test=0.975) total time=   0.0s
+[CV 15/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.981, test=0.995) total time=   0.0s
+[CV 6/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.977, test=0.990) total time=   0.0s
+[CV 9/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.981, test=0.960) total time=   0.0s
+[CV 1/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.987, test=0.985) total time=   0.2s
+[CV 5/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.990, test=0.980) total time=   1.1s
+[CV 1/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.984, test=0.980) total time=   0.0s
+[CV 9/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.980, test=0.965) total time=   0.0s
+[CV 2/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.987, test=0.990) total time=   0.1s
+[CV 15/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.985, test=0.995) total time=   0.0s
+[CV 8/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.986, test=0.980) total time=   1.2s
+[CV 15/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.990, test=0.990) total time=   1.0s
+[CV 8/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.989, test=0.985) total time=   0.4s
+[CV 9/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.994, test=0.985) total time=   0.8s
+[CV 4/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.990, test=1.000) total time=   4.8s
+[CV 9/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.991, test=0.985) total time=  11.4s
+[CV 5/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.987, test=0.980) total time=   0.7s
+[CV 12/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.992, test=0.980) total time=   0.7s
+[CV 7/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.987, test=0.995) total time=   0.4s
+[CV 13/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.990, test=1.000) total time=   0.4s
+[CV 7/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 15/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.985, test=0.995) total time=   0.1s
+[CV 5/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.982, test=0.990) total time=   0.0s
+[CV 10/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.991, test=1.000) total time=   0.0s
+[CV 2/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.991, test=0.985) total time= 1.2min
+[CV 9/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.995, test=0.975) total time= 1.3min
+[CV 2/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.990, test=0.990) total time=   0.2s
+[CV 14/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.987, test=0.995) total time=   0.1s
+[CV 7/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.989, test=0.995) total time=   0.0s
+[CV 12/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.991, test=0.985) total time=   0.0s
+[CV 5/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.985, test=0.985) total time=   0.1s
+[CV 9/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.991, test=0.980) total time=   0.1s
+[CV 2/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.989, test=0.990) total time=   0.2s
+[CV 15/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.985, test=0.995) total time=   0.1s
+[CV 7/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.922, test=0.935) total time=   0.0s
+[CV 14/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.929, test=0.955) total time=   0.1s
+[CV 8/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.984, test=0.975) total time=   0.1s
+[CV 5/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.880, test=0.844) total time=   0.0s
+[CV 15/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.872, test=0.854) total time=   0.0s
+[CV 4/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.986, test=1.000) total time=   7.7s
+[CV 1/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=0.980) total time=   1.5s
+[CV 13/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=0.995) total time=   1.0s
+[CV 4/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.985, test=1.000) total time=   0.0s
+[CV 12/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.992, test=0.980) total time=   0.0s
+[CV 4/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 13/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.986, test=1.000) total time=   0.1s
+[CV 4/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.982, test=0.995) total time=   0.0s
+[CV 12/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.989, test=0.980) total time=   0.0s
+[CV 3/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.977, test=0.975) total time=   0.0s
+[CV 11/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.976, test=0.995) total time=   0.0s
+[CV 2/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.985, test=0.985) total time=   0.2s
+[CV 12/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.987, test=0.980) total time=   0.2s
+[CV 3/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.985, test=0.985) total time=   2.8s
+[CV 13/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.987, test=1.000) total time=   2.3s
+[CV 3/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.991, test=0.990) total time=   7.6s
+[CV 15/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.985, test=0.995) total time=   3.0s
+[CV 6/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.982, test=0.995) total time=   0.0s
+[CV 14/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.987, test=0.985) total time=   0.0s
+[CV 7/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.982, test=0.985) total time=   0.0s
+[CV 10/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.984, test=0.985) total time=   0.0s
+[CV 2/15] END C=10000.0, gamma=0.0001;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 9/15] END C=10000.0, gamma=0.0001;, score=(train=0.994, test=0.980) total time=   0.0s
+[CV 1/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.990, test=0.990) total time=   2.4s
+[CV 12/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.991, test=0.975) total time=   1.1s
+[CV 3/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.990, test=0.985) total time=   0.1s
+[CV 11/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.987, test=0.985) total time=   0.2s
+[CV 6/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.842, test=0.809) total time=   0.0s
+[CV 12/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.845, test=0.819) total time=   0.0s
+[CV 4/15] END C=3000000.0, gamma=1e-07;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 14/15] END C=3000000.0, gamma=1e-07;, score=(train=0.986, test=0.985) total time=   0.0s
+[CV 7/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.984, test=1.000) total time=   0.0s
+[CV 15/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.981, test=1.000) total time=   0.0s
+[CV 8/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.984, test=0.975) total time=   0.0s
+[CV 11/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.985, test=0.990) total time=   0.0s
+[CV 5/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.985, test=0.980) total time=   0.5s
+[CV 15/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.985, test=0.995) total time=   0.3s
+[CV 8/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.986, test=0.970) total time=   0.0s
+[CV 1/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.992, test=0.985) total time=   0.2s
+[CV 11/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.989, test=0.990) total time=   0.3s
+[CV 7/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.990, test=0.995) total time=   1.2s
+[CV 14/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.987, test=0.995) total time=   0.7s
+[CV 7/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.990, test=0.995) total time=   0.8s
+[CV 15/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.985, test=0.995) total time=   0.5s
+[CV 5/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.985, test=0.985) total time=   0.1s
+[CV 10/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.990, test=1.000) total time=   0.1s
+[CV 2/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.982, test=0.990) total time=   0.0s
+[CV 13/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.984, test=1.000) total time=   0.0s
+[CV 4/15] END C=3000000.0, gamma=0.0001;, score=(train=0.979, test=0.995) total time=   6.9s
+[CV 12/15] END C=3000000.0, gamma=0.0001;, score=(train=0.990, test=0.970) total time=  11.8s
+[CV 8/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.981, test=0.970) total time=   0.7s
+[CV 15/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.989, test=0.995) total time=   0.4s
+[CV 5/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.987, test=0.980) total time=   4.6s
+[CV 12/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.991, test=0.980) total time=   4.2s
+[CV 6/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.990, test=0.995) total time=   6.8s
+[CV 1/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.991, test=0.985) total time=   0.1s
+[CV 13/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.989, test=1.000) total time=   0.1s
+[CV 6/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.987, test=0.995) total time=   1.0s
+[CV 15/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.991, test=1.000) total time=   0.7s
+[CV 7/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.989, test=0.995) total time=   0.0s
+[CV 10/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.991, test=1.000) total time=   0.0s
+[CV 3/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.990, test=0.985) total time=13.4min
+[CV 11/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.992, test=0.995) total time=14.5min
+[CV 6/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.990, test=0.990) total time= 2.4min
+[CV 13/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.990, test=0.995) total time= 4.3min
+[CV 8/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.986, test=0.980) total time=   2.0s
+[CV 1/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.992, test=0.990) total time=   1.3s
+[CV 15/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.991, test=1.000) total time=   1.0s
+[CV 8/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.986, test=0.985) total time=   0.2s
+[CV 12/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.994, test=0.980) total time=   0.2s
+[CV 4/15] END C=10000.0, gamma=1e-07;, score=(train=0.972, test=0.975) total time=   0.0s
+[CV 1/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.992, test=0.995) total time=   0.1s
+[CV 10/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.990, test=1.000) total time=   0.3s
+[CV 8/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.985, test=0.975) total time=   0.0s
+[CV 1/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.987, test=0.995) total time=   0.4s
+[CV 12/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.991, test=0.975) total time=   0.5s
+[CV 6/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.990, test=0.995) total time=   4.6s
+[CV 10/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.990, test=0.995) total time=   3.1s
+[CV 2/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.994, test=0.985) total time= 4.2min
+[CV 8/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.987, test=0.980) total time=   1.0s
+[CV 10/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.992, test=0.995) total time=   1.0s
+[CV 5/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.986, test=0.980) total time=   1.7s
+[CV 12/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.989, test=0.975) total time=   2.6s
+[CV 8/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.992, test=0.975) total time=  23.3s
+[CV 15/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.994, test=0.990) total time=  17.5s
+[CV 7/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.990, test=0.995) total time=   0.1s
+[CV 13/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.989, test=1.000) total time=   0.1s
+[CV 5/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.987, test=0.980) total time=   0.5s
+[CV 11/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.989, test=0.990) total time=   0.6s
+[CV 4/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.989, test=0.975) total time=59.8min
+[CV 8/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.985, test=0.955) total time= 1.3min
+[CV 10/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.992, test=1.000) total time= 1.8min
+[CV 14/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.984, test=0.980) total time= 1.5min
+[CV 5/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.986, test=0.980) total time=   0.9s
+[CV 9/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.994, test=0.985) total time=   1.2s
+[CV 2/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.990, test=0.985) total time=   0.9s
+[CV 9/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.992, test=0.980) total time=   1.1s
+[CV 2/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.987, test=0.990) total time=   0.2s
+[CV 13/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.989, test=1.000) total time=   0.3s
+[CV 7/15] END C=10000.0, gamma=1e-07;, score=(train=0.969, test=0.965) total time=   0.0s
+[CV 11/15] END C=10000.0, gamma=1e-07;, score=(train=0.970, test=0.995) total time=   0.0s
+[CV 5/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.986, test=0.980) total time=   0.2s
+[CV 13/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.991, test=0.990) total time=   0.2s
+[CV 3/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.987, test=0.980) total time=   0.1s
+[CV 12/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.992, test=0.980) total time=   0.0s
+[CV 5/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.981, test=0.985) total time=   0.4s
+[CV 14/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.990, test=0.990) total time=   0.4s
+[CV 5/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.987, test=0.985) total time=   7.0s
+[CV 1/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.991, test=0.980) total time= 1.5min
+[CV 10/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.996, test=0.995) total time= 1.6min
+[CV 2/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.990, test=0.985) total time=   1.1s
+[CV 13/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.989, test=0.990) total time=   1.0s
+[CV 6/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.986, test=1.000) total time=   1.8s
+[CV 13/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.986, test=0.990) total time=   1.6s
+[CV 5/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.992, test=0.985) total time=  20.2s
+[CV 12/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.996, test=0.980) total time=  18.2s
+[CV 4/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.987, test=1.000) total time=   0.1s
+[CV 11/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.989, test=0.990) total time=   0.1s
+[CV 3/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.989, test=0.990) total time=   0.5s
+[CV 12/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.990, test=0.980) total time=   0.5s
+[CV 2/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.987, test=0.980) total time=17.8min
+[CV 9/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.986, test=0.980) total time=43.2min
+[CV 7/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.992, test=0.995) total time=   1.0s
+[CV 13/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.987, test=0.990) total time=   0.9s
+[CV 7/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.979, test=0.975) total time=   0.0s
+[CV 14/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.981, test=0.985) total time=   0.0s
+[CV 8/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.985, test=0.975) total time=   0.0s
+[CV 12/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.992, test=0.980) total time=   0.0s
+[CV 7/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.992, test=0.995) total time=   1.3s
+[CV 1/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.994, test=0.985) total time=   0.8s
+[CV 13/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.989, test=1.000) total time=   0.5s
+[CV 5/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.989, test=0.985) total time=   9.4s
+[CV 15/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.990, test=0.995) total time=   5.6s
+[CV 2/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.990, test=0.990) total time=   0.9s
+[CV 13/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.989, test=1.000) total time=   0.6s
+[CV 8/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.985, test=0.980) total time=   0.3s
+[CV 11/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.990, test=0.990) total time=   0.4s
+[CV 6/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 14/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.987, test=0.995) total time=   0.1s
+[CV 8/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.984, test=0.975) total time=   0.0s
+[CV 1/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.995, test=0.980) total time= 2.0min
+[CV 1/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 10/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.994, test=0.995) total time=   0.1s
+[CV 3/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.989, test=0.980) total time=   0.0s
+[CV 10/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.990, test=1.000) total time=   0.0s
+[CV 3/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.991, test=0.990) total time=   0.1s
+[CV 10/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.990, test=1.000) total time=   0.1s
+[CV 3/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.989, test=0.990) total time=   0.2s
+[CV 1/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.940, test=0.935) total time=   0.0s
+[CV 11/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.926, test=0.970) total time=   0.0s
+[CV 2/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.984, test=0.990) total time=   0.0s
+[CV 10/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 15/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.980, test=1.000) total time=   0.0s
+[CV 8/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.886, test=0.844) total time=   0.0s
+[CV 13/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.886, test=0.894) total time=   0.0s
+[CV 3/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.990) total time=   4.4s
+[CV 10/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.990) total time=   5.0s
+[CV 3/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.992, test=0.980) total time=   1.5s
+[CV 12/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=0.985) total time=   1.1s
+[CV 5/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 13/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.984, test=1.000) total time=   0.0s
+[CV 1/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.991, test=0.995) total time=   0.0s
+[CV 9/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.992, test=0.975) total time=   0.0s
+[CV 15/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.984, test=1.000) total time=   0.0s
+[CV 8/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.985, test=0.965) total time=   0.0s
+[CV 13/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.985, test=0.995) total time=   0.0s
+[CV 5/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.974, test=0.975) total time=   0.0s
+[CV 14/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.984, test=0.985) total time=   0.0s
+[CV 5/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.982, test=0.980) total time=   0.4s
+[CV 14/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.986, test=0.995) total time=   0.2s
+[CV 7/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.989, test=0.995) total time=   3.1s
+[CV 14/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.989, test=0.990) total time=   3.2s
+[CV 8/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.986, test=0.980) total time=   4.9s
+[CV 10/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.992, test=1.000) total time=   6.0s
+[CV 7/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.980, test=0.985) total time=   0.0s
+[CV 12/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.987, test=0.980) total time=   0.0s
+[CV 4/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.982, test=0.995) total time=   0.0s
+[CV 11/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.985, test=0.995) total time=   0.0s
+[CV 6/15] END C=10000.0, gamma=0.0001;, score=(train=0.985, test=0.995) total time=   0.1s
+[CV 15/15] END C=10000.0, gamma=0.0001;, score=(train=0.985, test=1.000) total time=   0.0s
+[CV 5/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.981, test=0.990) total time=   2.8s
+[CV 15/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.977, test=0.985) total time=   1.2s
+[CV 6/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.984, test=0.995) total time=   0.1s
+[CV 12/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.992, test=0.980) total time=   0.2s
+[CV 5/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.829, test=0.794) total time=   0.0s
+[CV 15/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.819, test=0.814) total time=   0.1s
+[CV 7/15] END C=3000000.0, gamma=1e-07;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 12/15] END C=3000000.0, gamma=1e-07;, score=(train=0.990, test=0.975) total time=   0.0s
+[CV 3/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.987, test=0.980) total time=   0.0s
+[CV 9/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.989, test=0.975) total time=   0.0s
+[CV 2/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.985, test=0.990) total time=   0.0s
+[CV 9/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.990, test=0.975) total time=   0.0s
+[CV 2/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.989, test=0.990) total time=   0.4s
+[CV 14/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.986, test=0.995) total time=   0.3s
+[CV 3/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.989, test=0.985) total time=   0.0s
+[CV 11/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.985, test=0.985) total time=   0.0s
+[CV 4/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.987, test=1.000) total time=   0.4s
+[CV 15/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.985, test=0.995) total time=   0.2s
+[CV 8/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.985, test=0.985) total time=   0.6s
+[CV 9/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.992, test=0.985) total time=   1.0s
+[CV 3/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.989, test=0.990) total time=   0.7s
+[CV 11/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.989, test=0.990) total time=   0.6s
+[CV 2/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.987, test=0.990) total time=   0.2s
+[CV 1/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.989, test=0.995) total time=   0.0s
+[CV 9/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.990, test=0.975) total time=   0.1s
+[CV 2/15] END C=3000000.0, gamma=0.0001;, score=(train=0.986, test=0.985) total time=   5.3s
+[CV 10/15] END C=3000000.0, gamma=0.0001;, score=(train=0.989, test=0.990) total time=  10.0s
+[CV 5/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.985, test=0.990) total time=   0.6s
+[CV 14/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.985, test=0.980) total time=   0.5s
+[CV 7/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.989, test=0.995) total time=   3.3s
+[CV 10/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.989, test=0.990) total time=   3.9s
+[CV 3/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.994, test=0.990) total time=   4.9s
+[CV 11/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.989, test=0.990) total time=   4.1s
+[CV 4/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.986, test=1.000) total time=   0.1s
+[CV 1/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.992, test=0.985) total time=   1.1s
+[CV 1/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.991, test=0.990) total time=   0.0s
+[CV 9/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.991, test=0.985) total time=   0.0s
+[CV 2/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.985) total time= 7.8min
+[CV 9/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.997, test=0.975) total time= 7.3min
+[CV 13/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.992, test=0.995) total time= 9.7min
+[CV 3/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.991, test=0.990) total time= 3.3min
+[CV 15/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.984, test=0.995) total time= 1.6min
+[CV 6/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.987, test=0.995) total time=   1.3s
+[CV 10/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.990, test=0.990) total time=   1.3s
+[CV 4/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.990, test=1.000) total time=   1.3s
+[CV 14/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.990, test=0.995) total time=   1.1s
+[CV 6/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.989, test=0.995) total time=   0.3s
+[CV 15/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.989, test=1.000) total time=   0.3s
+[CV 8/15] END C=10000.0, gamma=1e-07;, score=(train=0.972, test=0.960) total time=   0.0s
+[CV 15/15] END C=10000.0, gamma=1e-07;, score=(train=0.962, test=0.955) total time=   0.0s
+[CV 8/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.985, test=0.985) total time=   0.2s
+[CV 15/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.989, test=1.000) total time=   0.1s
+[CV 6/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 11/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.989, test=0.990) total time=   0.0s
+[CV 4/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.985, test=1.000) total time=   0.3s
+[CV 13/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.985, test=0.995) total time=   0.5s
+[CV 7/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.990, test=0.995) total time=   4.9s
+[CV 11/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.989, test=0.995) total time=   5.8s
+[CV 5/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.991, test=0.980) total time= 1.6min
+[CV 11/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.992, test=0.995) total time= 1.2min
+[CV 1/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.992, test=0.990) total time=   1.1s
+[CV 12/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.992, test=0.975) total time=   0.8s
+[CV 4/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.985, test=1.000) total time=   2.9s
+[CV 15/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.987, test=1.000) total time=   1.1s
+[CV 7/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.994, test=0.995) total time=  22.6s
+[CV 14/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.992, test=0.995) total time=  19.6s
+[CV 8/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.986, test=0.985) total time=   0.1s
+[CV 14/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.989, test=1.000) total time=   0.1s
+[CV 8/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.986, test=0.985) total time=   0.4s
+[CV 10/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.990, test=0.995) total time=   0.6s
+[CV 5/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.982, test=0.980) total time=33.6min
+[CV 12/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.992, test=0.980) total time=36.3min
+[CV 6/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.987, test=0.995) total time=   0.9s
+[CV 11/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.989, test=0.990) total time=   0.6s
+[CV 4/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.980, test=0.995) total time=   0.0s
+[CV 10/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.981, test=0.980) total time=   0.0s
+[CV 3/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.989, test=0.985) total time=   0.0s
+[CV 9/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 2/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.992, test=0.990) total time=   1.0s
+[CV 11/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.989, test=0.990) total time=   0.8s
+[CV 3/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.992, test=0.990) total time=   0.9s
+[CV 1/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.990, test=0.985) total time=  17.5s
+[CV 8/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.986, test=0.985) total time=   0.6s
+[CV 11/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.990, test=0.990) total time=   0.6s
+[CV 4/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.987, test=1.000) total time=   0.3s
+[CV 10/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.991, test=1.000) total time=   0.3s
+[CV 3/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.989, test=0.985) total time=   0.1s
+[CV 10/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.990, test=1.000) total time=   0.1s
+[CV 7/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.989, test=0.995) total time=   0.0s
+[CV 13/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 3/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.995, test=0.990) total time= 1.3min
+[CV 11/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.992, test=0.995) total time= 1.6min
+[CV 5/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.985, test=0.980) total time=   0.1s
+[CV 12/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.992, test=0.980) total time=   0.1s
+[CV 5/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.981, test=0.990) total time=   0.0s
+[CV 11/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.985, test=0.990) total time=   0.0s
+[CV 4/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.986, test=1.000) total time=   0.1s
+[CV 14/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 6/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.986, test=0.995) total time=   0.2s
+[CV 14/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.987, test=0.995) total time=   0.1s
+[CV 8/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.931, test=0.884) total time=   0.1s
+[CV 7/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 6/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.884, test=0.859) total time=   0.2s
+[CV 7/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.994, test=0.995) total time=   5.4s
+[CV 12/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.994, test=0.980) total time=   4.0s
+[CV 4/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.990, test=1.000) total time=   2.6s
+[CV 6/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.984, test=0.995) total time=   0.1s
+[CV 7/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.986, test=0.995) total time=   0.2s
+[CV 6/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.982, test=0.995) total time=   0.1s
+[CV 7/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.974, test=0.975) total time=   0.2s
+[CV 8/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.981, test=0.980) total time=   0.3s
+[CV 2/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.984, test=0.990) total time=   2.2s
+[CV 10/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.987, test=1.000) total time=   2.1s
+[CV 1/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.990, test=0.995) total time=   6.3s
+[CV 13/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.986, test=0.990) total time=   4.9s
+[CV 8/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.985, test=0.965) total time=   0.0s
+[CV 11/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 3/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.989, test=0.965) total time=   0.0s
+[CV 9/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.986, test=0.965) total time=   0.0s
+[CV 1/15] END C=10000.0, gamma=0.0001;, score=(train=0.990, test=0.990) total time=   0.1s
+[CV 10/15] END C=10000.0, gamma=0.0001;, score=(train=0.990, test=1.000) total time=   0.1s
+[CV 3/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.989, test=0.990) total time=   2.0s
+[CV 11/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.986, test=0.990) total time=   2.7s
+[CV 7/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.982, test=1.000) total time=   0.2s
+[CV 14/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.986, test=0.980) total time=   0.1s
+[CV 7/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.826, test=0.859) total time=   0.0s
+[CV 11/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.840, test=0.844) total time=   0.0s
+[CV 3/15] END C=3000000.0, gamma=1e-07;, score=(train=0.990, test=0.975) total time=   0.0s
+[CV 10/15] END C=3000000.0, gamma=1e-07;, score=(train=0.982, test=0.990) total time=   0.0s
+[CV 2/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.984, test=0.990) total time=   0.0s
+[CV 11/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.985, test=0.990) total time=   0.0s
+[CV 3/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.991, test=0.980) total time=   0.1s
+[CV 12/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.991, test=0.985) total time=   0.0s
+[CV 4/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.986, test=1.000) total time=   0.4s
+[CV 12/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.994, test=0.980) total time=   0.3s
+[CV 5/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.985, test=0.990) total time=   0.1s
+[CV 13/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.985, test=0.995) total time=   0.0s
+[CV 7/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.990, test=0.995) total time=   0.3s
+[CV 14/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.986, test=0.995) total time=   0.2s
+[CV 5/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.985, test=0.980) total time=   1.4s
+[CV 15/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.991, test=1.000) total time=   0.7s
+[CV 8/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.986, test=0.975) total time=   0.7s
+[CV 12/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.994, test=0.980) total time=   0.7s
+[CV 6/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 14/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.987, test=0.990) total time=   0.1s
+[CV 7/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 15/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.979, test=1.000) total time=   0.0s
+[CV 8/15] END C=3000000.0, gamma=0.0001;, score=(train=0.984, test=0.975) total time=   9.3s
+[CV 14/15] END C=3000000.0, gamma=0.0001;, score=(train=0.989, test=0.990) total time=   8.8s
+[CV 7/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.986, test=0.995) total time=   0.4s
+[CV 10/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.989, test=0.990) total time=   0.4s
+[CV 2/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.989, test=0.990) total time=   5.5s
+[CV 14/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.990, test=1.000) total time=   4.5s
+[CV 7/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.992, test=0.995) total time=   5.5s
+[CV 13/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.994, test=0.990) total time=   5.5s
+[CV 8/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.985, test=0.980) total time=   0.1s
+[CV 12/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.994, test=0.980) total time=   0.0s
+[CV 4/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.989, test=1.000) total time=   0.9s
+[CV 14/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.990, test=1.000) total time=   0.8s
+[CV 8/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.985, test=0.975) total time=   0.0s
+[CV 1/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.975) total time=11.2min
+[CV 10/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.995, test=0.990) total time=12.4min
+[CV 1/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.984, test=0.980) total time= 4.9min
+[CV 7/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.990, test=0.995) total time=   1.4s
+[CV 11/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.989, test=0.990) total time=   1.0s
+[CV 3/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.991, test=0.990) total time=   1.1s
+[CV 12/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.992, test=0.975) total time=   1.2s
+[CV 5/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.985, test=0.980) total time=   0.2s
+[CV 10/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.990, test=0.995) total time=   0.2s
+[CV 2/15] END C=10000.0, gamma=1e-07;, score=(train=0.962, test=0.965) total time=   0.0s
+[CV 9/15] END C=10000.0, gamma=1e-07;, score=(train=0.969, test=0.960) total time=   0.0s
+[CV 2/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.987, test=0.990) total time=   0.2s
+[CV 14/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.990, test=0.995) total time=   0.2s
+[CV 7/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 15/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 8/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.981, test=0.980) total time=   0.3s
+[CV 10/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.986, test=0.995) total time=   0.4s
+[CV 3/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.992, test=0.990) total time=   3.8s
+[CV 9/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.991, test=0.985) total time=   8.4s
+[CV 8/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.991, test=0.985) total time= 1.7min
+[CV 12/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.999, test=0.980) total time= 1.5min
+[CV 3/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.992, test=0.990) total time=   1.0s
+[CV 11/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.989, test=0.990) total time=   0.8s
+[CV 3/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.989, test=0.985) total time=   1.5s
+[CV 10/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.990, test=0.995) total time=   1.5s
+[CV 1/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.995, test=0.990) total time=  17.8s
+[CV 9/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.995, test=0.975) total time=  15.4s
+[CV 2/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.987, test=0.990) total time=   0.1s
+[CV 10/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.991, test=1.000) total time=   0.1s
+[CV 4/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.989, test=1.000) total time=   0.7s
+[CV 13/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.989, test=1.000) total time=   0.5s
+[CV 6/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.989, test=0.995) total time=33.7min
+[CV 13/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.990, test=0.990) total time=42.3min
+[CV 2/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.992, test=0.990) total time=   1.2s
+[CV 15/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.990, test=0.990) total time=   0.8s
+[CV 8/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.982, test=0.970) total time=   0.0s
+[CV 12/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.985, test=0.975) total time=   0.0s
+[CV 5/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.984, test=0.980) total time=   0.0s
+[CV 14/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 4/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.989, test=1.000) total time=   0.9s
+[CV 9/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.992, test=0.980) total time=   0.8s
+[CV 2/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.989, test=0.990) total time=   0.8s
+[CV 15/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.987, test=1.000) total time=   0.7s
+[CV 8/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.986, test=0.975) total time=   9.0s
+[CV 14/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.991, test=1.000) total time=   7.5s
+[CV 6/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.987, test=0.995) total time=   0.9s
+[CV 15/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.991, test=1.000) total time=   0.5s
+[CV 5/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.985, test=0.980) total time=   0.3s
+[CV 12/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.992, test=0.980) total time=   0.3s
+[CV 4/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.986, test=1.000) total time=   0.1s
+[CV 11/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.989, test=0.990) total time=   0.1s
+[CV 4/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 15/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.985, test=1.000) total time=   0.0s
+[CV 8/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.992, test=0.970) total time= 1.8min
+[CV 13/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.994, test=0.995) total time= 1.7min
+[CV 8/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.985, test=0.985) total time=   0.1s
+[CV 11/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.989, test=0.990) total time=   0.1s
+[CV 4/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.984, test=1.000) total time=   0.0s
+[CV 14/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 8/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.985, test=0.980) total time=   0.1s
+[CV 11/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.987, test=0.990) total time=   0.1s
+[CV 4/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.986, test=1.000) total time=   0.1s
+[CV 9/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.992, test=0.985) total time=   0.2s
+[CV 2/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.907, test=0.915) total time=   0.0s
+[CV 9/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.916, test=0.910) total time=   0.0s
+[CV 15/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.920, test=0.910) total time=   0.0s
+[CV 6/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.981, test=0.995) total time=   0.0s
+[CV 13/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.984, test=1.000) total time=   0.1s
+[CV 4/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.881, test=0.874) total time=   0.0s
+[CV 9/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.871, test=0.864) total time=   0.1s
+[CV 8/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.987, test=0.970) total time=   6.9s
+[CV 15/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.990, test=0.995) total time=   4.3s
+[CV 8/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.990, test=0.975) total time=   0.9s
+[CV 9/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.992, test=0.985) total time=   0.9s
+[CV 1/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.991, test=0.995) total time=   0.0s
+[CV 10/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.989, test=1.000) total time=   0.0s
+[CV 15/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.982, test=1.000) total time=   0.0s
+[CV 6/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.985, test=0.995) total time=   0.1s
+[CV 14/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.989, test=0.990) total time=   0.1s
+[CV 5/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.979, test=0.985) total time=   0.0s
+[CV 10/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.987, test=0.995) total time=   0.0s
+[CV 1/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.982, test=0.975) total time=   0.0s
+[CV 13/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.982, test=0.990) total time=   0.0s
+[CV 4/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.987, test=0.995) total time=   0.2s
+[CV 11/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.987, test=0.985) total time=   0.3s
+[CV 4/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.987, test=0.995) total time=   2.2s
+[CV 9/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.987, test=0.975) total time=   3.4s
+[CV 5/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.986, test=0.975) total time=   8.5s
+[CV 2/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.984, test=0.975) total time=   0.0s
+[CV 9/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.987, test=0.970) total time=   0.0s
+[CV 2/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.982, test=0.975) total time=   0.0s
+[CV 12/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.986, test=0.980) total time=   0.0s
+[CV 5/15] END C=10000.0, gamma=0.0001;, score=(train=0.984, test=0.980) total time=   0.0s
+[CV 14/15] END C=10000.0, gamma=0.0001;, score=(train=0.989, test=0.990) total time=   0.1s
+[CV 4/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.980, test=1.000) total time=   2.5s
+[CV 14/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.987, test=0.995) total time=   1.4s
+[CV 5/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.985, test=0.980) total time=   0.2s
+[CV 15/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.985, test=0.995) total time=   0.1s
+[CV 2/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.817, test=0.864) total time=   0.0s
+[CV 13/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.841, test=0.864) total time=   0.0s
+[CV 5/15] END C=3000000.0, gamma=1e-07;, score=(train=0.976, test=0.995) total time=   0.0s
+[CV 11/15] END C=3000000.0, gamma=1e-07;, score=(train=0.982, test=0.990) total time=   0.0s
+[CV 4/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.982, test=1.000) total time=   0.0s
+[CV 10/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 6/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.984, test=0.995) total time=   0.1s
+[CV 10/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.989, test=1.000) total time=   0.0s
+[CV 3/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.989, test=0.990) total time=   0.5s
+[CV 13/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.989, test=1.000) total time=   0.3s
+[CV 7/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.984, test=1.000) total time=   0.1s
+[CV 15/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.981, test=0.995) total time=   0.0s
+[CV 8/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.987, test=0.980) total time=   0.3s
+[CV 1/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.992, test=0.985) total time=   1.6s
+[CV 1/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.994, test=0.985) total time=   0.7s
+[CV 9/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.992, test=0.980) total time=   0.7s
+[CV 3/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.991, test=0.990) total time=   0.1s
+[CV 13/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.987, test=1.000) total time=   0.1s
+[CV 6/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.982, test=0.995) total time=   0.0s
+[CV 12/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.990, test=0.985) total time=   0.1s
+[CV 5/15] END C=3000000.0, gamma=0.0001;, score=(train=0.987, test=0.985) total time=  14.5s
+[CV 3/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.990, test=0.985) total time=   0.4s
+[CV 9/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.990, test=0.975) total time=   0.4s
+[CV 1/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.992, test=0.985) total time=   6.7s
+[CV 1/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.991, test=0.990) total time=   6.7s
+[CV 15/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.992, test=0.995) total time=   3.9s
+[CV 7/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 10/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.990, test=1.000) total time=   0.1s
+[CV 5/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.987, test=0.980) total time=   0.7s
+[CV 12/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.992, test=0.980) total time=   0.7s
+[CV 3/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.989, test=0.980) total time=   0.1s
+[CV 12/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.994, test=0.980) total time=   0.0s
+[CV 8/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.985) total time=16.3min
+[CV 14/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.995) total time= 8.4min
+[CV 2/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.986, test=0.980) total time= 3.5min
+[CV 2/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.987, test=0.990) total time=   1.7s
+[CV 14/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.989, test=1.000) total time=   1.1s
+[CV 5/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.990, test=0.980) total time=   1.8s
+[CV 1/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.990, test=0.985) total time=   0.4s
+[CV 1/15] END C=10000.0, gamma=1e-07;, score=(train=0.972, test=0.970) total time=   0.0s
+[CV 14/15] END C=10000.0, gamma=1e-07;, score=(train=0.966, test=0.985) total time=   0.0s
+[CV 7/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.989, test=0.995) total time=   0.2s
+[CV 1/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.995, test=0.990) total time=   0.0s
+[CV 9/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.991, test=0.985) total time=   0.0s
+[CV 3/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.989, test=0.985) total time=   0.3s
+[CV 11/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.987, test=0.995) total time=   0.3s
+[CV 4/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.989, test=1.000) total time=   5.3s
+[CV 12/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.990, test=0.980) total time=   4.1s
+[CV 4/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.991, test=1.000) total time= 1.5min
+[CV 9/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.997, test=0.970) total time= 2.4min
+[CV 5/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.990, test=0.980) total time=   1.3s
+[CV 15/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.990, test=1.000) total time=   0.9s
+[CV 8/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.986, test=0.970) total time=   1.6s
+[CV 11/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.990, test=0.990) total time=   1.5s
+[CV 2/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.995, test=0.985) total time=  28.0s
+[CV 1/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.991, test=0.985) total time=   0.1s
+[CV 9/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 2/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.986, test=0.990) total time=   0.4s
+[CV 9/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.992, test=0.985) total time=   0.7s
+[CV 3/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.991, test=0.975) total time=78.2min
+[CV 4/15] END C=10477.441436640946, gamma=9.436662763636283e-05;, score=(train=0.989, test=1.000) total time=   1.3s
+[CV 2/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.980, test=0.965) total time=   0.0s
+[CV 13/15] END C=10283.463753555867, gamma=1.0341945424183827e-07;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 6/15] END C=212867.32889616842, gamma=1.0123114782844247e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 1/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.991, test=0.985) total time=   1.1s
+[CV 12/15] END C=10312.832091583052, gamma=9.882945502206979e-05;, score=(train=0.994, test=0.980) total time=   1.0s
+[CV 6/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.987, test=0.995) total time=   0.6s
+[CV 10/15] END C=350358.1395621533, gamma=1.2135987357634527e-06;, score=(train=0.991, test=1.000) total time=   0.5s
+[CV 2/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.987, test=0.985) total time=   6.0s
+[CV 10/15] END C=666100.1163779492, gamma=5.743416399200504e-06;, score=(train=0.992, test=0.990) total time=   9.2s
+[CV 3/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.991, test=0.990) total time=   0.9s
+[CV 14/15] END C=60904.283027614845, gamma=9.392317853495707e-06;, score=(train=0.990, test=1.000) total time=   0.5s
+[CV 6/15] END C=553343.3241486953, gamma=3.428774489814039e-07;, score=(train=0.986, test=0.995) total time=   0.5s
+[CV 1/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 9/15] END C=28170.43151961821, gamma=3.0621012320356454e-06;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 3/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.990, test=0.980) total time=   0.0s
+[CV 14/15] END C=10000.0, gamma=9.981383706186624e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 7/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.994, test=1.000) total time= 1.3min
+[CV 10/15] END C=385739.58132450783, gamma=9.82640309881071e-05;, score=(train=0.995, test=0.990) total time= 1.3min
+[CV 4/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.986, test=1.000) total time=   0.2s
+[CV 13/15] END C=10090.74987944496, gamma=1.210847058855803e-05;, score=(train=0.987, test=1.000) total time=   0.1s
+[CV 6/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 15/15] END C=77720.41771580918, gamma=1.0531771950685299e-07;, score=(train=0.985, test=1.000) total time=   0.0s
+[CV 6/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 12/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.992, test=0.980) total time=   0.1s
+[CV 5/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.985, test=0.985) total time=   0.1s
+[CV 11/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.989, test=0.990) total time=   0.2s
+[CV 5/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.922, test=0.915) total time=   0.1s
+[CV 5/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.982, test=0.995) total time=   0.1s
+[CV 3/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.884, test=0.894) total time=   0.0s
+[CV 11/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.881, test=0.915) total time=   0.0s
+[CV 1/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.994, test=0.985) total time=   7.2s
+[CV 13/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.989, test=1.000) total time=   3.8s
+[CV 7/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.987, test=1.000) total time=   1.0s
+[CV 10/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.994, test=0.995) total time=   1.0s
+[CV 2/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.984, test=0.990) total time=   0.0s
+[CV 9/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.992, test=0.975) total time=   0.0s
+[CV 2/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.986, test=0.990) total time=   0.0s
+[CV 12/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.992, test=0.980) total time=   0.1s
+[CV 3/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.987, test=0.970) total time=   0.0s
+[CV 11/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.985, test=0.990) total time=   0.0s
+[CV 2/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.976, test=0.955) total time=   0.0s
+[CV 12/15] END C=10000.0, gamma=6.485833687862343e-06;, score=(train=0.981, test=0.975) total time=   0.0s
+[CV 3/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.992, test=0.990) total time=   0.2s
+[CV 9/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.992, test=0.985) total time=   0.2s
+[CV 1/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.990, test=0.985) total time=   2.6s
+[CV 12/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.989, test=0.975) total time=   2.9s
+[CV 6/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.990, test=0.995) total time=   6.4s
+[CV 14/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.989, test=0.985) total time=   3.4s
+[CV 3/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.987, test=0.970) total time=   0.0s
+[CV 10/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 1/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.986, test=0.970) total time=   0.0s
+[CV 14/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.990, test=0.985) total time=   0.0s
+[CV 3/15] END C=10000.0, gamma=0.0001;, score=(train=0.991, test=0.985) total time=   0.1s
+[CV 11/15] END C=10000.0, gamma=0.0001;, score=(train=0.986, test=0.990) total time=   0.0s
+[CV 2/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.982, test=0.985) total time=   1.4s
+[CV 10/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.992, test=0.990) total time=   2.4s
+[CV 4/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.990, test=1.000) total time=   0.1s
+[CV 13/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 4/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.831, test=0.829) total time=   0.0s
+[CV 10/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.836, test=0.859) total time=   0.0s
+[CV 2/15] END C=3000000.0, gamma=1e-07;, score=(train=0.985, test=0.985) total time=   0.0s
+[CV 13/15] END C=3000000.0, gamma=1e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 6/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.981, test=0.995) total time=   0.0s
+[CV 12/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.989, test=0.985) total time=   0.0s
+[CV 7/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 1/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.994, test=0.985) total time=   0.7s
+[CV 1/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.994, test=0.985) total time=   0.0s
+[CV 12/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.990, test=0.980) total time=   0.0s
+[CV 5/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.985, test=0.985) total time=   0.2s
+[CV 10/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.992, test=1.000) total time=   0.2s
+[CV 3/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.989, test=0.990) total time=   0.9s
+[CV 12/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.992, test=0.980) total time=   0.9s
+[CV 6/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.986, test=0.995) total time=   0.9s
+[CV 1/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.992, test=0.990) total time=   0.1s
+[CV 9/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.992, test=0.985) total time=   0.1s
+[CV 3/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.987, test=0.980) total time=   0.0s
+[CV 14/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.986, test=0.985) total time=   0.0s
+[CV 6/15] END C=3000000.0, gamma=0.0001;, score=(train=0.985, test=0.990) total time=   7.2s
+[CV 13/15] END C=3000000.0, gamma=0.0001;, score=(train=0.984, test=0.995) total time=  10.1s
+[CV 6/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.986, test=0.995) total time=   1.2s
+[CV 4/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.989, test=1.000) total time=   5.3s
+[CV 13/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.989, test=0.990) total time=   3.5s
+[CV 5/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.992, test=0.985) total time=   4.4s
+[CV 10/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.996, test=1.000) total time=   4.1s
+[CV 3/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.989, test=0.985) total time=   0.0s
+[CV 11/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 3/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.991, test=0.990) total time=   0.8s
+[CV 13/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.987, test=0.990) total time=   0.8s
+[CV 6/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.987, test=0.995) total time=   0.1s
+[CV 15/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 4/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.991, test=0.990) total time=17.3min
+[CV 15/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.995, test=0.990) total time= 9.6min
+[CV 5/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.986, test=0.985) total time= 1.4min
+[CV 9/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.990, test=0.980) total time= 2.6min
+[CV 3/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.991, test=0.990) total time=   1.4s
+[CV 12/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.991, test=0.980) total time=   1.4s
+[CV 6/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.987, test=0.995) total time=   1.0s
+[CV 10/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.992, test=0.995) total time=   1.1s
+[CV 3/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.991, test=0.990) total time=   0.2s
+[CV 9/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.994, test=0.985) total time=   0.2s
+[CV 3/15] END C=10000.0, gamma=1e-07;, score=(train=0.969, test=0.980) total time=   0.0s
+[CV 12/15] END C=10000.0, gamma=1e-07;, score=(train=0.976, test=0.945) total time=   0.0s
+[CV 6/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.987, test=0.995) total time=   0.2s
+[CV 11/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.990, test=0.995) total time=   0.1s
+[CV 2/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 14/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.987, test=0.995) total time=   0.0s
+[CV 7/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.987, test=0.995) total time=   0.5s
+[CV 1/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.991, test=0.985) total time=   6.6s
+[CV 14/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.989, test=1.000) total time=   5.2s
+[CV 7/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.992, test=0.995) total time= 2.1min
+[CV 13/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.995, test=0.995) total time= 1.9min
+[CV 7/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.992, test=0.995) total time=   0.9s
+[CV 9/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.992, test=0.975) total time=   0.9s
+[CV 2/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.985, test=0.990) total time=   1.8s
+[CV 14/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.987, test=0.995) total time=   1.3s
+[CV 3/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.995, test=0.990) total time=  18.2s
+[CV 10/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.997, test=1.000) total time=  18.4s
+[CV 3/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.994, test=0.990) total time=   0.1s
+[CV 12/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.994, test=0.980) total time=   0.1s
+[CV 6/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.987, test=0.995) total time=   0.8s
+[CV 14/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.989, test=1.000) total time=   0.4s
+[CV 7/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.991, test=0.980) total time=22.2min
+[CV 10/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.984, test=0.985) total time=27.9min
+[CV 14/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.982, test=0.985) total time=31.6min
+
+Downloaded AAPL data from 2008-01-01 to 2018-12-31
+X_train_sampled dimensions are: (1000, 5, 20)
+X_train_scaled_standard dimensions are: (1000, 100)
+Performing Bayesian Optimization for Standard Scaler
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Best Directional Accuracy: 99.16%
+Performing Bayesian Optimization for MinMax Scaler
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Best Directional Accuracy: 99.13%
+Performing Bayesian Optimization for Robust Scaler
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Fitting 15 folds for each of 1 candidates, totalling 15 fits
+Best Directional Accuracy: 99.20%
+Best Parameters: OrderedDict([('C', 183883.71414168496), ('gamma', 3.810106313233624e-06)])
+Best Parameters: OrderedDict([('C', 204201.02243925654), ('gamma', 0.0001)])
+Best Parameters: OrderedDict([('C', 102543.66212505836), ('gamma', 4.3368578095814435e-07)])
+ADTN - MSE: 0.32, MAE: 0.41, DA: 0.5270541082164328% -- Standard Scaler
+ADTN - MSE: 0.33, MAE: 0.42, DA: 0.48897795591182364% -- MinMax Scaler
+ADTN - MSE: 0.33, MAE: 0.41, DA: 0.48897795591182364% -- Robust Scaler
+AKAM - MSE: 3.76, MAE: 1.36, DA: 0.501002004008016% -- Standard Scaler
+AKAM - MSE: 4.15, MAE: 1.43, DA: 0.5110220440881763% -- MinMax Scaler
+AKAM - MSE: 3.95, MAE: 1.38, DA: 0.5070140280561122% -- Robust Scaler
+ALLT - MSE: 0.19, MAE: 0.31, DA: 0.4909819639278557% -- Standard Scaler
+ALLT - MSE: 0.19, MAE: 0.31, DA: 0.503006012024048% -- MinMax Scaler
+ALLT - MSE: 0.19, MAE: 0.30, DA: 0.5150300601202404% -- Robust Scaler
+AMBA - MSE: 30.67, MAE: 3.54, DA: 0.503006012024048% -- Standard Scaler
+AMBA - MSE: 32.35, MAE: 3.69, DA: 0.501002004008016% -- MinMax Scaler
+AMBA - MSE: 31.00, MAE: 3.59, DA: 0.5190380761523046% -- Robust Scaler
+ANET - MSE: 8.03, MAE: 2.04, DA: 0.49899799599198397% -- Standard Scaler
+ANET - MSE: 8.33, MAE: 2.08, DA: 0.503006012024048% -- MinMax Scaler
+ANET - MSE: 8.06, MAE: 2.04, DA: 0.5090180360721442% -- Robust Scaler
+APPS - MSE: 9.39, MAE: 2.08, DA: 0.49498997995991983% -- Standard Scaler
+APPS - MSE: 10.28, MAE: 2.14, DA: 0.46693386773547096% -- MinMax Scaler
+APPS - MSE: 9.76, MAE: 2.11, DA: 0.4709418837675351% -- Robust Scaler
+ATEN - MSE: 0.22, MAE: 0.30, DA: 0.5531062124248497% -- Standard Scaler
+ATEN - MSE: 0.22, MAE: 0.31, DA: 0.5210420841683366% -- MinMax Scaler
+ATEN - MSE: 0.22, MAE: 0.31, DA: 0.5390781563126252% -- Robust Scaler
+BOX - MSE: 0.40, MAE: 0.48, DA: 0.46292585170340683% -- Standard Scaler
+BOX - MSE: 0.39, MAE: 0.48, DA: 0.4709418837675351% -- MinMax Scaler
+BOX - MSE: 0.40, MAE: 0.48, DA: 0.4749498997995992% -- Robust Scaler
+CALX - MSE: 3.98, MAE: 1.45, DA: 0.5130260521042084% -- Standard Scaler
+CALX - MSE: 4.28, MAE: 1.50, DA: 0.5250501002004008% -- MinMax Scaler
+CALX - MSE: 4.14, MAE: 1.48, DA: 0.5370741482965932% -- Robust Scaler
+CASA - MSE: 0.16, MAE: 0.22, DA: 0.4849699398797595% -- Standard Scaler
+CASA - MSE: 0.20, MAE: 0.23, DA: 0.5190380761523046% -- MinMax Scaler
+CASA - MSE: 0.17, MAE: 0.22, DA: 0.4969939879759519% -- Robust Scaler
+CHKP - MSE: 4.52, MAE: 1.52, DA: 0.48096192384769537% -- Standard Scaler
+CHKP - MSE: 4.89, MAE: 1.60, DA: 0.503006012024048% -- MinMax Scaler
+CHKP - MSE: 4.64, MAE: 1.54, DA: 0.5050100200400801% -- Robust Scaler
+CIEN - MSE: 1.79, MAE: 0.93, DA: 0.503006012024048% -- Standard Scaler
+CIEN - MSE: 1.92, MAE: 0.97, DA: 0.4849699398797595% -- MinMax Scaler
+CIEN - MSE: 1.86, MAE: 0.96, DA: 0.48096192384769537% -- Robust Scaler
+COHU - MSE: 1.57, MAE: 0.90, DA: 0.4909819639278557% -- Standard Scaler
+COHU - MSE: 1.61, MAE: 0.91, DA: 0.48096192384769537% -- MinMax Scaler
+COHU - MSE: 1.59, MAE: 0.91, DA: 0.47695390781563124% -- Robust Scaler
+COMM - MSE: 0.23, MAE: 0.33, DA: 0.4969939879759519% -- Standard Scaler
+COMM - MSE: 0.23, MAE: 0.33, DA: 0.5130260521042084% -- MinMax Scaler
+COMM - MSE: 0.23, MAE: 0.33, DA: 0.4969939879759519% -- Robust Scaler
+CRNC - MSE: 11.23, MAE: 2.09, DA: 0.49498997995991983% -- Standard Scaler
+CRNC - MSE: 12.11, MAE: 2.18, DA: 0.5070140280561122% -- MinMax Scaler
+CRNC - MSE: 11.54, MAE: 2.13, DA: 0.48897795591182364% -- Robust Scaler
+CRWD - MSE: 56.73, MAE: 5.86, DA: 0.48296593186372744% -- Standard Scaler
+CRWD - MSE: 62.73, MAE: 6.08, DA: 0.46092184368737477% -- MinMax Scaler
+CRWD - MSE: 58.22, MAE: 5.88, DA: 0.46893787575150303% -- Robust Scaler
+CUDA - MSE: 0.05, MAE: 0.17, DA: 0.16032064128256512% -- Standard Scaler
+CUDA - MSE: 0.10, MAE: 0.23, DA: 0.1523046092184369% -- MinMax Scaler
+CUDA - MSE: 0.05, MAE: 0.17, DA: 0.15430861723446893% -- Robust Scaler
+CYBR - MSE: 24.91, MAE: 3.65, DA: 0.503006012024048% -- Standard Scaler
+CYBR - MSE: 27.70, MAE: 3.83, DA: 0.503006012024048% -- MinMax Scaler
+CYBR - MSE: 25.91, MAE: 3.70, DA: 0.5230460921843687% -- Robust Scaler
+CYL - MSE: 1.21, MAE: 0.28, DA: 0.26625386996904027% -- Standard Scaler
+CYL - MSE: 1.10, MAE: 0.30, DA: 0.24458204334365324% -- MinMax Scaler
+CYL - MSE: 1.12, MAE: 0.29, DA: 0.25386996904024767% -- Robust Scaler
+ESTC - MSE: 19.23, MAE: 3.16, DA: 0.5130260521042084% -- Standard Scaler
+ESTC - MSE: 21.45, MAE: 3.35, DA: 0.501002004008016% -- MinMax Scaler
+ESTC - MSE: 20.21, MAE: 3.24, DA: 0.49498997995991983% -- Robust Scaler
+EVBG - MSE: 16.96, MAE: 2.39, DA: 0.48096192384769537% -- Standard Scaler
+EVBG - MSE: 18.06, MAE: 2.50, DA: 0.48296593186372744% -- MinMax Scaler
+EVBG - MSE: 17.38, MAE: 2.44, DA: 0.48296593186372744% -- Robust Scaler
+EXTR - MSE: 0.16, MAE: 0.31, DA: 0.4909819639278557% -- Standard Scaler
+EXTR - MSE: 0.16, MAE: 0.31, DA: 0.5050100200400801% -- MinMax Scaler
+EXTR - MSE: 0.16, MAE: 0.30, DA: 0.5250501002004008% -- Robust Scaler
+FFIV - MSE: 16.28, MAE: 2.95, DA: 0.5070140280561122% -- Standard Scaler
+FFIV - MSE: 17.76, MAE: 3.08, DA: 0.503006012024048% -- MinMax Scaler
+FFIV - MSE: 16.42, MAE: 2.94, DA: 0.501002004008016% -- Robust Scaler
+FORM - MSE: 1.79, MAE: 0.96, DA: 0.4909819639278557% -- Standard Scaler
+FORM - MSE: 1.81, MAE: 0.97, DA: 0.5070140280561122% -- MinMax Scaler
+FORM - MSE: 1.79, MAE: 0.96, DA: 0.48096192384769537% -- Robust Scaler
+FTNT - MSE: 3.23, MAE: 1.24, DA: 0.533066132264529% -- Standard Scaler
+FTNT - MSE: 3.32, MAE: 1.25, DA: 0.5470941883767535% -- MinMax Scaler
+FTNT - MSE: 3.17, MAE: 1.22, DA: 0.5571142284569138% -- Robust Scaler
+INSG - MSE: 14.54, MAE: 2.10, DA: 0.4529058116232465% -- Standard Scaler
+INSG - MSE: 16.06, MAE: 2.20, DA: 0.45090180360721444% -- MinMax Scaler
+INSG - MSE: 15.23, MAE: 2.14, DA: 0.44488977955911824% -- Robust Scaler
+ITRI - MSE: 6.31, MAE: 1.57, DA: 0.49498997995991983% -- Standard Scaler
+ITRI - MSE: 6.63, MAE: 1.61, DA: 0.49498997995991983% -- MinMax Scaler
+ITRI - MSE: 6.47, MAE: 1.60, DA: 0.49498997995991983% -- Robust Scaler
+JNPR - MSE: 0.30, MAE: 0.42, DA: 0.4709418837675351% -- Standard Scaler
+JNPR - MSE: 0.30, MAE: 0.42, DA: 0.48296593186372744% -- MinMax Scaler
+JNPR - MSE: 0.29, MAE: 0.41, DA: 0.4589178356713427% -- Robust Scaler
+LASR - MSE: 0.85, MAE: 0.64, DA: 0.4849699398797595% -- Standard Scaler
+LASR - MSE: 0.86, MAE: 0.65, DA: 0.4849699398797595% -- MinMax Scaler
+LASR - MSE: 0.85, MAE: 0.64, DA: 0.46693386773547096% -- Robust Scaler
+LITE - MSE: 5.40, MAE: 1.62, DA: 0.46693386773547096% -- Standard Scaler
+LITE - MSE: 5.69, MAE: 1.67, DA: 0.4849699398797595% -- MinMax Scaler
+LITE - MSE: 5.54, MAE: 1.64, DA: 0.4709418837675351% -- Robust Scaler
+LSCC - MSE: 3.92, MAE: 1.54, DA: 0.5150300601202404% -- Standard Scaler
+LSCC - MSE: 4.10, MAE: 1.57, DA: 0.5130260521042084% -- MinMax Scaler
+LSCC - MSE: 3.97, MAE: 1.55, DA: 0.5210420841683366% -- Robust Scaler
+NET - MSE: 24.46, MAE: 3.54, DA: 0.4789579158316633% -- Standard Scaler
+NET - MSE: 26.98, MAE: 3.71, DA: 0.4729458917835671% -- MinMax Scaler
+NET - MSE: 25.38, MAE: 3.61, DA: 0.4789579158316633% -- Robust Scaler
+NTCT - MSE: 0.36, MAE: 0.44, DA: 0.5250501002004008% -- Standard Scaler
+NTCT - MSE: 0.35, MAE: 0.44, DA: 0.5150300601202404% -- MinMax Scaler
+NTCT - MSE: 0.36, MAE: 0.44, DA: 0.5090180360721442% -- Robust Scaler
+NTGR - MSE: 0.55, MAE: 0.52, DA: 0.4969939879759519% -- Standard Scaler
+NTGR - MSE: 0.54, MAE: 0.52, DA: 0.5090180360721442% -- MinMax Scaler
+NTGR - MSE: 0.56, MAE: 0.53, DA: 0.4749498997995992% -- Robust Scaler
+NTNX - MSE: 0.88, MAE: 0.68, DA: 0.46893787575150303% -- Standard Scaler
+NTNX - MSE: 0.88, MAE: 0.67, DA: 0.5070140280561122% -- MinMax Scaler
+NTNX - MSE: 0.88, MAE: 0.68, DA: 0.49498997995991983% -- Robust Scaler
+OKTA - MSE: 44.12, MAE: 4.80, DA: 0.49498997995991983% -- Standard Scaler
+OKTA - MSE: 49.50, MAE: 5.03, DA: 0.501002004008016% -- MinMax Scaler
+OKTA - MSE: 45.56, MAE: 4.87, DA: 0.4969939879759519% -- Robust Scaler
+PANW - MSE: 20.70, MAE: 3.25, DA: 0.47695390781563124% -- Standard Scaler
+PANW - MSE: 22.00, MAE: 3.31, DA: 0.49899799599198397% -- MinMax Scaler
+PANW - MSE: 20.50, MAE: 3.18, DA: 0.4849699398797595% -- Robust Scaler
+PD - MSE: 1.85, MAE: 1.04, DA: 0.4789579158316633% -- Standard Scaler
+PD - MSE: 1.96, MAE: 1.06, DA: 0.501002004008016% -- MinMax Scaler
+PD - MSE: 1.93, MAE: 1.06, DA: 0.4849699398797595% -- Robust Scaler
+PLUG - MSE: 4.81, MAE: 1.46, DA: 0.5070140280561122% -- Standard Scaler
+PLUG - MSE: 4.29, MAE: 1.42, DA: 0.4749498997995992% -- MinMax Scaler
+PLUG - MSE: 4.52, MAE: 1.46, DA: 0.4589178356713427% -- Robust Scaler
+PSTG - MSE: 0.58, MAE: 0.56, DA: 0.48096192384769537% -- Standard Scaler
+PSTG - MSE: 0.58, MAE: 0.56, DA: 0.45490981963927857% -- MinMax Scaler
+PSTG - MSE: 0.59, MAE: 0.56, DA: 0.46893787575150303% -- Robust Scaler
+RDWR - MSE: 0.43, MAE: 0.48, DA: 0.5110220440881763% -- Standard Scaler
+RDWR - MSE: 0.44, MAE: 0.48, DA: 0.5110220440881763% -- MinMax Scaler
+RDWR - MSE: 0.44, MAE: 0.48, DA: 0.5150300601202404% -- Robust Scaler
+RMBS - MSE: 0.36, MAE: 0.45, DA: 0.49298597194388777% -- Standard Scaler
+RMBS - MSE: 0.36, MAE: 0.45, DA: 0.4969939879759519% -- MinMax Scaler
+RMBS - MSE: 0.36, MAE: 0.45, DA: 0.49498997995991983% -- Robust Scaler
+RPD - MSE: 6.43, MAE: 1.88, DA: 0.5050100200400801% -- Standard Scaler
+RPD - MSE: 7.19, MAE: 1.98, DA: 0.4909819639278557% -- MinMax Scaler
+RPD - MSE: 6.77, MAE: 1.92, DA: 0.48697394789579157% -- Robust Scaler
+SLAB - MSE: 18.11, MAE: 3.20, DA: 0.49498997995991983% -- Standard Scaler
+SLAB - MSE: 19.42, MAE: 3.31, DA: 0.501002004008016% -- MinMax Scaler
+SLAB - MSE: 18.43, MAE: 3.23, DA: 0.5090180360721442% -- Robust Scaler
+SMAR - MSE: 4.38, MAE: 1.59, DA: 0.46893787575150303% -- Standard Scaler
+SMAR - MSE: 4.62, MAE: 1.62, DA: 0.4749498997995992% -- MinMax Scaler
+SMAR - MSE: 4.47, MAE: 1.60, DA: 0.45490981963927857% -- Robust Scaler
+SOPH - MSE: 0.24, MAE: 0.34, DA: 0.46153846153846156% -- Standard Scaler
+SOPH - MSE: 0.23, MAE: 0.33, DA: 0.5076923076923077% -- MinMax Scaler
+SOPH - MSE: 0.23, MAE: 0.33, DA: 0.49538461538461537% -- Robust Scaler
+SPT - MSE: 16.47, MAE: 3.01, DA: 0.5210420841683366% -- Standard Scaler
+SPT - MSE: 17.66, MAE: 3.13, DA: 0.5150300601202404% -- MinMax Scaler
+SPT - MSE: 16.97, MAE: 3.07, DA: 0.5130260521042084% -- Robust Scaler
+SWI - MSE: 0.16, MAE: 0.29, DA: 0.4649298597194389% -- Standard Scaler
+SWI - MSE: 0.16, MAE: 0.29, DA: 0.533066132264529% -- MinMax Scaler
+SWI - MSE: 0.17, MAE: 0.30, DA: 0.49498997995991983% -- Robust Scaler
+SYNA - MSE: 34.37, MAE: 4.26, DA: 0.5270541082164328% -- Standard Scaler
+SYNA - MSE: 37.74, MAE: 4.46, DA: 0.5290581162324649% -- MinMax Scaler
+SYNA - MSE: 35.35, MAE: 4.33, DA: 0.5130260521042084% -- Robust Scaler
+TENB - MSE: 2.40, MAE: 1.15, DA: 0.4909819639278557% -- Standard Scaler
+TENB - MSE: 2.57, MAE: 1.18, DA: 0.5090180360721442% -- MinMax Scaler
+TENB - MSE: 2.50, MAE: 1.17, DA: 0.49899799599198397% -- Robust Scaler
+TWLO - MSE: 98.62, MAE: 6.83, DA: 0.4909819639278557% -- Standard Scaler
+TWLO - MSE: 110.36, MAE: 7.30, DA: 0.48697394789579157% -- MinMax Scaler
+TWLO - MSE: 100.83, MAE: 6.98, DA: 0.4969939879759519% -- Robust Scaler
+VIAV - MSE: 0.11, MAE: 0.24, DA: 0.4849699398797595% -- Standard Scaler
+VIAV - MSE: 0.11, MAE: 0.24, DA: 0.5370741482965932% -- MinMax Scaler
+VIAV - MSE: 0.11, MAE: 0.24, DA: 0.4789579158316633% -- Robust Scaler
+VRNS - MSE: 2.58, MAE: 1.20, DA: 0.5170340681362725% -- Standard Scaler
+VRNS - MSE: 2.72, MAE: 1.24, DA: 0.5050100200400801% -- MinMax Scaler
+VRNS - MSE: 2.66, MAE: 1.23, DA: 0.5070140280561122% -- Robust Scaler
+ZS - MSE: 72.54, MAE: 6.10, DA: 0.503006012024048% -- Standard Scaler
+ZS - MSE: 79.61, MAE: 6.34, DA: 0.5070140280561122% -- MinMax Scaler
+ZS - MSE: 74.05, MAE: 6.19, DA: 0.48897795591182364% -- Robust Scaler
+[CV 11/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.987, test=0.990) total time=   0.1s
+[CV 8/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.985, test=0.985) total time=   0.1s
+[CV 1/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.991, test=0.990) total time=   6.6s
+[CV 13/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.989, test=0.995) total time=   8.2s
+[CV 5/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.984, test=0.985) total time=   0.1s
+[CV 15/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.985, test=1.000) total time=   0.0s
+[CV 6/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 1/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.992, test=0.985) total time=  31.5s
+[CV 10/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.994, test=1.000) total time=  37.3s
+[CV 2/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.987, test=0.990) total time=   0.3s
+[CV 13/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.989, test=1.000) total time=   0.4s
+[CV 5/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.987, test=0.980) total time=   1.4s
+[CV 11/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.989, test=0.990) total time=   1.1s
+[CV 3/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.989, test=0.990) total time=   1.2s
+[CV 15/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.986, test=0.990) total time=   1.3s
+[CV 7/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.990, test=0.995) total time=   0.3s
+[CV 10/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.991, test=0.995) total time=   0.2s
+[CV 13/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.989, test=1.000) total time=   0.1s
+[CV 6/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 10/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.990, test=1.000) total time=   0.1s
+[CV 4/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.980, test=0.990) total time=   6.0s
+[CV 9/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.987, test=0.975) total time=   8.4s
+[CV 4/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 10/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.992, test=1.000) total time=   0.0s
+[CV 3/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.990, test=0.985) total time=   0.1s
+[CV 14/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 7/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.991, test=0.995) total time=  50.7s
+[CV 13/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.991, test=1.000) total time=  25.7s
+[CV 3/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.991, test=0.990) total time=   0.3s
+[CV 11/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.989, test=0.990) total time=   0.3s
+[CV 4/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.987, test=1.000) total time=   1.5s
+[CV 14/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.990, test=1.000) total time=   1.5s
+[CV 8/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.989, test=0.975) total time=   0.8s
+[CV 9/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.989, test=0.985) total time=   1.2s
+[CV 2/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.991, test=0.985) total time=   0.3s
+[CV 9/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.992, test=0.985) total time=   0.3s
+[CV 12/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.994, test=0.980) total time=   0.1s
+[CV 7/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 13/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.989, test=1.000) total time=   0.0s
+[CV 6/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.985, test=0.995) total time=   6.1s
+[CV 10/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.991, test=0.990) total time=   4.0s
+[CV 2/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 9/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.992, test=0.985) total time=   0.0s
+[CV 2/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.986, test=0.990) total time=   0.0s
+[CV 15/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 8/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.989, test=0.975) total time= 1.1min
+[CV 1/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.991, test=0.985) total time=   0.3s
+[CV 9/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.994, test=0.985) total time=   0.6s
+[CV 8/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.986, test=0.980) total time=   1.4s
+[CV 13/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.987, test=0.995) total time=   1.4s
+[CV 6/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.984, test=0.990) total time=   1.1s
+[CV 13/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.987, test=0.995) total time=   1.1s
+[CV 5/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.987, test=0.980) total time=   0.4s
+[CV 12/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.994, test=0.980) total time=   0.2s
+[CV 10/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.994, test=0.990) total time=   0.1s
+[CV 15/15] END C=3000000.0, gamma=2.8801139165889368e-06;, score=(train=0.982, test=1.000) total time=   0.1s
+[CV 8/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.984, test=0.975) total time=   2.2s
+[CV 11/15] END C=3000000.0, gamma=3.3328645871103646e-05;, score=(train=0.984, test=0.990) total time=   2.8s
+[CV 4/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.989, test=1.000) total time=   5.6s
+[CV 11/15] END C=2715047.717138276, gamma=6.56835213566507e-05;, score=(train=0.987, test=0.990) total time=   4.6s
+[CV 5/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.979, test=0.985) total time=   0.1s
+[CV 15/15] END C=10000.0, gamma=1.3779119613972664e-05;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 6/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.982, test=0.995) total time=   0.0s
+[CV 15/15] END C=1164113.7810272332, gamma=1e-07;, score=(train=0.981, test=0.990) total time=   0.0s
+[CV 7/15] END C=10000.0, gamma=0.0001;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 12/15] END C=10000.0, gamma=0.0001;, score=(train=0.992, test=0.980) total time=   0.1s
+[CV 7/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.987, test=0.995) total time=   1.3s
+[CV 9/15] END C=3000000.0, gamma=2.570120565292209e-05;, score=(train=0.990, test=0.985) total time=   2.0s
+[CV 2/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.986, test=0.990) total time=   0.1s
+[CV 9/15] END C=3000000.0, gamma=1.385702180142842e-06;, score=(train=0.989, test=0.975) total time=   0.1s
+[CV 3/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.837, test=0.829) total time=   0.0s
+[CV 14/15] END C=10937.62181335722, gamma=1.0640721854024157e-06;, score=(train=0.826, test=0.829) total time=   0.0s
+[CV 6/15] END C=3000000.0, gamma=1e-07;, score=(train=0.986, test=0.995) total time=   0.1s
+[CV 1/15] END C=50442.71898172949, gamma=6.874287487685947e-06;, score=(train=0.990, test=0.995) total time=   0.0s
+[CV 1/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.990, test=0.995) total time=   0.0s
+[CV 13/15] END C=466611.72604056617, gamma=1.3501160878803605e-06;, score=(train=0.984, test=1.000) total time=   0.0s
+[CV 6/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.986, test=0.995) total time=   0.4s
+[CV 11/15] END C=227436.82915965922, gamma=3.536880064896876e-05;, score=(train=0.989, test=0.990) total time=   0.4s
+[CV 6/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.984, test=0.995) total time=   0.0s
+[CV 10/15] END C=2274402.229787999, gamma=3.089874669564589e-07;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 2/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.987, test=0.990) total time=   0.1s
+[CV 9/15] END C=856939.6310408753, gamma=5.867954658506141e-06;, score=(train=0.992, test=0.980) total time=   0.2s
+[CV 2/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.990, test=0.990) total time=   0.7s
+[CV 10/15] END C=204201.02243925654, gamma=0.0001;, score=(train=0.992, test=1.000) total time=   1.1s
+[CV 5/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.986, test=0.985) total time=   0.7s
+[CV 14/15] END C=654490.312803547, gamma=2.0289769750332056e-05;, score=(train=0.987, test=0.995) total time=   0.6s
+[CV 7/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 12/15] END C=64328.37120246342, gamma=3.4653411208730046e-05;, score=(train=0.992, test=0.980) total time=   0.1s
+[CV 4/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.985, test=0.995) total time=   0.0s
+[CV 11/15] END C=771215.6907482867, gamma=5.102874533665143e-07;, score=(train=0.985, test=0.990) total time=   0.0s
+[CV 3/15] END C=3000000.0, gamma=0.0001;, score=(train=0.986, test=0.990) total time=   5.4s
+[CV 11/15] END C=3000000.0, gamma=0.0001;, score=(train=0.985, test=0.990) total time=   6.8s
+[CV 2/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.985, test=0.985) total time=   0.4s
+[CV 11/15] END C=2945604.9860501084, gamma=7.882115023665672e-06;, score=(train=0.990, test=0.995) total time=   0.5s
+[CV 3/15] END C=206662.94718529627, gamma=1.067182086439393e-05;, score=(train=0.991, test=0.990) total time=   7.2s
+[CV 2/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.990, test=0.985) total time=   5.2s
+[CV 12/15] END C=43653.38598396614, gamma=8.643924706566204e-05;, score=(train=0.994, test=0.975) total time=   4.2s
+[CV 5/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.984, test=0.980) total time=   0.1s
+[CV 15/15] END C=204001.58959362266, gamma=1.4917413598024777e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 8/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.986, test=0.980) total time=   0.6s
+[CV 10/15] END C=23183.379772306853, gamma=2.2376842857058802e-05;, score=(train=0.990, test=0.990) total time=   0.7s
+[CV 4/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 13/15] END C=37667.38242606345, gamma=5.370414495564185e-07;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 7/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.990, test=1.000) total time=15.0min
+[CV 12/15] END C=1191899.8392822081, gamma=9.411788553131789e-05;, score=(train=0.994, test=0.980) total time= 9.7min
+[CV 4/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.986, test=0.985) total time= 2.2min
+[CV 12/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=0.965) total time= 1.2min
+[CV 1/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.992, test=0.985) total time=   1.8s
+[CV 15/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.990, test=1.000) total time=   1.2s
+[CV 7/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.992, test=0.995) total time=   1.1s
+[CV 13/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.989, test=0.990) total time=   1.3s
+[CV 7/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.990, test=0.995) total time=   0.3s
+[CV 14/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.989, test=1.000) total time=   0.3s
+[CV 6/15] END C=10000.0, gamma=1e-07;, score=(train=0.967, test=0.975) total time=   0.0s
+[CV 10/15] END C=10000.0, gamma=1e-07;, score=(train=0.974, test=0.975) total time=   0.0s
+[CV 4/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.987, test=1.000) total time=   0.2s
+[CV 12/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.991, test=0.980) total time=   0.2s
+[CV 5/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.984, test=0.990) total time=   0.1s
+[CV 13/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 6/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.986, test=0.995) total time=   0.4s
+[CV 15/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.985, test=0.995) total time=   0.4s
+[CV 8/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.987, test=0.980) total time=   6.9s
+[CV 15/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.989, test=0.995) total time=   3.8s
+[CV 6/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.990, test=0.995) total time= 2.4min
+[CV 15/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.995, test=0.990) total time= 1.6min
+[CV 6/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.990, test=0.995) total time=   1.4s
+[CV 14/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 3/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.991, test=0.990) total time=   0.1s
+[CV 12/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.994, test=0.980) total time=   0.1s
+[CV 7/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.987, test=0.990) total time=   6.6s
+[CV 12/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.987, test=0.965) total time=   8.4s
+[CV 6/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 11/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.989, test=0.990) total time=   0.0s
+[CV 4/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 13/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 6/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.989, test=0.995) total time=  60.0s
+[CV 14/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.990, test=0.995) total time=  22.5s
+[CV 5/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.986, test=0.980) total time=   0.3s
+[CV 10/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.990, test=1.000) total time=   0.2s
+[CV 1/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.992, test=0.985) total time=   1.6s
+[CV 1/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.987, test=0.990) total time=   1.0s
+[CV 11/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.986, test=0.995) total time=   1.1s
+[CV 3/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.991, test=0.990) total time=   0.3s
+[CV 11/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.987, test=0.990) total time=   0.3s
+[CV 9/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.992, test=0.985) total time=   0.0s
+[CV 4/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.986, test=1.000) total time=   0.1s
+[CV 11/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.989, test=0.990) total time=   0.0s
+[CV 3/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.987, test=0.980) total time=   6.4s
+[CV 11/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.982, test=0.990) total time=  12.5s
+[CV 8/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.985, test=0.975) total time=   0.0s
+[CV 13/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 7/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.989, test=0.995) total time=   0.0s
+[CV 10/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.990, test=1.000) total time=   0.0s
+[CV 4/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.991, test=0.995) total time=  36.0s
+[CV 11/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.986, test=0.990) total time=  27.0s
+[CV 15/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.994, test=0.995) total time=  30.8s
+[CV 7/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.990, test=0.995) total time=   0.7s
+[CV 2/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.989, test=0.990) total time=   1.2s
+[CV 9/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.992, test=0.980) total time=   1.2s
+[CV 2/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.984, test=0.985) total time=   0.9s
+[CV 10/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.989, test=0.995) total time=   1.0s
+[CV 6/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.989, test=0.995) total time=   0.4s
+[CV 7/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.989, test=0.985) total time= 1.8min
+[CV 11/15] END C=2487146.1910978635, gamma=1.860624426490805e-05;, score=(train=0.986, test=0.985) total time= 2.2min
+[CV 4/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.987, test=1.000) total time=   1.4s
+[CV 13/15] END C=183883.71414168496, gamma=3.810106313233624e-06;, score=(train=0.987, test=0.995) total time=   1.8s
+[CV 8/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.986, test=0.980) total time=   1.0s
+[CV 11/15] END C=16905.58294508903, gamma=4.881101667405022e-05;, score=(train=0.987, test=0.990) total time=   1.1s
+[CV 4/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.989, test=1.000) total time=   0.3s
+[CV 11/15] END C=82297.73848843094, gamma=2.0919480782183625e-06;, score=(train=0.989, test=0.990) total time=   0.2s
+[CV 5/15] END C=10000.0, gamma=1e-07;, score=(train=0.965, test=0.945) total time=   0.0s
+[CV 13/15] END C=10000.0, gamma=1e-07;, score=(train=0.971, test=0.995) total time=   0.0s
+[CV 3/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.989, test=0.985) total time=   0.1s
+[CV 9/15] END C=923571.0174951603, gamma=1e-07;, score=(train=0.994, test=0.985) total time=   0.2s
+[CV 4/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.985, test=1.000) total time=   0.0s
+[CV 10/15] END C=76541.69812789257, gamma=1e-07;, score=(train=0.991, test=1.000) total time=   0.0s
+[CV 2/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.987, test=0.990) total time=   0.2s
+[CV 9/15] END C=2999119.432803145, gamma=1.0159694960334958e-07;, score=(train=0.992, test=0.980) total time=   0.2s
+[CV 2/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.987, test=0.990) total time=   5.5s
+[CV 13/15] END C=625347.7655704694, gamma=3.0772979823763726e-06;, score=(train=0.989, test=0.995) total time=   3.6s
+[CV 3/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.995, test=0.985) total time= 2.2min
+[CV 14/15] END C=404013.69418783253, gamma=9.990421658308821e-05;, score=(train=0.995, test=1.000) total time= 1.6min
+[CV 4/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.991, test=1.000) total time=   1.2s
+[CV 14/15] END C=10028.71969562695, gamma=8.887302970562957e-05;, score=(train=0.990, test=0.995) total time=   1.0s
+[CV 7/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.987, test=1.000) total time=   3.5s
+[CV 4/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.990, test=0.995) total time=  19.3s
+[CV 11/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.990, test=0.995) total time=  20.2s
+[CV 6/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.987, test=0.995) total time=   0.1s
+[CV 1/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.990, test=0.990) total time=   1.1s
+[CV 1/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.987, test=0.985) total time=25.3min
+[CV 11/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.987, test=0.990) total time=31.1min
+[CV 15/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.981, test=0.985) total time=30.5min
+[CV 2/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.986, test=0.990) total time=   0.1s
+[CV 3/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.990, test=0.990) total time=   0.0s
+[CV 6/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 8/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.985, test=0.985) total time=   0.0s
+[CV 1/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.991, test=0.985) total time=   0.1s
+[CV 14/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.987, test=1.000) total time=   0.1s
+[CV 5/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.986, test=0.985) total time=   8.4s
+[CV 15/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.982, test=1.000) total time=   5.6s
+[CV 3/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.987, test=0.980) total time=   0.1s
+[CV 14/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.986, test=0.995) total time=   0.0s
+[CV 8/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.985, test=0.980) total time=   0.0s
+[CV 12/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.994, test=0.980) total time=   0.0s
+[CV 5/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.992, test=0.985) total time=  24.7s
+[CV 9/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.990, test=0.970) total time= 1.1min
+[CV 6/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.989, test=0.995) total time=   0.4s
+[CV 15/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.989, test=1.000) total time=   0.3s
+[CV 7/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.990, test=0.995) total time=   1.4s
+[CV 12/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.991, test=0.980) total time=   1.2s
+[CV 4/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.985, test=0.995) total time=   1.9s
+[CV 1/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.991, test=0.990) total time=   0.4s
+[CV 13/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.987, test=0.995) total time=   0.4s
+[CV 10/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.990, test=1.000) total time=   0.0s
+[CV 5/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.984, test=0.980) total time=   0.1s
+[CV 15/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.987, test=1.000) total time=   0.1s
+[CV 8/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.984, test=0.975) total time=  10.0s
+[CV 1/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.992, test=0.990) total time=   0.0s
+[CV 12/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.992, test=0.980) total time=   0.0s
+[CV 5/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.984, test=0.980) total time=   0.0s
+[CV 11/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.987, test=0.990) total time=   0.0s
+[CV 3/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.992, test=0.990) total time= 1.4min
+[CV 4/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.987, test=1.000) total time=   0.3s
+[CV 14/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.989, test=1.000) total time=   0.4s
+[CV 6/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.987, test=0.995) total time=   1.7s
+[CV 15/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.990, test=1.000) total time=   1.4s
+[CV 7/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.985, test=0.995) total time=   1.3s
+[CV 14/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.992, test=0.995) total time=   1.2s
+[CV 8/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.985, test=0.985) total time=   0.4s
+[CV 15/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.991, test=1.000) total time=   0.2s
+[CV 1/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.990, test=0.990) total time=   1.3s
+[CV 9/15] END C=1592067.6559195938, gamma=7.417201377228801e-07;, score=(train=0.990, test=0.985) total time=   2.3s
+[CV 6/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.991, test=0.995) total time=  21.2s
+[CV 13/15] END C=122523.23896670551, gamma=9.741525484825566e-05;, score=(train=0.995, test=0.995) total time=  18.3s
+[CV 5/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.984, test=0.980) total time=   0.1s
+[CV 15/15] END C=10095.488132466686, gamma=6.3013440297572115e-06;, score=(train=0.987, test=1.000) total time=   0.1s
+[CV 7/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.989, test=0.995) total time=   0.8s
+[CV 15/15] END C=469360.2602927307, gamma=5.5904478378011e-07;, score=(train=0.990, test=1.000) total time=   0.5s
+[CV 8/15] END C=2903624.729050842, gamma=9.558487356824061e-05;, score=(train=0.980, test=0.965) total time=82.5min
+[CV 1/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.991, test=0.990) total time=   0.1s
+[CV 4/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.986, test=1.000) total time=   0.0s
+[CV 5/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.984, test=0.980) total time=   0.0s
+[CV 7/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 15/15] END C=102543.66212505836, gamma=4.3368578095814435e-07;, score=(train=0.987, test=1.000) total time=   0.0s
+[CV 2/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.986, test=0.990) total time=   0.0s
+[CV 9/15] END C=20182.26117499096, gamma=2.4059615762856452e-06;, score=(train=0.991, test=0.985) total time=   0.1s
+[CV 2/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.987, test=0.985) total time=   6.9s
+[CV 14/15] END C=2975332.8594972417, gamma=1.8816973381935242e-06;, score=(train=0.991, test=1.000) total time=   9.1s
+[CV 7/15] END C=10076.512874921327, gamma=1.0033106238800555e-06;, score=(train=0.989, test=0.995) total time=   0.1s
+[CV 1/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.991, test=0.990) total time=   0.0s
+[CV 9/15] END C=10000.0, gamma=2.5408421581616958e-06;, score=(train=0.991, test=0.985) total time=   0.0s
+[CV 2/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.990, test=0.990) total time=  46.7s
+[CV 12/15] END C=596850.4968618719, gamma=1.9198438401736217e-05;, score=(train=0.994, test=0.975) total time=  56.4s
+[CV 8/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.987, test=0.985) total time=   0.3s
+[CV 12/15] END C=204340.42656971086, gamma=9.026073581664556e-07;, score=(train=0.991, test=0.980) total time=   0.3s
+[CV 3/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.991, test=0.990) total time=   1.2s
+[CV 10/15] END C=66543.33007132784, gamma=1.3415561800755227e-05;, score=(train=0.990, test=0.990) total time=   1.4s
+[CV 5/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.984, test=0.990) total time=   1.0s
+[CV 12/15] END C=2948385.2326810127, gamma=3.7583928946941314e-07;, score=(train=0.989, test=0.980) total time=   1.2s
+[CV 4/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.989, test=1.000) total time=   0.4s
+[CV 14/15] END C=10030.052436611897, gamma=1.9769302331950687e-05;, score=(train=0.989, test=1.000) total time=   0.3s
