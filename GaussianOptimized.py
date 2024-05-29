@@ -59,7 +59,7 @@ extended_tickers = [
     "CALX",  # Calix, Inc.
     "COMM",  # CommScope Holding Company, Inc.
     "CIEN",  # Ciena Corporation
-    "ADTN",  # ADTRAN, Inc.
+    "ADTN",  # ADTRAN, Inc. Why does testing start with this stock as opposed to the first stock in the list? 
     "AKAM",  # Akamai Technologies, Inc.
     "ALLT",  # Allot Communications Ltd.
     "ANET",  # Arista Networks, Inc.
@@ -188,7 +188,7 @@ def prepare_features_sequences(df, sequence_length=5):
         'aroon_down', 'vwap', 'Close_delta'  # Include 'Close_delta'
     ]    
     sequences = []
-    labels = []
+    returns = []
     tickers = []  # To keep track of the ticker for each sequence
     
     grouped = df.groupby('Ticker')
@@ -199,12 +199,12 @@ def prepare_features_sequences(df, sequence_length=5):
         for i in range(len(data) - sequence_length):
             sequence = data[i:i+sequence_length]
             # Calculate the label as the delta in closing price from the last day in the sequence to the next day
-            label = group['Close'].iloc[i+sequence_length] - group['Close'].iloc[i+sequence_length-1]
+            priceDelta = group['Close'].iloc[i+sequence_length] - group['Close'].iloc[i+sequence_length-1]
             sequences.append(sequence)
-            labels.append(label)
+            returns.append(priceDelta)
             tickers.append(ticker)  # Add the ticker for the current sequence
     
-    return np.array(sequences), np.array(labels), np.array(tickers)
+    return np.array(sequences), np.array(returns), np.array(tickers)
 
 # This refactored function will now correctly prepare feature sequences including the day-to-day price change as a feature,
 # and the labels will represent the change in closing price from the last day in the input sequence to the next day.
@@ -221,33 +221,45 @@ def draw_random_samples(X, y, num_samples, tickers):
     return X_sampled, y_sampled, tickers_sampled
 
 # Splits BEFORE drawing random samples, ensuring the test set simulates future unseen data
-# TODO - Add logic to handle train_ratio and/or test_size for each ticker
-def split_data(sequences, labels, tickers, train_ratio=0.8, test_size=250):
-    total_size = len(sequences)
-    test_start_index = total_size - test_size
-    
-    X_train = sequences[:test_start_index]
-    y_train = labels[:test_start_index]
-    tickers_train = tickers[:test_start_index]
-    
+def split_data(sequences, returns, tickers, test_size=250):
+    # Get unique tickers to split data by ticker    
     unique_tickers = np.unique(tickers)
 
+    X_train = []
+    y_train = []
+    tickers_train = []
     X_test_arrays = []
     y_test_arrays = []
     tickers_test_arrays = []
 
-    #append the last test_size sequences, labels, and tickers to the test set of each
+    #append the last test_size sequences, returns, and tickers to the test set of each, while appending the rest to the training set of each
     i = 0
     for ticker in unique_tickers:
         X_test_arrays.append([])  # Initialize a list for each ticker
         y_test_arrays.append([])
         tickers_test_arrays.append([])
-        ticker_indices = np.where(tickers == ticker)[0] # Get indices of the current ticker
+        X_train.append([])
+        y_train.append([])
+        tickers_train.append([])
+
+        ticker_indices = np.where(tickers == ticker)[0] # Get indices of the current ticker 
         ticker_test_indices = ticker_indices[-test_size:] # Get the last test_size indices for the current ticker
+        ticker_train_indices = ticker_indices[:-test_size] # Get the training indices for the current ticker
         X_test_arrays[i] = sequences[ticker_test_indices]
-        y_test_arrays[i] = labels[ticker_test_indices]
+        y_test_arrays[i] = returns[ticker_test_indices]
         tickers_test_arrays[i] = (tickers[ticker_test_indices])
+        X_train[i] = sequences[ticker_train_indices]
+        y_train[i] = returns[ticker_train_indices]
+        tickers_train[i] = (tickers[ticker_train_indices])
         i+=1
+
+    print(f"X_test_arrays length: {len(X_test_arrays)}, y_test_arrays length: {len(y_test_arrays)}, tickers_test_arrays length: {len(tickers_test_arrays)}")
+    print(f"FINAL X_train length: {len(X_train)}, y_train length: {len(y_train)}, tickers_train shape: {len(tickers_train)}")
+    # Convert training lists to arrays as inputs to the draw_random_samples function
+    X_train = np.concatenate(X_train)
+    y_train = np.concatenate(y_train)
+    tickers_train = np.concatenate(tickers_train)
+    print(f"FINAL (Correct??) X_train shape: {X_train.shape}, y_train shape: {y_train.shape}, tickers_train shape: {tickers_train.shape}")
     
     return X_train, X_test_arrays, y_train, y_test_arrays, tickers_train, tickers_test_arrays
 
@@ -258,7 +270,7 @@ def train_model(X_train, y_train, C, gamma):
     model.fit(X_train, y_train)  # Use the already 2D scaled X_train
     return model
 
-# Adjust the plot_predictions function if necessary to accommodate the testing data
+# Plot the actual and predicted prices for a given ticker along the testing date range
 def plot_predictions(actual_prices, predicted_prices, dates, ticker=''):
     plt.figure(figsize=(15, 5))
     plt.plot(dates, actual_prices, label='Actual Daily Returns')
@@ -269,6 +281,21 @@ def plot_predictions(actual_prices, predicted_prices, dates, ticker=''):
     plt.legend()
     plt.grid(True)
     plt.show()
+
+# Plot the actual and predicted prices for a given ticker along the testing date range
+# only in this function, the plot will show each return as a vector representing the direction and magnitude of each day's actual and predicted return
+def plot_prediction_scatter(actual_prices, predicted_prices, dates, ticker=''):
+    plt.figure(figsize=(15, 5))
+    plt.scatter(dates, actual_prices, label='Actual Daily Returns', color='blue')
+    plt.scatter(dates, predicted_prices, label='Predicted Daily Returns', color='red')
+    plt.title(f'Daily Stock Return Prediction for {ticker}')
+    plt.xlabel('Date')
+    plt.ylabel('Daily Return')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+
 
 def grid_search_C_gamma_min_error(X_train_scaled, y_train, X_test_scaled, y_test, scaler, parameter_grid):
     best_error = np.inf
@@ -392,7 +419,7 @@ combined_df = download_and_preprocess_data(extended_tickers, '2015-01-01', '2023
 X, y, tickers = prepare_features_sequences(combined_df, sequence_length=5)
 
 # Use the adjusted split_data function before drawing random samples
-X_train, X_test_arrays, y_train, y_test_arrays, tickers_train, tickers_test_arrays = split_data(X, y, tickers, train_ratio=0.8, test_size=500) # TODO X_test_arrays currently does not have the last 500 days of data from ALL stocks; rather, just ADTN and on in the list above...
+X_train, X_test_arrays, y_train, y_test_arrays, tickers_train, tickers_test_arrays = split_data(X, y, tickers, test_size=500) # TODO X_test_arrays currently does not have the last 500 days of data from ALL stocks; rather, just ADTN and on in the list above...
 
 # Now, apply draw_random_samples only to the training data to ensure diversity
 X_train_sampled, y_train_sampled, tickers_sampled = draw_random_samples(X_train, y_train, num_samples, tickers_train)
@@ -482,8 +509,15 @@ for i, X_test in enumerate(X_test_arrays):
     print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error_minmax:.2f}, MAE: {mae_error_minmax:.2f}, DA: {directional_accuracy_minmax*100}% -- MinMax Scaler")
     print(f"{tickers_test_arrays[i][0]} - MSE: {mse_error_robust:.2f}, MAE: {mae_error_robust:.2f}, DA: {directional_accuracy_robust*100}% -- Robust Scaler")
 
-    # Plot predictions for the current ticker with the standard scaler TODO - Fix this!!!! Currently, getting ahold of the actual dates associated with the test data points is a bit tricky, and potentially indicative of errors elsewhere...
-    # plot_predictions(current_y_test, predictions_standard, combined_df.loc[tickers_test_arrays[i][0]].index[-len(current_y_test):], ticker=tickers_test_arrays[i][0])
-    
-    # plot_predictions(current_y_test, predictions_standard, test_df.index[-len(current_y_test):], ticker=tickers_test_arrays[i][0])
-    # plot_predictions(actual_prices, predicted_prices, dates, ticker='')
+    # Plot predictions for the current ticker
+    # Inputs to the plot_predictions function are: (actual_prices, predicted_prices, dates, ticker='')
+    # The dates can be obtained from the combined_df dataframe
+    # The actual_prices can be obtained from the current_y_test variable
+    # The predicted_prices are the predictions from the model
+    # The ticker is the current ticker symbol
+    dates = combined_df.loc[combined_df['Ticker'] == tickers_test_arrays[i][0]].index[-500:] # Get the last 500 dates for the current ticker
+    plot_predictions(current_y_test, predictions_standard, dates, ticker=tickers_test_arrays[i][0])
+
+    # Plot prediction vectors for the current ticker
+    plot_prediction_scatter(current_y_test, predictions_standard, dates, ticker=tickers_test_arrays[i][0])
+    # Explaining how we get the dates: combined_df is the dataframe with all the data, and we're using the index of the current ticker's test data by using the .loc method with the ticker symbol (tickers_test_arrays[i][0]) to get the corresponding dates. We're starting from the 5th index to match the sequence length used for training and predictions.
