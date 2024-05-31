@@ -288,6 +288,21 @@ def plot_prediction_scatter(actual_prices, predicted_prices, dates, ticker=''):
     plt.figure(figsize=(15, 5))
     plt.scatter(dates, actual_prices, label='Actual Daily Returns', color='blue')
     plt.scatter(dates, predicted_prices, label='Predicted Daily Returns', color='red')
+
+    # Add vectors with a starting point at the actual price and an end point at the predicted price for the next day
+    for i in range(len(dates) - 1):
+
+        # Handle weekends and closures by skipping the next day if it's a weekend
+        if dates[i].weekday() == 4:  # If the current day is a Friday
+            plt.arrow(dates[i], actual_prices[i], 3, predicted_prices[i+1] - actual_prices[i], head_width=0.05, head_length=0.1, fc='red', ec='red', alpha=0.5)
+            plt.arrow(dates[i], actual_prices[i], 3, actual_prices[i+1] - actual_prices[i], head_width=0.05, head_length=0.1, fc='blue', ec='blue', alpha=0.5)
+        else:
+            # Add an arrow from the actual price to the predicted price for the next day assuming the next day is not a weekend where the stock exchange is closed
+            plt.arrow(dates[i], actual_prices[i], 1, predicted_prices[i+1] - actual_prices[i], head_width=0.05, head_length=0.1, fc='red', ec='red', alpha=0.5)
+            plt.arrow(dates[i], actual_prices[i], 1, actual_prices[i+1] - actual_prices[i], head_width=0.05, head_length=0.1, fc='blue', ec='blue', alpha=0.5)
+
+    # Add a horizontal line at y=0 for reference
+    plt.axhline(0, color='black', linewidth=0.5)
     plt.title(f'Daily Stock Return Prediction for {ticker}')
     plt.xlabel('Date')
     plt.ylabel('Daily Return')
@@ -521,3 +536,4 @@ for i, X_test in enumerate(X_test_arrays):
     # Plot prediction vectors for the current ticker
     plot_prediction_scatter(current_y_test, predictions_standard, dates, ticker=tickers_test_arrays[i][0])
     # Explaining how we get the dates: combined_df is the dataframe with all the data, and we're using the index of the current ticker's test data by using the .loc method with the ticker symbol (tickers_test_arrays[i][0]) to get the corresponding dates. We're starting from the 5th index to match the sequence length used for training and predictions.
+
